@@ -20,9 +20,11 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
+    - name: Setup workloads
+      run: dotnet workload restore
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore --project ./BlueAir.Standard/BlueAir.Standard.csproj
+      run: dotnet build --no-restore ./BlueAir.Standard/BlueAir.Standard.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal --project ./BlueAir.Standard/BlueAir.Standard.csproj
+      run: dotnet test --no-build --verbosity normal ./BlueAir.Standard/BlueAir.Standard.csproj
