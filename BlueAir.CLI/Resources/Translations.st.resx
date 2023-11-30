@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Cancel e kopiloe.Ho ngola ho sa phethahalang le lintho tse hlotsoeng ho faela.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Ho nka day (s) {H} Kolo (s) {m} US} US} MS}</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>File ea ho bala ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Faele ea ho boloka Auto-Boloka</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Faele ea ho kenya</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Foldara ea tlhahiso</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Qala {App_name} download.Mabaka:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Likhang tse 'maloa haholo.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Ka boeona e boloka tsoelo-pele ea pele ho faele ea tlhahiso (haeba e fanoe) kapa ho faele.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>E hatisa skrineng ena le ho tsoa.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>E tšoara faele ea [ho kenyelletsa] e le mongolo oa XML sebakeng sa tsela ea faele.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Likhetho:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Ts'ebeliso: {App_Comamand} [Likhetho] [Tlhahiso ea Kenya] [Folder] [Folder] [foldara] [Flower "</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>E re e nkile nako e kae ho qeta.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_me} {mofuta {mofuta «rroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Hatisa tlhaiso-leseling e ngata.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Mofuta oa prints le ho tsoa.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>E bolela hore na ho nkile nako e kae ho qala ka mots'eare / khoeli le selemo: motsotso: ea bobeli: sebopeho sa lihora tse 24.</value></data>
+
+
+</root>
+

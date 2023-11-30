@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Batal njaluk.Nulis barang sing ora lengkap lan gagal kanggo file.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Njupuk {d} dina (s) {h} jam (s) (s) (s) {s) ms {ms} ns {ns} ns {t} tik</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>File input maca ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>File Auto-Simpen</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>File input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Folder Output</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Miwiti {App_Name} download.Argumen:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Sithik banget argumen.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Ngirit kemajuan menyang file output (yen diwenehake) utawa kanggo file input.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Nyithak layar iki lan metu.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Nambani [input file] minangka teks XML tinimbang path file.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Pilihan:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Dianggo: {App_Command} [Pilihan] [FOTERE FILE] [folder] [Output File]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Ngandhani suwene suwene rampung.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {versi} dening haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Menehi informasi luwih lengkap.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Versi cetakan lan metu.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Ngomong sepira suwene rampung kanggo ngrampungake dina / wulan / Hours: Menit: detik: pigura: pigura ing format 24 jam.</value></data>
+
+
+</root>
+

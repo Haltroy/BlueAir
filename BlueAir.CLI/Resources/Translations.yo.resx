@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Fagile beere fun.Kikọ ti ko pe ati awọn ohun ti o kuna lati faili.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>O mu d {d} ọjọ (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Kika iwe titẹ sii ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Faili igbala laifọwọyi</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Faili titẹ sii</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Nabyè ohùn</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Bẹrẹ {App_name} Download.Awọn ariyanjiyan:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Awọn ariyanjiyan diẹ ju.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Laifọwọyi lọwọ ilọsiwaju sinu faili iṣelọpọ (ti o ba fun) tabi lati titẹ faili.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Tẹ sita iboju ati awọn abala.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Ṣe itọju faili [titẹsi titẹ] bi ọrọ XML dipo ti ọna faili kan.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Awọn aṣayan:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Lilo: {App_command ► am [Awọn aṣayan] [folda Tẹle] [folda] [Oluṣakoso Agbara]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Sọ fun bi o ti pẹ to lati pari.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {Ẹya} nipasẹ haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Tẹjade alaye diẹ sii.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Awọn atẹjade Tọju ati awọn abala.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Sọ bi o ṣe gba to pipẹ ni ọjọ / oṣu / ọdun: iṣẹju: Iṣẹju: keji: keji: ami: Ti ṣẹda: keji: Fimisi: Iṣẹju: Fimisi: Iṣẹju: Fimisi: Iṣẹju: Timumisi: Titiipa: Ọna:</value></data>
+
+
+</root>
+

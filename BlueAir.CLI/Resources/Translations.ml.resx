@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>റദ്ദാക്കുക അഭ്യർത്ഥിച്ചു.ഫയൽ ചെയ്യാൻ അപൂർണ്ണവും പരാജയപ്പെട്ടതുമായ ഇനങ്ങൾ എഴുതുക.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{D} ദിവസം (} മണിക്കൂർ) {h h} മണിക്കൂർ (കൾ) {m} മിനിറ്റ് (y) {m) {m) {ms you your us} us {ns {n tick (s) എടുത്തു</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>ഇൻപുട്ട് ഫയൽ വായിക്കുന്നു ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>യാന്ത്രിക-സംരക്ഷിക്കുക ഫയൽ</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>ഇൻപുട്ട് ഫയൽ</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Put ട്ട്പുട്ട് ഫോൾഡർ</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>ആരംഭിക്കുക {APP_NAME} ഡൗൺലോഡ് ചെയ്യുക.ആർഗ്യുമെൻറുകൾ:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>വളരെ കുറച്ച് വാദങ്ങൾ.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Output ട്ട്പുട്ട് ഫയലിലേക്ക് യാന്ത്രികമായി സംരക്ഷിക്കുന്നു (നൽകിയിട്ടുണ്ടെങ്കിൽ) അല്ലെങ്കിൽ ഇൻപുട്ട് ഫയൽ.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>ഈ സ്ക്രീനും പുറത്തുകടന്നും പ്രിന്റുചെയ്യുന്നു.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>[ഇൻപുട്ട് ഫയലിനെ] ഒരു ഫയൽ പാതയ്ക്ക് പകരം ഒരു എക്സ്എംഎൽ വാചകമായി കണക്കാക്കുന്നു.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>ഓപ്ഷനുകൾ:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>ഉപയോഗം: {App_Command} [ഓപ്ഷനുകൾ] [ഇൻപുട്ട് ഫയൽ] [Out ട്ട്പുട്ട് ഫയൽ]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>എത്ര സമയമെടുക്കുമെന്ന് പറയുന്നു.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>Halltroy വഴി {App_name} {പതിപ്പ്}.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>കൂടുതൽ വിവരങ്ങൾ അച്ചടിക്കുന്നു.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>പ്രിന്റുചെയ്ത് പതിപ്പ് പുറത്തുകടക്കുന്നു.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>പകൽ / വർഷം / വർഷം ശരാശരി പൂർത്തിയാക്കാൻ എത്ര സമയമെടുത്തുവെന്ന് പറയുന്നു: മിനിറ്റ്: രണ്ടാമത്: 24 മണിക്കൂർ ഫോർമാറ്റിലുള്ള ഫ്രെയിം.</value></data>
+
+
+</root>
+

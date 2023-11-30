@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Annuller anmodet.Skrivning af ufuldstændige og mislykkede genstande til arkivering.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Tog {d} dag (s) {h} time (s) {m} minut (s) {s} anden (s) {ms] ms {US} US {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Læsning af inputfil ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Auto-Save-fil</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Inputfil</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Outputmappe</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Start {app_name} download.Argumenter:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>For få argumenter.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Gemmer automatisk fremskridt i outputfilen (hvis det gives) eller til inputfil.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Udskriver denne skærm og udgange.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Behandler [inputfilen] som en XML -tekst i stedet for en filsti.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>MULIGHEDER:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Brug: {App_Command} [Indstillinger] [Input File] [Folder] [Output File]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Fortæller, hvor lang tid det tog at afslutte.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {version} af Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Udskriver mere information.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Udskriver version og udgange.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Fortæller, hvor lang tid det tog at afslutte i dag/måned/årstid: Minut: For det andet: Ramme i 24-timers format.</value></data>
+
+
+</root>
+

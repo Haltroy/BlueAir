@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>取消请求。编写不完整和失败的项目要归档。</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>花了{d} day（s）{h}小时{m}分钟{s} {s} second（s）{ms] ms {us} us {ns} ns {t} tick（s）</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>读取输入文件...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>自动保存文件</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>输入文件</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>导出目录</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>启动{app_name}下载。参数：</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>论据太少。</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>自动将进度保存到输出文件（如果给出）或输入文件中。</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>打印此屏幕并退出。</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>将[输入文件]视为XML文本而不是文件路径。</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>选项：</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>用法：{app_command} [options] [输入文件] [文件夹] [输出文件]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>告诉完成需要多长时间。</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{app_name} {version} by haltroy。</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>打印更多信息。</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>打印版本和退出。</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>讲述在日/月/年小时完成需要多长时间：分钟：第二：24小时格式的框架。</value></data>
+
+
+</root>
+

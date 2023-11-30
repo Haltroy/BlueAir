@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Cancel petitum.Scriptam imperfecta et defecit items to lima.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Tulit {d} Dies (s) {H} Hour (s) {m} minutam (s) {s}, {US} {NS} {T} (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Lectio initus file ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Auto-salvum file</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Input file</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Output folder</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Satus {App_name} download.Argumenta:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Pauca argumenta.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Automatice salvet progressus in output lima (si datum) vel initus file.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Prints hoc screen et exitus.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Agitur de [initus file] quod est XML illud pro a file semita.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Options:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Usus: {App_Command} [Options] [Input File] [folder] [output file]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Tells quousque autem non accipere ad metam.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {versio} per Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Prints magis notitia.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Prints version et exitus.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Tells quousque fecit eam accipere ad consummare in die / mensis / Year Hour: Minutum: Second: frame in XXIV-hora format.</value></data>
+
+
+</root>
+

@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Otkaži zatraženo.Pisanje nepotpunih i neuspjelih stavki za podvrgavanje.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Uzeo {d} dan (s) {h} sat (s) {m} minute (s) {s} sekunde (s) {ms] ms {us} us {ns} ns {t} krpelj (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Čitanje ulazne datoteke ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Datoteka s automatskom spremanjem</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Ulazna datoteka</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Izlazna mapa</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Pokrenite {App_name} Preuzmi.Argumenti:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Premalo argumenata.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Automatski sprema napredak u izlaznu datoteku (ako je dat) ili u ulaznu datoteku.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Ispisuje ovaj zaslon i izlazi.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Tretira [ulaznu datoteku] kao XML tekst umjesto staze datoteke.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Opcije:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Upotreba: {App_command} [Options] [ulaz datoteka] [mapa] [Izlazna datoteka]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Kaže koliko je trebalo da završi.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {verzija} by haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Ispisuje više informacija.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Ispisuje verziju i izlaze.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Govori koliko je trebalo da završi u danu/mjesecu/godišnjem satu: minutom: drugo: okvir u formatu od 24 sata.</value></data>
+
+
+</root>
+

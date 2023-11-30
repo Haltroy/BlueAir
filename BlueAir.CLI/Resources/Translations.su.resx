@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Batal dipénta.Tulisan anu teu lengkep sareng gagal pikeun file.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Nyandak {D} Dinten (s) {h} jam (s) {m} menit (s) {s) {.</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Barang Input Rasa ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>File otomatis</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>File input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Polder Kaluaran</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Mimitian {App_Name} Download.Argumen:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Teuing bantahan.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Otomatis ngahemat kamajuan kana file kaluaran (upami dipasihan) atanapi kanggo input.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Nyetak layar ieu sareng kaluar.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Ngarawat [file input] salaku téks XML tinimbang jalur file.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Pilihan:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Anggo: {App_command} [pilihan] [file input] [folder] [Output file]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Ngabejaan sabaraha lami éta kedah atos.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {vérsi} ku halus.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Nyitak inpormasi langkung.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Versi nyetak sareng kaluar.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Dituduh sabaraha lila-bérés kedah réngsé dina dinten / bulan / jam: menit: kadua: pigura dina pormat 24-jam.</value></data>
+
+
+</root>
+

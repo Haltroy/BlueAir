@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Daxwaza betal kirin.Nivîsandina tiştên bêkêmasî û têkçûn ji bo pelê.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Dûvaj (s) H} SURUT (S) S} Duyemîn (S) S} Duyemîn (s) {MS] MS] US US {U NS} NS {NS} (S)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Pelê Input xwendinê ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Pelê Auto-Save</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Pelê Input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Peldanka Hilberînê</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Destpêkirin {App_Name} dakêşin.Arguman:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Gelek arguman.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Bixweber pêşveçûn di pelê hilberînê de (heke were dayîn) an jî pelê têkevinê.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Vê ekran û derketinê çap dike.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Li şûna rêça pelê [pelê têketinê] wekî nivîsek XML derman dike.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Vebijark:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Bikaranîna: {app_command} [Vebijarkên] [Pelê Input] [Folder] [Dosya Derketinê]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Vedibêje ka ew kengî kişand ku qediya.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {guhertoya} bi haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Bêtir agahdarî çap dike.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Guhertoya çapkirinê û derketinan.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Dibêje çiqas dirêj kir ku ew di roja / meh / salê de qediya: Minute: Duyemîn: Di forma 24-demjimêran de çarçove.</value></data>
+
+
+</root>
+

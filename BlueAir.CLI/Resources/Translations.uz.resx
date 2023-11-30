@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>So'ralgan bekor qilish.Tugallanmagan va muvaffaqiyatsiz narsalarni faylga yozish.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{D} Soat (s) {s) {s) {ms} ns {t} ns {t} ns {t} ns {s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Kirish faylini o'qish ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Avtomatik saqlash fayli</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Kirish fayli</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Chiqish papkasi</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>{App_name} Yuklab olish.Dalillar:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Juda kam dalillar.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Avtomatik ravishda taraqqiyotni chiqish fayliga (agar berilgan bo'lsa) yoki kirish fayliga tejashga yordam beradi.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Ushbu ekranni bosib chiqaradi.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>[Kiritish faylini] fayl yo'lining o'rniga XML matn sifatida davolaydi.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Variantlar:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Foydalanish: {app_command} [Kirish Fayl] [Jall] [Chiqish fayli]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Tugatish uchun qancha vaqt kerakligini aytadi.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {versiya} XALTRO.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Qo'shimcha ma'lumotni chop etadi.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Versiya va chiqish joylarini bosib chiqaradi.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Kuniga / oyiga / oyiga qadar qancha vaqt o'tishi kerakligini aytadi: daqiqa: ikkinchi: 24 soatlik formatda.</value></data>
+
+
+</root>
+

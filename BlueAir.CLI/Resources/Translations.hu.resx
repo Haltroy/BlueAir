@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Törlési kérelem.Hiányos és sikertelen tételek írása.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Vette a {d} napot (s) {h} órát (s) {m} perc (s) {s} másodperc (s) {ms] ms {us} us {ns} ns {t} jelölje be (S)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>A bemeneti fájl olvasása ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Automatikus mentési fájl</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Bemeneti fájl</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Kimeneti mappa</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Indítás {app_name} Letöltés.Érvek:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Túl kevés érv.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Automatikusan elmenti az előrehaladást a kimeneti fájlba (ha megadva) vagy a bemenet fájlba.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Kinyomtatja ezt a képernyőt és kilép.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>A [bemeneti fájlt] XML szövegként kezeli a fájl elérési útja helyett.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>LEHETŐSÉGEK:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Használat: {app_command} [Options] [Input File] [mappa] [Kimeneti fájl]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Megmondja, mennyi ideig tartott a befejezés.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {verzió} Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>További információkat nyomtat.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Nyomtatja a verziót és a kilépést.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Megmondja, mennyi ideig tartott a nap/hónap/év órájában: perc: Második: keret 24 órás formátumban.</value></data>
+
+
+</root>
+
