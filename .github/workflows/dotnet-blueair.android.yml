@@ -25,6 +25,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore --project ./BlueAir.Android/BlueAir.Android.csproj
+      run: dotnet build --no-restore ./BlueAir.Android/BlueAir.Android.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal --project ./BlueAir.Android/BlueAir.Android.csproj
+      run: dotnet test --no-build --verbosity normal ./BlueAir.Android/BlueAir.Android.csproj
