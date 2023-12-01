@@ -28,3 +28,8 @@ jobs:
       run: dotnet build --no-restore ./BlueAir.CLI/BlueAir.CLI.csproj
     - name: Test
       run: dotnet test --no-build --verbosity normal ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI
+          path: ./BlueAir.CLI/bin/

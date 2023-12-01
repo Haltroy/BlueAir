@@ -28,3 +28,8 @@ jobs:
       run: dotnet build --no-restore ./BlueAir.Android/BlueAir.Android.csproj
     - name: Test
       run: dotnet test --no-build --verbosity normal ./BlueAir.Android/BlueAir.Android.csproj
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir Android
+          path: ./BlueAir.Android/bin/
