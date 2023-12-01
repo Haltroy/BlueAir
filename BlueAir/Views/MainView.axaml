@@ -88,7 +88,8 @@
                                                   IsCheckedChanged="AfterCommandRequirementChanged" />
                                     <TextBox Name="AfterCommand" Margin="5 0" TextChanged="AfterCommandChanged" />
                                 </DockPanel>
-                                <TextBlock Text="NOTE: This feature does not work on mobile platforms." />
+                                <TextBlock
+                                    Text="NOTE: This feature does not work on mobile platforms or platforms that won't let programs to run executables without permissions." />
                             </StackPanel>
                         </Border>
                         <TextBlock Text="Files and Folders" FontSize="17.5" FontWeight="Bold" />

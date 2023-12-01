@@ -363,17 +363,44 @@ public partial class MainView : UserControl
 
     private void NameChanged(object? sender, TextChangedEventArgs e)
     {
-        throw new NotImplementedException();
+        if (sender is not Control { IsEnabled: true } ||
+            ItemTreeView.SelectedItem is not TreeViewItem { Tag: DownloadObject download }) return;
+        switch (download)
+        {
+            case DownloadFile file:
+                file.FileName = FileName.Text;
+                break;
+            case DownloadFolder folder:
+                folder.Name = FileName.Text;
+                break;
+        }
     }
 
     private void URLChanged(object? sender, TextChangedEventArgs e)
     {
-        throw new NotImplementedException();
+        if (sender is Control { IsEnabled: true } &&
+            ItemTreeView.SelectedItem is TreeViewItem { Tag: DownloadFile file })
+            file.Link = FileUrl.Text;
     }
 
     private void ItemTreeViewSelectionChanged(object? sender, SelectionChangedEventArgs e)
     {
-        throw new NotImplementedException();
+        FileName.IsEnabled = false;
+        FileUrl.IsEnabled = false;
+        if (ItemTreeView.SelectedItem is TreeViewItem { Tag: DownloadObject download })
+        {
+            FileName.Text = download switch
+            {
+                DownloadFile file => file.FileName,
+                DownloadFolder folder => folder.Name,
+                _ => FileName.Text
+            };
+
+            FileUrl.Text = download is DownloadFile _file ? _file.Link : string.Empty;
+        }
+
+        FileName.IsEnabled = true;
+        FileUrl.IsEnabled = true;
     }
 
     private void AgentRemoveSelected(object? sender, RoutedEventArgs e)
