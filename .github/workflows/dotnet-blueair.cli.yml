@@ -31,5 +31,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
-          name: BlueAir Android
+          name: BlueAir CLI
           path: ./BlueAir.CLI/bin/
