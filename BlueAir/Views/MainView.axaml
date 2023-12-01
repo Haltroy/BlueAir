@@ -115,7 +115,15 @@
                                     </DockPanel>
                                 </StackPanel>
                                 <TreeView MinHeight="100" Name="ItemTreeView"
-                                          SelectionChanged="ItemTreeViewSelectionChanged" />
+                                          SelectionChanged="ItemTreeViewSelectionChanged">
+                                    <TreeViewItem Header="&lt;root&gt;" Tag="MainFolder" IsSelected="True"
+                                                  IsExpanded="True" Name="MainFolder" />
+                                </TreeView>
+                                <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+                                    <TextBlock Text="Automatically remove items that are finished:"
+                                               VerticalAlignment="Center" />
+                                    <ToggleSwitch Name="AutoRemoveItems" OnContent="" OffContent="" />
+                                </StackPanel>
                             </StackPanel>
                         </Border>
                     </StackPanel>
@@ -168,9 +176,7 @@
                                 Text="NOTE: Some download agents are command-line based and won't work on mobile platforms."
                                 TextWrapping="Wrap" />
                         </StackPanel>
-                        <ScrollViewer>
-                            <StackPanel Orientation="Vertical" Spacing="5" Name="AgentsList" MinHeight="100" />
-                        </ScrollViewer>
+                        <TreeView Name="AgentsList" MinHeight="100" />
                     </DockPanel>
                     <Separator />
                     <DockPanel LastChildFill="True">

@@ -62,6 +62,17 @@ namespace BlueAir
             // TODO
             throw new NotImplementedException();
         }
+
+        public static DownloadAgent InstallAgent(string file)
+        {
+            // TODO
+            throw new NotImplementedException();
+        }
+
+        public static void UninstallAgent(DownloadAgent agent)
+        {
+            // TODO
+        }
     }
 
     public class EnvironmentFolder

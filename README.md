@@ -12,9 +12,8 @@ BlueAir is currently not finished. Here are the missing pieces:
     - [ ] Download process
 - [X] CLI Interface
 - [ ] GUI
-    - [ ] Files & Folders
-    - [ ] Agent un/install
-    - [ ] Environment Variables
+    - [ ] Translations
+    - [ ] Load from file
 - [X] Desktop Port
 - [X] Android Port
 
