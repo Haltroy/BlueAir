@@ -13,7 +13,6 @@ namespace BlueAir
         public static string SystemRootPath =>
             Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "haltroy",
                 "BlueAir");
-
         public static bool DisableCommands { get; set; } = false;
         public static DownloadAgent[] Agents { get; set; } = { }; // TODO
         public static DownloadAgent[] WorkingAgents => Agents.Where(it => it.Exists() && it.IsEnabled).ToArray();
