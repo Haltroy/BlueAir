@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>ایک فولڈر منتخب کریں ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>ایک {app_name} فائل کھولیں ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>نوٹ: یہ خصوصیت موبائل پلیٹ فارم یا پلیٹ فارم پر کام نہیں کرتی ہے جو پروگراموں کو بغیر اجازت کے ایگزیکٹ ایبل چلانے نہیں دیتی ہے۔</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>آؤٹ پٹ دکھائیں/چھپائیں</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>ڈاؤن لوڈر</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>بوجھ ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>بچائیں ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>ایسے محفوظ کریں...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>شروع کریں</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>ٹارگٹ فولڈر:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>ایجنٹ ڈاؤن لوڈ کریں:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>ڈاؤن لوڈ سے پہلے اور بعد میں کمانڈ چلائیں:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>ڈاؤن لوڈ سے پہلے:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>ڈاؤن لوڈ کے بعد:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>ضروری ہے</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>ناکام ہو سکتے ہیں</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>نیا فولڈر...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>نئی فائل ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>منتخب کردہ کو ہٹا دیں ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>نام:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>url:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>روٹ فولڈر</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>ختم ہونے والی فائلوں کو خود بخود ہٹا دیں:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>ترتیبات</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>تھیم (ٹوگل پر کلک کریں):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>سسٹم تھیم استعمال کریں</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>تھیم استعمال کریں:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>روشنی</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>تاریک</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>لہجہ رنگ (ٹوگل کرنے کے لئے کلک کریں):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>رنگ استعمال کریں:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>سسٹم ڈیفالٹ رنگ کا استعمال کریں</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>ایجنٹوں کو ڈاؤن لوڈ کریں</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>منتخب کردہ کو ہٹا دیں ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>فائل سے انسٹال کریں ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>نوٹ: کچھ ایجنٹ کمانڈ لائن پر مبنی ہیں اور موبائل پلیٹ فارم پر کام نہیں کریں گے۔</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>متغیر</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>کے بارے میں</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>بیچ ڈاؤن لوڈ اور پروسیس فائلوں کو آسانی سے۔</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>لائسنس</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>ٹیکنالوجیز استعمال کی گئیں:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>ایک {app_name} فائل کو محفوظ کریں ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>ایک ہدف فولڈر منتخب کریں ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>ایک {app_name} ایجنٹ فائل منتخب کریں ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{app_name} ڈاؤن لوڈ ایجنٹ</value>
+</data>
+</root>

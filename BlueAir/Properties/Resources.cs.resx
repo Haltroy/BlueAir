@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Vyberte si složku ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Otevřete {app_name} soubor ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Poznámka: Tato funkce nefunguje na mobilních platformách nebo platformách, které nenechají programy spustit spustitelné soubory bez oprávnění.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Zobrazit/skrýt výstup</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Stahovatel</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Zatížení...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Uložit...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Uložit jako...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Start</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Cílová složka:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Stáhnout agent:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Spusťte příkazy před a po stahování:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Před stažením:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Po stažení:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Požadované</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Může selhat</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Nová složka...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Nový soubor...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Odstranit vybrané...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Název:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Kořenový adresář</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Automaticky odstranit dokončené soubory:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Nastavení</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Téma (klikněte na přepínání):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Použijte téma systému</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Použijte téma:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Světlo</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Temný</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Accent Color (klikněte na přepínání):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Použijte barvu:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Použijte výchozí barvu systému</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Stahování agentů</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Odstranit vybrané...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Nainstalovat ze souboru ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Poznámka: Někteří agenti jsou založeny na příkazové řádce a nebudou fungovat na mobilních platformách.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Proměnné</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>O</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Snadno stahování a zpracování dávků snadno.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Licence</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Použité technologie:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Uložit soubor {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Vyberte cílovou složku ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Vyberte {app_name} soubor agenta ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} agent stahování</value>
+</data>
+</root>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Välj en mapp ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Öppna en {app_name} -fil ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Obs: Den här funktionen fungerar inte på mobila plattformar eller plattformar som inte låter program för att köra körbara ämnen utan behörigheter.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Visa/dölj utgång</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Nedladdare</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Ladda...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Spara...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Spara som...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Start</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Målmapp:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Nedladdningsagent:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Kör kommandon före och efter en nedladdning:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Innan nedladdning:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Efter nedladdning:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Nödvändig</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Kan misslyckas</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Ny mapp...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Ny fil...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Ta bort valda...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Namn:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>Url:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Rotmapp</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Ta bort automatiskt filer som är färdiga:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>inställningar</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (klicka för att växla):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Använd systemtema</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Använd tema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Ljus</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Mörk</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Accentfärg (klicka för att växla):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Använd färg:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Använd System Standardfärg</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Ladda ner agenter</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Ta bort valda...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Installera från filen ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Obs: Vissa agenter är kommandoradsbaserade och fungerar inte på mobila plattformar.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Variabler</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Handla om</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch nedladdning och processfiler enkelt.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Licens</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teknologier som används:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Spara en {app_name} -fil ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Välj en målmapp ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Välj en {app_name} agentfil ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} nedladdningsagent</value>
+</data>
+</root>

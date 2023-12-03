@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Қалтаны таңдаңыз ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>{App_name} файлын ашыңыз ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>ЕСКЕРТПЕ: Бұл мүмкіндік бағдарламаларды рұқсаттарсыз іске қосуға мүмкіндік бермейтін мобильді платформаларда немесе платформаларда жұмыс істемейді.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Шығуды көрсету / жасыру</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Жүктеуші</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Жүктеме ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Сақтау ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Сақтау ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Жүргізу</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Мақсатты қалта:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Агентті жүктеу:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Жүктеуден бұрын және кейін командаларды іске қосыңыз:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Жүктеу алдында:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Жүктелгеннен кейін:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Қажет</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Сәтсіздікке ұшырауы мүмкін</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Жаңа папка...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Жаңа файл ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Таңдалған ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Аты:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Түбірлік қалта</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Аяқталған файлдарды автоматты түрде жою:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Параметрлер</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Тақырып (Ауыстыру үшін басыңыз):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Жүйе тақырыбын қолданыңыз</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Тақырыпты пайдалану:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Жарық</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Қараңғы</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Акцент түсі (ауыстыру үшін басыңыз):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Түсті қолданыңыз:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Жүйенің әдепкі түсін қолданыңыз</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Агенттерді жүктеу</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Таңдалған ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Файлдан ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>ЕСКЕРТПЕ: Кейбір агенттер командалық жолға негізделген және мобильді платформаларда жұмыс істемейді.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Айнымалылар</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Жөнінде</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Пакет файлдарды оңай жүктеп, өңдеңіз.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Лицензия</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Пайдаланылған технологиялар:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>{App_name} файлын сақтаңыз ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Мақсатты қалтаны таңдаңыз ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>{App_name} Агент файлын таңдаңыз ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name}} Агент жүктеу</value>
+</data>
+</root>

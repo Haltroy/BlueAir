@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="PickAFolder" xml:space="preserve">
+        <value>Pick a folder...</value>
+    </data>
+    <data name="OpenAFileTitle" xml:space="preserve">
+        <value>Open a {app_name} file...</value>
+    </data>
+    <data name="CommandNoMobileInfo" xml:space="preserve">
+        <value>NOTE: This feature does not work on mobile platforms or platforms that won't let programs to run executables without permissions.</value>
+    </data>
+    <data name="ShowHideOutput" xml:space="preserve">
+        <value>Show/Hide Output</value>
+    </data>
+    <data name="Downloader" xml:space="preserve">
+        <value>Downloader</value>
+    </data>
+    <data name="Load" xml:space="preserve">
+        <value>Load...</value>
+    </data>
+    <data name="Save" xml:space="preserve">
+        <value>Save...</value>
+    </data>
+    <data name="SaveAs" xml:space="preserve">
+        <value>Save As...</value>
+    </data>
+    <data name="Start" xml:space="preserve">
+        <value>Start</value>
+    </data>
+    <data name="TargetFolder" xml:space="preserve">
+        <value>Target Folder:</value>
+    </data>
+    <data name="DownloadAgent" xml:space="preserve">
+        <value>Download Agent:</value>
+    </data>
+    <data name="RunCommands" xml:space="preserve">
+        <value>Run commands before and after a download:</value>
+    </data>
+    <data name="BeforeCommand" xml:space="preserve">
+        <value>Before download:</value>
+    </data>
+    <data name="AfterCommand" xml:space="preserve">
+        <value>After download:</value>
+    </data>
+    <data name="Required" xml:space="preserve">
+        <value>Required</value>
+    </data>
+    <data name="AllowFailure" xml:space="preserve">
+        <value>Can fail</value>
+    </data>
+    <data name="NewFolder" xml:space="preserve">
+        <value>New folder...</value>
+    </data>
+    <data name="NewFile" xml:space="preserve">
+        <value>New File...</value>
+    </data>
+    <data name="RemoveSelectedDO" xml:space="preserve">
+        <value>Remove Selected...</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Name:</value>
+    </data>
+    <data name="URL" xml:space="preserve">
+        <value>URL:</value>
+    </data>
+    <data name="MainFolder" xml:space="preserve">
+        <value>Root Folder</value>
+    </data>
+    <data name="AutoRemoveFinished" xml:space="preserve">
+        <value>Automatically remove files that are finished:</value>
+    </data>
+    <data name="Settings" xml:space="preserve">
+        <value>Settings</value>
+    </data>
+    <data name="ThemeSetting" xml:space="preserve">
+        <value>Theme (Click to toggle):</value>
+    </data>
+    <data name="UseSystemTheme" xml:space="preserve">
+        <value>Use System Theme</value>
+    </data>
+    <data name="UseTheme" xml:space="preserve">
+        <value>Use Theme:</value>
+    </data>
+    <data name="ThemeLight" xml:space="preserve">
+        <value>Light</value>
+    </data>
+    <data name="ThemeDark" xml:space="preserve">
+        <value>Dark</value>
+    </data>
+    <data name="ColorSetting" xml:space="preserve">
+        <value>Accent Color (Click to toggle):</value>
+    </data>
+    <data name="UseDefaultColor" xml:space="preserve">
+        <value>Use Color:</value>
+    </data>
+    <data name="UseColor" xml:space="preserve">
+        <value>Use System Default Color</value>
+    </data>
+    <data name="AgentListTitle" xml:space="preserve">
+        <value>Download Agents</value>
+    </data>
+    <data name="AgentRemoveSelected" xml:space="preserve">
+        <value>Remove Selected...</value>
+    </data>
+    <data name="AgentInstallNew" xml:space="preserve">
+        <value>Install from file...</value>
+    </data>
+    <data name="AgentCommandInfo" xml:space="preserve">
+        <value>NOTE: Some agents are command-line based and won't work on mobile platforms.</value>
+    </data>
+    <data name="VariablesTitle" xml:space="preserve">
+        <value>Variables</value>
+    </data>
+    <data name="AboutTitle" xml:space="preserve">
+        <value>About</value>
+    </data>
+    <data name="AboutDescription" xml:space="preserve">
+        <value>Batch download and process files easily.</value>
+    </data>
+    <data name="AboutLicense" xml:space="preserve">
+        <value>License</value>
+    </data>
+    <data name="AboutTechnologies" xml:space="preserve">
+        <value>Technologies Used:</value>
+    </data>
+    <data name="SaveAFile" xml:space="preserve">
+        <value>Save a {app_name} file...</value>
+    </data>
+    <data name="PickATargetFolder" xml:space="preserve">
+        <value>Pick a target folder...</value>
+    </data>
+    <data name="PickAnAgentfile" xml:space="preserve">
+        <value>Pick a {app_name} Agent file...</value>
+    </data>
+    <data name="AgentFileDesc" xml:space="preserve">
+        <value>{App_name} Download Agent</value>
+    </data>
+</root>

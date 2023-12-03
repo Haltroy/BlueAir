@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Aukeratu karpeta ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Ireki {app_name} fitxategia ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>OHARRA: Ezaugarri honek ez du plataforma mugikorretan edo plataformetan funtzionatzen, programak exekutagarriak baimenik gabe exekutatzen utziko ez dituztenak.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Irteera erakutsi / ezkutatu</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Eskolaketa</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Kargatu ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Gorde ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Gorde...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Hasiera</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Xede karpeta:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Deskargatu agentea:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Exekutatu komandoak deskargaren aurretik eta ondoren:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Deskargatu aurretik:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Deskargatu ondoren:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Murriztu</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Huts egin dezake</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Karpeta berria...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Fitxategi berria ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Kendu hautatutako ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Izena:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Root karpeta</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Amaitutako fitxategiak automatikoki kendu:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Ezarpen</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Gaia (egin klik txandakatzeko):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Erabili sistemaren gaia</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Erabili gaia:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Arin</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Iluna</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Azentu kolorea (egin klik txandakatzeko):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Erabili kolorea:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Erabili Sistemaren kolore lehenetsia</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Deskargatu agenteak</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Kendu hautatutako ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Instalatu fitxategitik ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Oharra: eragile batzuk komando lerroan oinarrituta daude eta ez dira plataforma mugikorretan funtzionatuko.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Aldagaiak</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Ei buruz</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Lote deskargatu eta prozesatu fitxategiak erraz.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Baimendu</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Erabilitako teknologiak:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Gorde {app_name} fitxategia ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Aukeratu xede karpeta ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Aukeratu {app_name} agente fitxategia ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} deskargatu agentea</value>
+</data>
+</root>

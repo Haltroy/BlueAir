@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.IO;
 
@@ -8,6 +9,14 @@ namespace BlueAir
     /// </summary>
     public abstract class DownloadObject : INullable
     {
+        /// <summary>
+        ///     We don't recommend creating download items this way, please use <see cref="DownloadFile" /> for files and
+        ///     <see cref="DownloadFolder" /> for folders.
+        /// </summary>
+        protected DownloadObject()
+        {
+        }
+
         protected DownloadObject(bool isNull)
         {
             IsNull = isNull;
@@ -18,6 +27,10 @@ namespace BlueAir
         /// </summary>
         public DownloadFolder Parent { get; set; }
 
+        /// <summary>
+        ///     Gets or sets the associated object (like TreeViewItem) of this download object.
+        /// </summary>
+        public object AssociatedObject { get; set; }
 
         public bool IsNull { get; }
     }
@@ -25,8 +38,15 @@ namespace BlueAir
     /// <summary>
     ///     A folder class.
     /// </summary>
-    public abstract class DownloadFolder : DownloadObject
+    public class DownloadFolder : DownloadObject
     {
+        /// <summary>
+        ///     Creates a new download folder.
+        /// </summary>
+        public DownloadFolder()
+        {
+        }
+
         protected DownloadFolder(bool isNull) : base(isNull)
         {
         }
@@ -34,12 +54,12 @@ namespace BlueAir
         /// <summary>
         ///     Items inside this folder.
         /// </summary>
-        public DownloadObject[] Content { get; set; }
+        public List<DownloadObject> Content { get; set; } = new List<DownloadObject>();
 
         /// <summary>
         ///     Name of the folder.
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         /// <summary>
         ///     Gets the path of the folder.
@@ -57,8 +77,15 @@ namespace BlueAir
     /// <summary>
     ///     Represents a download file.
     /// </summary>
-    public abstract class DownloadFile : DownloadObject
+    public class DownloadFile : DownloadObject
     {
+        /// <summary>
+        ///     Creates a new download file.
+        /// </summary>
+        public DownloadFile()
+        {
+        }
+
         protected DownloadFile(bool isNull) : base(isNull)
         {
         }
@@ -66,11 +93,11 @@ namespace BlueAir
         /// <summary>
         ///     Place on the Internet to download this file from.
         /// </summary>
-        public string Link { get; set; }
+        public string Link { get; set; } = string.Empty;
 
         /// <summary>
         ///     File name to write on, set to empty for auto.
         /// </summary>
-        public string FileName { get; set; }
+        public string FileName { get; set; } = string.Empty;
     }
 }

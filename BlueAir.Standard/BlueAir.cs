@@ -13,7 +13,6 @@ namespace BlueAir
         public static string SystemRootPath =>
             Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "haltroy",
                 "BlueAir");
-
         public static bool DisableCommands { get; set; } = false;
         public static DownloadAgent[] Agents { get; set; } = { }; // TODO
         public static DownloadAgent[] WorkingAgents => Agents.Where(it => it.Exists() && it.IsEnabled).ToArray();
@@ -60,7 +59,17 @@ namespace BlueAir
         public static void Save()
         {
             // TODO
+        }
+
+        public static DownloadAgent InstallAgent(string file)
+        {
+            // TODO
             throw new NotImplementedException();
+        }
+
+        public static void UninstallAgent(DownloadAgent agent)
+        {
+            // TODO
         }
     }
 
@@ -85,7 +94,17 @@ namespace BlueAir
 
     public class CustomSetting
     {
+        private object _value;
         public string Name { get; set; }
-        public object Value { get; set; }
+
+        public object Value
+        {
+            get => _value;
+            set
+            {
+                _value = value;
+                BlueAir.Save();
+            }
+        }
     }
 }

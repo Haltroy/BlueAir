@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Chwazi yon katab ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Louvri yon {app_name} dosye ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Remak: karakteristik sa a pa travay sou tribin mobil oswa tribin ki pa pral kite pwogram yo kouri ègzèkutabl san yo pa autorisations.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Montre/kache pwodiksyon</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Downloader</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Chaje ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Sove ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Sove kòm ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Depa</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Dosye sib:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Download Ajan:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Kouri kòmandman anvan ak apre yon download:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Anvan Download:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Apre telechaje:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Obligatwa</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Ka echwe</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Nouvo katab ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Nouvo dosye ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Retire chwazi ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Non:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Katab rasin</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Otomatikman retire dosye ki fini:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Se</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tèm (klike sou activer):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Sèvi ak sistèm sistèm</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Sèvi ak tèm:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Leje</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Sonm</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Aksan koulè (klike sou activer):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Sèvi ak koulè:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Sèvi ak koulè sistèm default</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Download Ajan</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Retire chwazi ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Enstale nan dosye ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Remak: Gen kèk ajan ki baze sou lòd-liy epi yo pa pral travay sou tribin mobil.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Varyab</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>De</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Download pakèt ak dosye pwosesis fasil.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Otorize</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teknoloji itilize:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Sove yon {app_name} dosye ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Chwazi yon katab sib ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Chwazi yon {app_name} dosye ajan ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} download ajan</value>
+</data>
+</root>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Επιλέξτε ένα φάκελο ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Ανοίξτε ένα αρχείο {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Σημείωση: Αυτή η λειτουργία δεν λειτουργεί σε κινητές πλατφόρμες ή πλατφόρμες που δεν θα επιτρέψουν στα προγράμματα να εκτελούν εκτελέσιμα χωρίς δικαιώματα.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Εμφάνιση/απόκρυψη εξόδου</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Κατεβάσετε</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Φορτώνω...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Αποθηκεύσετε...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Αποθήκευση ως...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Αρχή</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Φάκελος στόχου:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Λήψη πράκτορα:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Εκτέλεση εντολών πριν και μετά από λήψη:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Πριν από τη λήψη:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Μετά τη λήψη:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Απαιτείται</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Μπορεί να αποτύχει</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Νέος φάκελος...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Νέο αρχείο...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Αφαιρέστε τα επιλεγμένα...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Ονομα:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Ριζικός φάκελος</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Καταργήστε αυτόματα τα αρχεία που έχουν ολοκληρωθεί:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Θέμα (κάντε κλικ για εναλλαγή):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Χρησιμοποιήστε το θέμα του συστήματος</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Χρησιμοποιήστε το θέμα:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Φως</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Σκοτάδι</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Χρώμα προφοράς (κάντε κλικ για εναλλαγή):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Χρήση χρώματος:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Χρησιμοποιήστε το προεπιλεγμένο χρώμα του συστήματος</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Πράκτορες λήψης</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Αφαιρέστε τα επιλεγμένα...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Εγκαταστήστε από το αρχείο ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Σημείωση: Μερικοί πράκτορες βασίζονται σε γραμμές εντολών και δεν θα λειτουργούν σε κινητές πλατφόρμες.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Μεταβλητές</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Σχετικά με</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Αρχεία λήψης και επεξεργασίας παρτίδας εύκολα.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Αδεια</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Χρησιμοποιούνται τεχνολογίες:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Αποθηκεύστε ένα αρχείο {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Διαλέξτε ένα φάκελο προορισμού ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Επιλέξτε ένα αρχείο apt_name} πράκτορα ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Λήψη πράκτορα</value>
+</data>
+</root>

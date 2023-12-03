@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Khetha ifolda ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Vula ifayela le- {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>QAPHELA: Lesi sici asisebenzi kumapulatifomu weselula noma amapulatifomu angeke avumele izinhlelo ukuthi zisebenze ngaphandle kwezimvume ngaphandle kwezimvume.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Khombisa / Fihla Okukhipha</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Umdamuzi</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Umthwalo ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Gcina ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Igcine njenge...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Suka</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Ifolda yethagethi:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Ukulanda i-ejenti:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Run Commands ngaphambi nangemva kokulanda:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Ngaphambi kokulanda:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Ngemuva kokulanda:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>-Dingekakayo</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Angehluleka</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Ifolda entsha ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Ifayela elisha ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Susa okhethiwe ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Igama:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Ifolda yezimpande</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Susa ngokuzenzakalelayo amafayela aqediwe:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Amasethingi</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Ingqikithi (chofoza ukuze uguqule):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Sebenzisa isihloko se-System</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Sebenzisa itimu:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>-Mhlophe</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>-Hwelele</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Umbala we-Accent (chofoza ukuze uguqule):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Sebenzisa umbala:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Sebenzisa umbala ozenzakalelayo wohlelo</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Landa ama-ejenti</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Susa okhethiwe ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Faka kusuka kufayela ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Qaphela: Amanye ama-ejenti asuselwa kulayini womyalo futhi ngeke asebenze kumapulatifomu eselula.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Okuguquguqukayo</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Maqondana</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Latch Landa futhi ucubungule amafayela kalula.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Ilayisense</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Ubuchwepheshe obusetshenzisiwe:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Gcina ifayela {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Khetha ifolda eqondiwe ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Khetha ifayela le- {lokusebenza_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} landa i-ejenti</value>
+</data>
+</root>

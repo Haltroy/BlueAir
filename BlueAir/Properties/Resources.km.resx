@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>ជ្រើសយកថតឯកសារ ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>បើកឯកសារ {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>សម្គាល់ៈលក្ខណៈពិសេសនេះមិនដំណើរការលើវេទិកាចល័តឬវេទិកាដែលមិនអនុញ្ញាតឱ្យកម្មវិធីដំណើរការប្រតិបត្តិដោយគ្មានសិទ្ធិបានទេ។</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>បង្ហាញ / លាក់លទ្ធផល</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>ម៉ាស៊ីនទាញយក</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>ផ្ទុក...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>រក្សាទុក ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>រក្សាទុក​ជា...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>បហ្ចេហ</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>ថតឯកសារ:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>ភ្នាក់ងារទាញយក:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>រត់ពាក្យបញ្ជាមុននិងក្រោយការទាញយក:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>មុនពេលទាញយក:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>បន្ទាប់ពីទាញយក:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>តាតុក</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>អាចបរាជ័យ</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>ប្រអប់​ឯកសារ​ថ្មី...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>ឯកសារថ្មី ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>លុបបានជ្រើសរើស ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>ឈ្មោះ:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>url:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>ថត root</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>យកឯកសារចេញដោយស្វ័យប្រវត្តិដែលត្រូវបានបញ្ចប់:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>ការកំណត់</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>ស្បែក (ចុចដើម្បីបិទ / បើក):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>ប្រើស្បែកប្រព័ន្ធ</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>ប្រើស្បែក:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>ខ្ចី</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>ងងឹត</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>សង្កត់សំឡេងពណ៌ (ចុចដើម្បីបិទ / បើក):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>ប្រើពណ៌:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>ប្រើពណ៌ប្រព័ន្ធលំនាំដើម</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>ភ្នាក់ងារទាញយក</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>លុបបានជ្រើសរើស ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>ដំឡើងពីឯកសារ ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>សម្គាល់ៈភ្នាក់ងារមួយចំនួនមានបន្ទាត់ពាក្យបញ្ជាផ្អែកលើហើយនឹងមិនដំណើរការលើវេទិកាចល័តទេ។</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>អថេរ</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>អមបី</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>បាច់ទាញយកនិងទាញយកឯកសារយ៉ាងងាយស្រួល។</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>អាេយសិត្ធិ</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>មានបច្ចេកវិទ្យាប្រើ:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>រក្សាទុកឯកសារ {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>ជ្រើសយកថតឯកសារគោលដៅ ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>ជ្រើសយកឯកសារភ្នាក់ងារ {App_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{app__name} ទាញទាញយក</value>
+</data>
+</root>

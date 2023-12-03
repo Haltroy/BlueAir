@@ -4,6 +4,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <Nullable>disable</Nullable>
         <RootNamespace>BlueAir</RootNamespace>
+        <DebugType>embedded</DebugType>
     </PropertyGroup>
 
 </Project>

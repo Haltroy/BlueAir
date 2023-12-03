@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Zgjidh një dosje ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Hapni një skedar {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Shënim: Kjo veçori nuk funksionon në platforma celulare ose platforma që nuk do të lejojnë programet të ekzekutojnë ekzekutues pa leje.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Trego/fsheh daljen</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Që</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Ngarkesë ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Kurseni ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Ruaj si ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Filloj</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Dosja e synuar:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Agjent i shkarkimit:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Drejtoni komandat para dhe pas një shkarkimi:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Para se të shkarkoni:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Pas shkarkimit:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>I kërkuar</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Mund të dështojë</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Dosje e re...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Skedar i ri ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Hiq të zgjedhur ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Emri:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Dosje rrënjësore</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Hiq automatikisht skedarët që kanë përfunduar:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Cilësimet</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (kliko për të ndryshuar):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Përdorni temën e sistemit</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Përdorni temën:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>I ndezur</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>I errët</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Ngjyra e theksit (kliko për të ndryshuar):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Përdorni ngjyrën:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Përdorni ngjyrën e paracaktuar të sistemit</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Shkarkoni Agjentët</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Hiq të zgjedhur ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Instaloni nga skedari ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Shënim: Disa agjentë janë të bazuar në linjë komanduese dhe nuk do të punojnë në platformat e lëvizshme.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Variabla</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Afër</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Shkarkoni dhe përpunoni skedarët me lehtësi.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Liçensë</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teknologjitë e përdorura:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Ruani një skedar {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Zgjidh një dosje të synuar ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Zgjidh një skedar të agjentit {app_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} agjent i shkarkimit</value>
+</data>
+</root>

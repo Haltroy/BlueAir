@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Válasszon egy mappát ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Nyisson meg egy {app_name} fájlt ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Megjegyzés: Ez a szolgáltatás nem működik olyan mobil platformon vagy platformon, amely nem engedi, hogy a programok engedély nélkül futtassák a futtatható fájlt.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>A kimenet megjelenítése/elrejtése</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Letöltő</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Betöltés...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Megment...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Mentés másként...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Rajt</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Cél mappa:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Letöltési ügynök:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Futtassa a parancsokat a letöltés előtt és után:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Letöltés előtt:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Letöltés után:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Kívánt</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Meghibásodhat</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Új mappa...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Új fájl...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>A kiválasztott eltávolítása...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Név:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Gyökérkönyvtár</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Automatikusan eltávolítja a kész fájlokat:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Beállítások</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Téma (kattintson a váltáshoz):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Használja a rendszer témáját</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Használja a témát:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Fény</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Sötét</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Ékezetes szín (kattintson a váltáshoz):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Használjon színt:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Használja a rendszer alapértelmezett színét</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Letölthető ügynökök</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>A kiválasztott eltávolítása...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Telepítse a fájlból ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Megjegyzés: Egyes ügynökök parancsnoki alapúak, és nem fognak működni a mobil platformon.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Változók</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Ról ről</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>A kötegelt letöltés és a fájlok feldolgozása egyszerűen.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Engedély</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Használt technológiák:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Mentse el a {app_name} fájlt ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Válasszon egy célmappát ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Válasszon egy {app_name} ügynök fájlt ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_Name} letöltési ügynök</value>
+</data>
+</root>

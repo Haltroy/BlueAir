@@ -7,7 +7,9 @@ namespace BlueAir
 {
     public class DownloadInfo
     {
-        public delegate void OnProgressChangedDelegate(float percentage, DownloadObject currentItem);
+        public delegate void OnFinishedItemDelegate(DownloadObject item);
+
+        public delegate void OnProgressChangedDelegate(float percentage, DownloadObject current_item);
 
         public DownloadInfo()
         {
@@ -51,6 +53,7 @@ namespace BlueAir
         public List<DownloadObject> Downloads { get; set; } = new List<DownloadObject>();
 
         public event OnProgressChangedDelegate OnProgressChanged;
+        public event OnFinishedItemDelegate OnFinishedItem;
 
         private void ParseXml(XmlNode node)
         {

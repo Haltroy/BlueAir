@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Peldanka hilbijêrin ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Pelê {{App_Name} veke ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Nîşe: Ev taybetmendî li ser platformên mobîl an platformên ku dê nehêlin ku bernameyan bêyî destûran bicîh neynin.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Derketin / veşêrin</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Dakêşin</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Dawetkirin...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Rizgarkirin...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Wek ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Destpêkirin</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Peldanka Armanc:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Agent dakêşin:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Berî Daxistinê fermanan dimeşînin:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Berî dakêşin:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Piştî daxistinê:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Pêwistî</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Dikare têk bibe</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Peldanka nû ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Pelê nû ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Hilbijartin rakirin ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Nav:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Peldanka root</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Pelên ku bi dawî dibin bixweber rakirin:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Mîhengan</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Mijar (bikirtînin to Toggle):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Mijara pergalê bikar bînin</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Mijar bikar bînin:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Sivik</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Tarî</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Rengê Accent (Toggle bikirtînin):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Rengê bikar bînin:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Rengê xwerû ya pergalê bikar bînin</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Ajansên dakêşin</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Hilbijartin rakirin ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Ji pelê saz bikin ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Nîşe: Hinek sazûman li ser bingeha rêzikname ne û dê li ser platformên mobîl kar nekin.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Guherîn</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Ji dor</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Pelên dakêşin û pelên bi hêsanî pêvajoyê bikin.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Îcaze</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teknolojiyên ku hatine bikar anîn:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Pelê {{App_Name} hilînin ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Peldanka hedef hilbijêrin ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Pelê Ajansa A app_name} hilbijêrin ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Daxistina Agent</value>
+</data>
+</root>

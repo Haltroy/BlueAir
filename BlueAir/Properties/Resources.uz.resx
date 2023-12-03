@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Jildni tanlang ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>{App_name} Faylni oching ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Eslatma: Ushbu xususiyat mobil platformalar yoki platformalarda ishlamaydi, bu esa ruxsatsiz bajariladigan dasturlarni boshqarish dasturlarini boshqarishga imkon bermaydi.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Chiqishni ko&apos;rsatish / yashirish</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Yuklab olish</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Yuk ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Saqlash ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Saqlash ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Boshlamoq</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Maqsadli papka:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Agentlikni yuklab oling:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Yuklab olishdan oldin va keyin buyruqlarni bajaring:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Yuklab olishdan oldin:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Yuklab olingandan keyin:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Talab qilingan</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Muvaffaqiyatsiz bo&apos;lishi mumkin</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Yangi papka...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Yangi fayl ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Tanlangan ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Ism:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL manzili:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Ildiz papka</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Tugatgan fayllarni avtomatik ravishda o&apos;chirish:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Sozlash</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Mavzu (almashtirish uchun bosing):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Tizim mavzularidan foydalaning</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Mavzuni ishlating:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Yorug&apos;lik</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Qorong&apos;i</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Qo&apos;shimcha rang (almashtirish uchun bosing):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Rangdan foydalaning:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Tizim standart rangidan foydalaning</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Yuklab olish agentlari</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Tanlangan ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Fayldan o&apos;rnatish ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Eslatma: Ba&apos;zi agentlar buyruq chizig&apos;iga asoslangan va mobil platformalarda ishlamaydi.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>O&apos;zgaruvchilar</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Haqida</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>To&apos;plamni yuklab oling va ishlov berish-ni osonlashtiradi.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Litsenziya</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Amaldagi texnologiyalar:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>A {app_name} Fayl ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Maqsadli papkani tanlang ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>A {app_name} Agent fayli ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} yuklab olish bo&apos;yicha agent</value>
+</data>
+</root>
