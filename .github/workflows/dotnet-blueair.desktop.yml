@@ -29,17 +29,17 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal ./BlueAir.Desktop/BlueAir.Desktop.csproj
     - name: Publish (Windows x86_64)
-      run: dotnet publish -c Release --no-restore --self-contained -r win-x64 -o ./publish/desktop/win-x64/
+      run: dotnet publish -c Release --self-contained -r win-x64 -o ./publish/desktop/win-x64/
     - name: Publish (Windows ARM64)
-      run: dotnet publish -c Release --no-restore --self-contained -r win-arm64 -o ./publish/desktop/win-x64/
+      run: dotnet publish -c Release --self-contained -r win-arm64 -o ./publish/desktop/win-x64/
     - name: Publish (Linux x86_64)
-      run: dotnet publish -c Release --no-restore --self-contained -r linux-x64 -o ./publish/desktop/linux-x64/
+      run: dotnet publish -c Release --self-contained -r linux-x64 -o ./publish/desktop/linux-x64/
     - name: Publish (Linux ARM64)
-      run: dotnet publish -c Release --no-restore --self-contained -r linux-arm64 -o ./publish/desktop/linux-arm64/
+      run: dotnet publish -c Release --self-contained -r linux-arm64 -o ./publish/desktop/linux-arm64/
     - name: Publish (macOS x86_64)
-      run: dotnet publish -c Release --no-restore --self-contained -r osx-x64 -o ./publish/desktop/osx-x64/
+      run: dotnet publish -c Release --self-contained -r osx-x64 -o ./publish/desktop/osx-x64/
     - name: Publish (macOS ARM64)
-      run: dotnet publish -c Release --no-restore --self-contained -r osx-arm64 -o ./publish/desktop/osx-arm64/
+      run: dotnet publish -c Release --self-contained -r osx-arm64 -o ./publish/desktop/osx-arm64/
     - name: Upload Artifact (Windows x86_64)
       uses: actions/upload-artifact@v3
       with:
