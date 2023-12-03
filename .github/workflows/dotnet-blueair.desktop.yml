@@ -31,7 +31,7 @@ jobs:
     - name: Publish (Windows x86_64)
       run: dotnet publish -c Release --self-contained -r win-x64 -o ./publish/desktop/win-x64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
     - name: Publish (Windows ARM64)
-      run: dotnet publish -c Release --self-contained -r win-arm64 -o ./publish/desktop/win-x64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
+      run: dotnet publish -c Release --self-contained -r win-arm64 -o ./publish/desktop/win-arm64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
     - name: Publish (Linux x86_64)
       run: dotnet publish -c Release --self-contained -r linux-x64 -o ./publish/desktop/linux-x64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
     - name: Publish (Linux ARM64)
