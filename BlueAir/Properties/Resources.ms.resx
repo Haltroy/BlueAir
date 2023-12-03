@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Pilih folder ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Buka fail {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Nota: Ciri ini tidak berfungsi pada platform mudah alih atau platform yang tidak akan membiarkan program menjalankan executable tanpa kebenaran.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Tunjukkan/sembunyikan output</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Pemuat turun</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Muatkan ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Simpan ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Simpan sebagai...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Mula</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Folder Sasaran:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Ejen Muat turun:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Jalankan arahan sebelum dan selepas muat turun:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Sebelum Muat turun:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Selepas Muat turun:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Diperlukan</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Boleh gagal</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Fail baharu...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Fail baru ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Buang yang ditanda...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Nama:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Folder root</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Secara automatik mengeluarkan fail yang selesai:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Tetapan</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (klik untuk bertukar -tukar):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Gunakan tema sistem</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Gunakan tema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Cahaya</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Gelap</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Warna aksen (klik untuk bertukar):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Gunakan warna:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Gunakan warna lalai sistem</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Muat turun ejen</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Buang yang ditanda...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Pasang dari fail ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>NOTA: Sesetengah ejen adalah berasaskan baris arahan dan tidak akan berfungsi pada platform mudah alih.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Pembolehubah</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Mengenai</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch muat turun dan proses fail dengan mudah.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Lesen</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teknologi yang digunakan:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Simpan fail {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Pilih folder sasaran ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Pilih fail ejen {app_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} ejen muat turun</value>
+</data>
+</root>

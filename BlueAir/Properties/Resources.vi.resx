@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Chọn một thư mục ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Mở tệp {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Lưu ý: Tính năng này không hoạt động trên các nền tảng hoặc nền tảng di động sẽ không cho phép các chương trình chạy các tệp thực thi mà không có quyền.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Hiển thị/ẩn đầu ra</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Người tải xuống</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Trọng tải...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Cứu...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Lưu thành...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Bắt đầu</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Thư mục mục tiêu:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Tải xuống Đại lý:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Chạy các lệnh trước và sau khi tải xuống:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Trước khi tải xuống:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Sau khi tải xuống:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Yêu cầu</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Có thể thất bại</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Thư mục mới...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Tập tin mới...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Bỏ đã chọn...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Tên:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Thư mục gốc</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Tự động xóa các tệp đã hoàn thành:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Cài đặt</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Chủ đề (bấm để chuyển đổi):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Sử dụng chủ đề hệ thống</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Sử dụng chủ đề:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Ánh sáng</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Tối tăm</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Accent Color (bấm để chuyển đổi):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Sử dụng màu:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Sử dụng màu mặc định của hệ thống</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Tải xuống đại lý</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Bỏ đã chọn...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Cài đặt từ tệp ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Lưu ý: Một số đại lý dựa trên dòng lệnh và sẽ không hoạt động trên các nền tảng di động.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Biến</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Về</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Tải xuống hàng loạt và xử lý các tập tin dễ dàng.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Giấy phép</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Công nghệ được sử dụng:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Lưu tệp {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Chọn một thư mục đích ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Chọn tệp tác nhân {app_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Tác nhân tải xuống</value>
+</data>
+</root>

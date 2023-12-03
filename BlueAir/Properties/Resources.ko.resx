@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>폴더 선택 ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>{app_name} 파일을 엽니 다 ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>참고 :이 기능은 프로그램이 권한없이 실행 파일을 실행할 수없는 모바일 플랫폼이나 플랫폼에서 작동하지 않습니다.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>출력을 표시/숨기십시오</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>다운로더</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>짐...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>구하다...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>다른 이름으로 저장...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>시작</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>대상 폴더 :</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>에이전트 다운로드 :</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>다운로드 전후에 명령을 실행합니다.</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>다운로드하기 전에 :</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>다운로드 후 :</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>필수의</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>실패 할 수 있습니다</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>새 폴더...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>새로운 파일...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>선택된 것을 지우다...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>이름:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL :</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>루트 폴더</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>완료된 파일을 자동으로 제거합니다.</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>설정</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>테마 (토글 클릭) :</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>시스템 테마를 사용하십시오</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>테마 사용 :</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>빛</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>어두운</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>악센트 색상 (토글 클릭) :</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>색상 사용 :</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>시스템 기본 색상을 사용하십시오</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>에이전트를 다운로드하십시오</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>선택된 것을 지우다...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>파일에서 설치 ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>참고 : 일부 에이전트는 명령 줄 기반이며 모바일 플랫폼에서는 작동하지 않습니다.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>변수</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>에 대한</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>파일을 쉽게 배치하고 처리합니다.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>특허</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>사용 된 기술 :</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>{app_name} 파일을 저장 ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>대상 폴더 선택 ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>{app_name} 에이전트 파일을 선택하십시오 ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{app_name} 다운로드 에이전트</value>
+</data>
+</root>

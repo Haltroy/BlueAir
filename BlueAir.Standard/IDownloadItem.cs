@@ -13,7 +13,7 @@ namespace BlueAir
         ///     We don't recommend creating download items this way, please use <see cref="DownloadFile" /> for files and
         ///     <see cref="DownloadFolder" /> for folders.
         /// </summary>
-        public DownloadObject()
+        protected DownloadObject()
         {
         }
 
@@ -25,7 +25,7 @@ namespace BlueAir
         /// <summary>
         ///     Parent of the item.
         /// </summary>
-        public DownloadFolder Parent { get; set; } = null;
+        public DownloadFolder Parent { get; set; }
 
         /// <summary>
         ///     Gets or sets the associated object (like TreeViewItem) of this download object.

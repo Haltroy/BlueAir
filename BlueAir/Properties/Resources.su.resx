@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Pilih polder ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Buka A {App_name} File ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Catetan: Fitur ieu henteu tiasa dianggo dina platform atanapi platform anu moal ngantepkeun program pikeun ngaji Exputhessed tanpa ijin.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Tampilkeun / nyumput kaluaran</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Dplourer</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Beban ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Walar ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Simpen salaku ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Ngamimitian</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Polipis Target:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Download Agen:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Ngajalankeun paréntah sateuacan sareng saatos unduh:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Sateuacan undeuran:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Saatos diunduh:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Duna diperyogikeun</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Tiasa gagal</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Folder anyar ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Berkas anyar ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Cabut dipilih ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Ngaran:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Folder akar</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>File anu otomatis dibéréskeun:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Setelan</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Téma (klik pikeun togél):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Anggo téma sistem</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Anggo téma:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Cahaya</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Poek</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Warna aksen (klik ka Togol):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Anggo warna:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Anggo warna standar sistem</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Undeuran agén</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Cabut dipilih ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Masang tina file ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Catetan: Sababaraha agén-garis paréntah sareng moal tiasa damel dina platform mobile.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Variétana</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Kira-kira</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch Download sareng prosés file gampang.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Lisénsi</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Téknologi anu dianggo:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Simpen A {App_Name} File ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Pilih polder target ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Pilih a {App_name} file agén ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Download agén</value>
+</data>
+</root>

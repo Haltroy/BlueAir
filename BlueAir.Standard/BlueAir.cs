@@ -60,7 +60,6 @@ namespace BlueAir
         public static void Save()
         {
             // TODO
-            throw new NotImplementedException();
         }
 
         public static DownloadAgent InstallAgent(string file)
@@ -96,7 +95,17 @@ namespace BlueAir
 
     public class CustomSetting
     {
+        private object _value;
         public string Name { get; set; }
-        public object Value { get; set; }
+
+        public object Value
+        {
+            get => _value;
+            set
+            {
+                _value = value;
+                BlueAir.Save();
+            }
+        }
     }
 }

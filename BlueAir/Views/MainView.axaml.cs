@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using System.Xml;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
@@ -162,7 +163,7 @@ public partial class MainView : UserControl
 
                         var folder = await topLevel.StorageProvider.OpenFolderPickerAsync(new FolderPickerOpenOptions
                         {
-                            Title = "Pick a folder...",
+                            Title = Properties.Resources.PickAFolder,
                             SuggestedStartLocation = !string.IsNullOrWhiteSpace(TargetFolder.Text)
                                 ? await topLevel.StorageProvider.TryGetFolderFromPathAsync(TargetFolder.Text)
                                 : null,
@@ -214,7 +215,49 @@ public partial class MainView : UserControl
     {
         IsLoadedFromFile = true;
         CurrentFile = path;
-        // TODO
+        XmlDocument doc = new();
+        using (var stream = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite))
+        {
+            doc.Load(stream);
+        }
+
+        if (doc.DocumentElement is null) return;
+        CurrentInfo = new DownloadInfo(doc.DocumentElement);
+        RunCommandsBeforeAfter.IsChecked = CurrentInfo.RunCommands;
+        BeforeCommand.Text = CurrentInfo.CommandToExecuteBefore.Command;
+        BeforeCommandRequire.IsChecked = !CurrentInfo.CommandToExecuteBefore.CanFail;
+        AfterCommand.Text = CurrentInfo.CommandToExecuteAfter.Command;
+        AfterCommandRequire.IsChecked = !CurrentInfo.CommandToExecuteAfter.CanFail;
+
+        for (var i = 0; i < DownloadAgents.Items.Count; i++)
+            if (DownloadAgents.Items[i] is ComboBoxItem { Tag: DownloadAgent agent } && agent == CurrentInfo.Downloader)
+            {
+                DownloadAgents.SelectedIndex = i;
+                break;
+            }
+
+        foreach (var item in CurrentInfo.Downloads)
+            MainFolder.Items.Add(GenerateFilesAndFolders(item));
+    }
+
+    private TreeViewItem GenerateFilesAndFolders(DownloadObject item)
+    {
+        switch (item)
+        {
+            case DownloadFile file:
+                var tv_item_file = new TreeViewItem { Header = file.FileName, Tag = file };
+                file.AssociatedObject = tv_item_file;
+                return tv_item_file;
+
+            case DownloadFolder folder:
+                var tv_item_folder = new TreeViewItem { Header = folder.Name, Tag = folder };
+                folder.AssociatedObject = tv_item_folder;
+                foreach (var sub_item in folder.Content) tv_item_folder.Items.Add(GenerateFilesAndFolders(sub_item));
+
+                return tv_item_folder;
+        }
+
+        return new TreeViewItem { Header = "???", Tag = item };
     }
 
     private async void LoadClicked(object? sender, RoutedEventArgs e)
@@ -227,7 +270,8 @@ public partial class MainView : UserControl
 
             var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
             {
-                Title = "Open a BlueAir file...",
+                Title = Properties.Resources.OpenAFileTitle.Replace("{app_name}", "BlueAir",
+                    StringComparison.OrdinalIgnoreCase),
                 AllowMultiple = false,
                 FileTypeFilter = new[]
                 {
@@ -273,7 +317,8 @@ public partial class MainView : UserControl
 
             var files = await topLevel.StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
             {
-                Title = "Save a BlueAir file...",
+                Title = Properties.Resources.SaveAFile.Replace("{app_name}", "BlueAir",
+                    StringComparison.OrdinalIgnoreCase),
                 FileTypeChoices = new[]
                 {
                     new FilePickerFileType("BlueAir")
@@ -285,6 +330,7 @@ public partial class MainView : UserControl
             if (files != null)
             {
                 IsLoadedFromFile = true;
+                CurrentFile = files.Path.AbsolutePath;
                 await using var stream = new FileStream(files.Path.AbsolutePath,
                     File.Exists(files.Path.AbsolutePath) ? FileMode.Truncate : FileMode.CreateNew, FileAccess.ReadWrite,
                     FileShare.ReadWrite);
@@ -351,7 +397,7 @@ public partial class MainView : UserControl
 
             var folder = await topLevel.StorageProvider.OpenFolderPickerAsync(new FolderPickerOpenOptions
             {
-                Title = "Pick a target folder...",
+                Title = Properties.Resources.PickATargetFolder,
                 SuggestedStartLocation = !string.IsNullOrWhiteSpace(TargetFolder.Text)
                     ? await topLevel.StorageProvider.TryGetFolderFromPathAsync(TargetFolder.Text)
                     : null,
@@ -570,11 +616,13 @@ public partial class MainView : UserControl
 
             var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
             {
-                Title = "Open a BlueAir Download Agent...",
+                Title = Properties.Resources.PickAnAgentfile.Replace("{app_name}", "BlueAir",
+                    StringComparison.OrdinalIgnoreCase),
                 AllowMultiple = false,
                 FileTypeFilter = new[]
                 {
-                    new FilePickerFileType("BlueAir Download Agent")
+                    new FilePickerFileType(Properties.Resources.AgentFileDesc.Replace("{app_name}", "BlueAir",
+                            StringComparison.OrdinalIgnoreCase))
                         { Patterns = "*.bada|*.xml".Split('|') },
                     FilePickerFileTypes.All
                 }

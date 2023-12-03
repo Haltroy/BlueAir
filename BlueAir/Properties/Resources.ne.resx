@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>एक फोल्डर छान्नुहोस् ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>एक {app_नाम} फाइल खोल्नुहोस् ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>नोट: यो सुविधा मोबाइल प्लेटफर्म वा प्लेटफर्महरूमा काम गर्दैन जुन कार्यक्रमहरू बिना कार्यकारीहरू चलाउन सक्दैन।</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>प्रदर्शन / लुकाउनुहोस्</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>सुनूर</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>लोड ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>बचत गर्नुहोस् ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>यसरी राख...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>शुरु</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>लक्ष्य फोल्डर:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>ग्राम डाउनलोड गर्नुहोस्:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>डाउनलोड अघि र पछाडि आदेशहरू चलाउनुहोस्:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>डाउनलोड अघि:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>डाउनलोड पछि:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>आवश्यक</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>असफल हुन</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>नयाँ फोल्डर ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>नयाँ फाईल ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>चयन गरिएको चयन गर्नुहोस् ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>नाम:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>जरा फोल्डर</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>स्वचालित रूपमा फाईलहरू हटाउनुहोस् जुन समाप्त हुन्छ:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>बतंग</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>विषयवस्तु (टगल गर्न क्लिक गर्नुहोस्):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>प्रणाली विषयवस्तु प्रयोग गर्नुहोस्</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>विषयवस्तु प्रयोग गर्नुहोस्:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>हलुका</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>अध्यारो</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>एक्सेलेटर रंग (ट्यूगल गर्न क्लिक गर्नुहोस्):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>रंग प्रयोग गर्नुहोस्:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>प्रणाली पूर्वनिर्धारित रंग प्रयोग गर्नुहोस्</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>अनुमतिहरू डाउनलोड गर्नुहोस्</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>चयन गरिएको चयन गर्नुहोस् ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>फाईलबाट स्थापना गर्नुहोस् ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>नोट: केहि एजेन्टहरू कमान्ड-लाइन आधारित छन् र मोबाइल प्लेटफर्ममा काम गर्दैन।</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>भ्यारीएबल</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>प्राय</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>ब्याच डाउनलोड गर्नुहोस् र सजिलै फाईल्नको लागि फाईलहरू।</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>अनुमतिपत्र</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>प्रविधिहरू प्रयोग गरियो:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>एक {app_नाम} क्रेडिट बचत गर्नुहोस् ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>एक लक्ष्य फोल्डर छान्नुहोस् ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>A {app_name} regra फाईल छान्नुहोस् ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_mnam} डाउनलोड एजेन्ट</value>
+</data>
+</root>

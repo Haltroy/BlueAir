@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Фолдерыг сонго ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Нээлттэй {App_name} Файлыг нээнэ үү ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Тэмдэглэл: Энэ функц нь гар утасны платформ эсвэл платформ дээр ажиллахгүй байх боломжгүй.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Гаралтыг үзүүлэх / нуух</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Татаж авсан</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Ачаалал ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Хадгалах ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Хадгалах...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Эхлэх</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Зорилтот хавтас:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Татаж авах агент:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Татаж авахаас өмнө болон дараа командыг ажиллуул.</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Татаж авахаас өмнө:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Татаж авсны дараа:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Нь урьдчилсан</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Бүтэлгүйтэж болно</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Шинэ хавтас...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Шинэ файл ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Сонгосон ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Нэр:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Гол фолдор</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Дууссан файлуудыг автоматаар устгах:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Тохиргоо</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Сэдэв (сэлгэхийн тулд дарна уу):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Системийн сэдэв ашиглах</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Сэдвийг ашиглана уу:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Гэрэл</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Бүдүүлэг</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Өргөлтийн өнгө (сэлгэхийн тулд дарна уу):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Ашиглах өнгө:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Системийн үндсэн өнгийг ашиглана уу</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Татаж авах агентууд</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Сонгосон ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Файлаас суулгана уу ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Тэмдэглэл: Зарим агентууд нь командын шугам дээр суурилсан бөгөөд хөдөлгөөнт платформ дээр ажиллахгүй.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Хувьслах</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Тухай</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Багц татаж авах, файлуудыг хялбархан боловсруулах.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Тусгай зөвшөөрөл</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Ашигласан технологи:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>{App_NAME} Файлыг хэмнэх ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Зорилтот фолдерыг сонго ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>{App_name} Агент файлыг сонгоно уу ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_Name} Татаж авах агент</value>
+</data>
+</root>

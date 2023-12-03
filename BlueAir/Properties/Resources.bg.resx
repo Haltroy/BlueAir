@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Изберете папка ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Отворете файл {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>ЗАБЕЛЕЖКА: Тази функция не работи върху мобилни платформи или платформи, които няма да позволят на програми да стартират изпълними файлове без разрешения.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Показване/скриване на изхода</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Изтегляне</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Товар ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Запазете ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Запази като...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Започнете</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Целева папка:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Изтеглете агент:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Изпълнете команди преди и след изтегляне:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Преди изтегляне:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>След изтегляне:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Задължително</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Може да се провали</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Нова папка...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Нов файл ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Премахнете избраното...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Име:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Коренна папка</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Автоматично премахване на файлове, които са завършени:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Тема (щракнете, за да превключвате):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Използвайте системната тема</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Използвайте тема:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Светлина</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Тъмно</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Цвят на акцент (щракнете за превключване):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Използвайте цвят:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Използвайте цвета на системата по подразбиране</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Изтеглете агенти</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Премахнете избраното...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Инсталиране от файл ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Забележка: Някои агенти са базирани на команден ред и няма да работят на мобилни платформи.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Променливи</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>относно</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Партида изтегляне и обработка на файлове лесно.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Разрешително</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Използвани технологии:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Запазете файл {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Изберете целева папка ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Изберете {app_name} файл на агента ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Изтегляне на агент</value>
+</data>
+</root>

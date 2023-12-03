@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:BlueAir.ViewModels"
              xmlns:ui="using:FluentAvalonia.UI.Controls"
+             xmlns:blueAir="clr-namespace:BlueAir.Properties"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BlueAir.Views.MainView"
              Initialized="OnInit"
@@ -14,22 +15,24 @@
 
     <ui:TabView IsAddTabButtonVisible="False" CanReorderTabs="False" CanDragTabs="False" HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch">
-        <ui:TabViewItem Header="Downloader" IsClosable="False">
+        <ui:TabViewItem Header="{x:Static blueAir:Resources.Downloader}" IsClosable="False">
             <DockPanel LastChildFill="True">
                 <StackPanel DockPanel.Dock="Top" Orientation="Vertical">
                     <WrapPanel HorizontalAlignment="Center" Margin="5">
-                        <Button Content="Load..." HorizontalAlignment="Stretch"
+                        <Button Content="{x:Static blueAir:Resources.Load}" HorizontalAlignment="Stretch"
                                 HorizontalContentAlignment="Center" Click="LoadClicked" />
-                        <Button Content="Save..." HorizontalAlignment="Stretch"
+                        <Button Content="{x:Static blueAir:Resources.Save}" HorizontalAlignment="Stretch"
                                 HorizontalContentAlignment="Center" Click="SaveClicked" />
-                        <Button Content="Save as..." HorizontalAlignment="Stretch"
+                        <Button Content="{x:Static blueAir:Resources.SaveAs}" HorizontalAlignment="Stretch"
                                 HorizontalContentAlignment="Center" Click="SaveAsClicked" />
-                        <Button Content="Start" HorizontalAlignment="Stretch" Name="StartStop"
+                        <Button Content="{x:Static blueAir:Resources.Start}" HorizontalAlignment="Stretch"
+                                Name="StartStop"
                                 HorizontalContentAlignment="Center" Click="StartStopClicked" />
                     </WrapPanel>
                 </StackPanel>
                 <StackPanel Orientation="Vertical" DockPanel.Dock="Bottom">
-                    <ToggleButton Margin="10" Content="Show/Hide Output" Name="ShowHideOutput" />
+                    <ToggleButton Margin="10" Content="{x:Static blueAir:Resources.ShowHideOutput}"
+                                  Name="ShowHideOutput" />
                     <TextBox
                         MinHeight="100"
                         MaxHeight="100"
@@ -48,17 +51,19 @@
                         <Border BorderThickness="2" CornerRadius="10" BorderBrush="#80808080">
                             <StackPanel Orientation="Vertical" Spacing="10" Margin="10">
                                 <DockPanel LastChildFill="True">
-                                    <TextBlock Text="Target Folder:" VerticalAlignment="Center" DockPanel.Dock="Left" />
+                                    <TextBlock Text="{x:Static blueAir:Resources.TargetFolder}"
+                                               VerticalAlignment="Center" DockPanel.Dock="Left" />
                                     <Button Content="..." DockPanel.Dock="Right" Click="TargetFolderPicker" />
                                     <TextBox Name="TargetFolder" Margin="5 0" />
                                 </DockPanel>
                                 <DockPanel LastChildFill="True">
-                                    <TextBlock Text="Download Agent:" VerticalAlignment="Center" DockPanel.Dock="Left" />
+                                    <TextBlock Text="{x:Static blueAir:Resources.DownloadAgent}"
+                                               VerticalAlignment="Center" DockPanel.Dock="Left" />
                                     <ComboBox HorizontalAlignment="Stretch" SelectionChanged="DownloadAgentChanged"
                                               Name="DownloadAgents" />
                                 </DockPanel>
                                 <StackPanel Orientation="Horizontal" Spacing="5">
-                                    <TextBlock Text="Run commands before and after each download:"
+                                    <TextBlock Text="{x:Static blueAir:Resources.RunCommands}"
                                                VerticalAlignment="Center" />
                                     <ToggleSwitch Name="RunCommandsBeforeAfter"
                                                   IsCheckedChanged="RunCommandsBeforeAfterChanged" />
@@ -73,54 +78,63 @@
                                 IsEnabled="{CompiledBinding #RunCommandsBeforeAfter.IsChecked}">
                             <StackPanel Orientation="Vertical" Spacing="10" Margin="10">
                                 <DockPanel LastChildFill="True">
-                                    <TextBlock Text="Before download:" VerticalAlignment="Center"
+                                    <TextBlock Text="{x:Static blueAir:Resources.BeforeCommand}"
+                                               VerticalAlignment="Center"
                                                DockPanel.Dock="Left" />
-                                    <ToggleSwitch DockPanel.Dock="Right" OnContent="Required" OffContent="Can fail"
+                                    <ToggleSwitch DockPanel.Dock="Right"
+                                                  OnContent="{x:Static blueAir:Resources.Required}"
+                                                  OffContent="{x:Static blueAir:Resources.AllowFailure}"
                                                   Name="BeforeCommandRequire"
                                                   IsCheckedChanged="BeforeCommandRequirementChanged" />
                                     <TextBox Name="BeforeCommand" Margin="5 0" TextChanged="BeforeCommandChanged" />
                                 </DockPanel>
                                 <DockPanel LastChildFill="True">
-                                    <TextBlock Text="After download:" VerticalAlignment="Center"
+                                    <TextBlock Text="{x:Static blueAir:Resources.AfterCommand}"
+                                               VerticalAlignment="Center"
                                                DockPanel.Dock="Left" />
-                                    <ToggleSwitch DockPanel.Dock="Right" OnContent="Required" OffContent="Can fail"
+                                    <ToggleSwitch DockPanel.Dock="Right"
+                                                  OnContent="{x:Static blueAir:Resources.Required}"
+                                                  OffContent="{x:Static blueAir:Resources.AllowFailure}"
                                                   Name="AfterCommandRequire"
                                                   IsCheckedChanged="AfterCommandRequirementChanged" />
                                     <TextBox Name="AfterCommand" Margin="5 0" TextChanged="AfterCommandChanged" />
                                 </DockPanel>
-                                <TextBlock
-                                    Text="NOTE: This feature does not work on mobile platforms or platforms that won't let programs to run executables without permissions." />
+                                <TextBlock Text="{x:Static blueAir:Resources.CommandNoMobileInfo}" />
                             </StackPanel>
                         </Border>
                         <TextBlock Text="Files and Folders" FontSize="17.5" FontWeight="Bold" />
                         <Border BorderThickness="2" CornerRadius="10" BorderBrush="#80808080">
                             <StackPanel Orientation="Vertical" Spacing="10" Margin="10">
                                 <WrapPanel HorizontalAlignment="Center">
-                                    <Button Content="New Folder..." HorizontalAlignment="Stretch"
+                                    <Button Content="{x:Static blueAir:Resources.NewFolder}"
+                                            HorizontalAlignment="Stretch"
                                             HorizontalContentAlignment="Center" Click="NewFolder" />
-                                    <Button Content="New File..." HorizontalAlignment="Stretch"
+                                    <Button Content="{x:Static blueAir:Resources.NewFile}"
+                                            HorizontalAlignment="Stretch"
                                             HorizontalContentAlignment="Center" Click="NewFile" />
-                                    <Button Content="Remove Selected" HorizontalAlignment="Stretch"
+                                    <Button Content="{x:Static blueAir:Resources.RemoveSelectedDO}"
+                                            HorizontalAlignment="Stretch"
                                             Name="RemoveSelectedFileFolder"
                                             HorizontalContentAlignment="Center" Click="RemoveSelected" />
                                 </WrapPanel>
                                 <StackPanel Orientation="Vertical" Spacing="10">
                                     <DockPanel LastChildFill="True">
-                                        <TextBlock Text="Name:" DockPanel.Dock="Left" />
+                                        <TextBlock Text="{x:Static blueAir:Resources.Name}" DockPanel.Dock="Left" />
                                         <TextBox Name="FileName" Margin="5 0" TextChanged="NameChanged" />
                                     </DockPanel>
                                     <DockPanel LastChildFill="True">
-                                        <TextBlock Text="URL:" DockPanel.Dock="Left" />
+                                        <TextBlock Text="{x:Static blueAir:Resources.URL}" DockPanel.Dock="Left" />
                                         <TextBox Name="FileUrl" Margin="5 0" TextChanged="URLChanged" />
                                     </DockPanel>
                                 </StackPanel>
                                 <TreeView MinHeight="100" Name="ItemTreeView"
                                           SelectionChanged="ItemTreeViewSelectionChanged">
-                                    <TreeViewItem Header="&lt;root&gt;" Tag="MainFolder" IsSelected="True"
+                                    <TreeViewItem Header="{x:Static blueAir:Resources.MainFolder}" Tag="MainFolder"
+                                                  IsSelected="True"
                                                   IsExpanded="True" Name="MainFolder" />
                                 </TreeView>
                                 <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
-                                    <TextBlock Text="Automatically remove items that are finished:"
+                                    <TextBlock Text="{x:Static blueAir:Resources.AutoRemoveFinished}"
                                                VerticalAlignment="Center" />
                                     <ToggleSwitch Name="AutoRemoveItems" OnContent="" OffContent="" />
                                 </StackPanel>
@@ -130,33 +144,37 @@
                 </ScrollViewer>
             </DockPanel>
         </ui:TabViewItem>
-        <ui:TabViewItem Header="Settings" IsClosable="False">
+        <ui:TabViewItem Header="{x:Static blueAir:Resources.Settings}" IsClosable="False">
             <ScrollViewer>
                 <StackPanel Orientation="Vertical" Spacing="10" Margin="10">
                     <StackPanel Orientation="Horizontal" Spacing="5">
-                        <TextBlock Text="Theme (Click to toggle):" VerticalAlignment="Center" />
+                        <TextBlock Text="{x:Static blueAir:Resources.ThemeSetting}" VerticalAlignment="Center" />
                         <ToggleButton Name="UseSystemTheme" IsCheckedChanged="UseSystemThemeChanged">
                             <Panel>
-                                <TextBlock Text="Use System Theme"
+                                <TextBlock Text="{x:Static blueAir:Resources.UseSystemTheme}"
                                            IsVisible="{CompiledBinding !#UseSystemTheme.IsChecked}" />
-                                <TextBlock Text="Use Theme:" IsVisible="{CompiledBinding #UseSystemTheme.IsChecked}" />
+                                <TextBlock Text="{x:Static blueAir:Resources.UseTheme}"
+                                           IsVisible="{CompiledBinding #UseSystemTheme.IsChecked}" />
                             </Panel>
                         </ToggleButton>
                         <ToggleButton Name="LightDarkMode" IsVisible="{CompiledBinding #UseSystemTheme.IsChecked}"
                                       IsCheckedChanged="DarkCheckedChanged">
                             <Panel>
-                                <TextBlock Text="Light" IsVisible="{CompiledBinding !#LightDarkMode.IsChecked}" />
-                                <TextBlock Text="Dark" IsVisible="{CompiledBinding #LightDarkMode.IsChecked}" />
+                                <TextBlock Text="{x:Static blueAir:Resources.ThemeLight}"
+                                           IsVisible="{CompiledBinding !#LightDarkMode.IsChecked}" />
+                                <TextBlock Text="{x:Static blueAir:Resources.ThemeDark}"
+                                           IsVisible="{CompiledBinding #LightDarkMode.IsChecked}" />
                             </Panel>
                         </ToggleButton>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Spacing="5">
-                        <TextBlock Text="Accent Color (Click to toggle):" VerticalAlignment="Center" />
+                        <TextBlock Text="{x:Static blueAir:Resources.ColorSetting}" VerticalAlignment="Center" />
                         <ToggleButton Name="UseSystemColor" IsCheckedChanged="UseSystemColorCheckedChanged">
                             <Panel>
-                                <TextBlock Text="Use Default Accent Color"
+                                <TextBlock Text="{x:Static blueAir:Resources.UseDefaultColor}"
                                            IsVisible="{CompiledBinding !#UseSystemColor.IsChecked}" />
-                                <TextBlock Text="Custom Color:" IsVisible="{CompiledBinding #UseSystemColor.IsChecked}" />
+                                <TextBlock Text="{x:Static blueAir:Resources.UseColor}"
+                                           IsVisible="{CompiledBinding #UseSystemColor.IsChecked}" />
                             </Panel>
                         </ToggleButton>
                         <ColorPicker Name="AccentColor" IsVisible="{CompiledBinding #UseSystemColor.IsChecked}"
@@ -165,22 +183,25 @@
                     <Separator />
                     <DockPanel LastChildFill="True">
                         <StackPanel Orientation="Vertical" Spacing="5" DockPanel.Dock="Top">
-                            <TextBlock Text="Download Agents" FontSize="17.5" FontWeight="Bold" />
+                            <TextBlock Text="{x:Static blueAir:Resources.AgentListTitle}" FontSize="17.5"
+                                       FontWeight="Bold" />
                             <WrapPanel HorizontalAlignment="Center">
-                                <Button Content="Remove selected" HorizontalAlignment="Stretch"
+                                <Button Content="{x:Static blueAir:Resources.AgentRemoveSelected}"
+                                        HorizontalAlignment="Stretch"
                                         HorizontalContentAlignment="Center" Click="AgentRemoveSelected" />
-                                <Button Content="Install from file" HorizontalAlignment="Stretch"
+                                <Button Content="{x:Static blueAir:Resources.AgentInstallNew}"
+                                        HorizontalAlignment="Stretch"
                                         HorizontalContentAlignment="Center" Click="AgentInstallFromFile" />
                             </WrapPanel>
                             <TextBlock
-                                Text="NOTE: Some download agents are command-line based and won't work on mobile platforms."
+                                Text="{x:Static blueAir:Resources.AgentCommandInfo}"
                                 TextWrapping="Wrap" />
                         </StackPanel>
                         <TreeView Name="AgentsList" MinHeight="100" />
                     </DockPanel>
                     <Separator />
                     <DockPanel LastChildFill="True">
-                        <TextBlock Text="Variables" FontSize="17.5" FontWeight="Bold" />
+                        <TextBlock Text="{x:Static blueAir:Resources.VariablesTitle}" FontSize="17.5" FontWeight="Bold" />
                         <ScrollViewer>
                             <StackPanel Orientation="Vertical" Spacing="5" Name="VariableList" MinHeight="100" />
                         </ScrollViewer>
@@ -188,7 +209,7 @@
                 </StackPanel>
             </ScrollViewer>
         </ui:TabViewItem>
-        <ui:TabViewItem Header="About" IsClosable="False">
+        <ui:TabViewItem Header="{x:Static blueAir:Resources.AboutTitle}" IsClosable="False">
             <ScrollViewer>
                 <DockPanel LastChildFill="True">
                     <Panel Height="10" DockPanel.Dock="Bottom" />
@@ -205,11 +226,11 @@
                             <TextBlock FontSize="15" TextAlignment="Center" Text="haltroy" />
                         </StackPanel>
                         <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <Button Content="License"
+                            <Button Content="{x:Static blueAir:Resources.AboutLicense}"
                                     Tag="https://github.com/haltroy/BlueAir/blob/main/LICENSE"
                                     Click="Navigate" />
                             <Button Click="Navigate" Content="Website" Tag="https://haltroy.com" />
-                            <Button Click="Navigate" Content="Twitter" Tag="https://twitter.com/haltroy" />
+                            <Button Click="Navigate" Content="Twitter/X" Tag="https://twitter.com/haltroy" />
                             <Button Click="Navigate" Content="GitHub" Tag="https://github.com/haltroy" />
                             <Button Click="Navigate" Content="Reddit" Tag="https://reddit.com/r/haltroy" />
                         </WrapPanel>
@@ -221,13 +242,11 @@
                         <TextBox IsReadOnly="true" VerticalAlignment="Stretch" TextAlignment="Left"
                                  TextWrapping="Wrap"
                                  AcceptsReturn="True"
-                                 HorizontalAlignment="Center">
-                            Batch download and process files from web.
-                        </TextBox>
+                                 HorizontalAlignment="Center" Text="{x:Static blueAir:Resources.AboutDescription}" />
 
                         <Panel Height="25" />
 
-                        <TextBlock Text="Technologies used:" HorizontalAlignment="Center" />
+                        <TextBlock Text="{x:Static blueAir:Resources.AboutTechnologies}" HorizontalAlignment="Center" />
                         <StackPanel Orientation="Vertical" Spacing="10" HorizontalAlignment="Center">
                             <StackPanel Orientation="Horizontal" Spacing="10">
                                 <TextBlock Text="● Avalonia UI" VerticalAlignment="Center" FontSize="15" />

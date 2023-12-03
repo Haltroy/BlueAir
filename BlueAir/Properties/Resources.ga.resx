@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Roghnaigh fillteán ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Oscail comhad {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Nóta: Ní oibríonn an ghné seo ar ardáin soghluaiste nó ar ardáin nach ligfidh do chláir inrite a reáchtáil gan ceadanna.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Aschur a thaispeáint/a cheilt</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Íoslódáil</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Luchtú ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Sábháil ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Sábháil mar...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Cuir ar siúl</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Fillteán Sprioc:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Gníomhaire Íoslódáil:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Orduithe Rith roimh agus tar éis íoslódála:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Roimh íoslódáil:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Tar éis íoslódáil:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Gá</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Is féidir teip</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Fillteán nua...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Comhad nua ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Bain roghnaithe ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Ainmnigh:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Fillteán fréimhe</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Bain comhaid atá críochnaithe go huathoibríoch:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Socruithe</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Téama (cliceáil chun scoránaigh):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Úsáid téama an chórais</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Úsáid téama:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Léas</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Dorcha</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Dath Accent (cliceáil chun scoránaigh):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Úsáid dath:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Úsáid dath réamhshocraithe an chórais</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Gníomhairí a íoslódáil</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Bain roghnaithe ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Suiteáil ó chomhad ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Tabhair faoi deara: Tá roinnt gníomhairí bunaithe ar líne ordaithe agus ní oibreoidh siad ar ardáin soghluaiste.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Athróg</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Faoi</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Baisc íoslódáil agus próiseáil comhaid go héasca.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Cead</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teicneolaíochtaí a úsáideadh:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Sábháil comhad {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Roghnaigh Fillteán Sprioc ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Roghnaigh comhad gníomhaire {app_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Gníomhaire íoslódála</value>
+</data>
+</root>

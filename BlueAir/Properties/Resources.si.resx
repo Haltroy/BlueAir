@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>ෆෝල්ඩරයක් ගන්න ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>{App_name} ගොනුවක් විවෘත කරන්න ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>සටහන: මෙම අංගය ජංගම වේදිකා හෝ වේදිකාවල හෝ වේදිකාවල ක්රියාත්මක නොවේ.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>ප්රතිදානය පෙන්වන්න / සඟවන්න</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>බාගත කරන්නා</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>පැටවීම ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>සුරකින්න ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>සුරකින්න ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>ආරම්භ කරන්න</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>ඉලක්ක ෆෝල්ඩරය:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>නියෝජිතයා බාගන්න:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>බාගත කිරීමකට පෙර සහ පසුව විධාන ධාවනය කරන්න:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>බාගත කිරීමට පෙර:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>බාගත කිරීමෙන් පසු:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>අවශ්යයි</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>අසමත් විය හැකිය</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>නව ෆෝල්ඩරය ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>නව ගොනුව ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>තෝරාගත් ඉවත් කරන්න ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>නම:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>මූල ෆෝල්ඩරය</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>අවසන් කර ඇති ගොනු ස්වයංක්රීයව ඉවත් කරන්න:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>සැකසුම්</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>තේමාව (ටොගල කිරීමට ක්ලික් කරන්න):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>පද්ධති තේමාව භාවිතා කරන්න</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>තේමාව භාවිතා කරන්න:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>ආලෝකය</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>අඳුරු</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>උච්චාරණය වර්ණය (ටොගල් කිරීමට ක්ලික් කරන්න):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>වර්ණය භාවිතා කරන්න:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>පද්ධති පෙරනිමි වර්ණය භාවිතා කරන්න</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>බාගැනීම් නියෝජිතයන්</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>තෝරාගත් ඉවත් කරන්න ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>ගොනුවෙන් ස්ථාපනය කරන්න ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>සටහන: සමහර නියෝජිතයන් විධාන රේඛා පදනම් කරගත් අතර ජංගම වේදිකාවල ක්රියා නොකරනු ඇත.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>විචල්යයන්</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>ගැන</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>කණ්ඩායම පහසුවෙන් ගොනු පහසුවෙන් බාගත කර සකස් කරන්න.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>බලපත්රය</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>භාවිතා කරන තාක්ෂණයන්:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>{App_name} ගොනුවක් සුරකින්න ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>ඉලක්ක ෆෝල්ඩරයක් ගන්න ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>{App_name} නියෝජිත ගොනුවක් තෝරන්න ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} බාගත කරන්න නියෝජිත</value>
+</data>
+</root>
