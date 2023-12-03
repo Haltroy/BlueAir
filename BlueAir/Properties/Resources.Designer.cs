@@ -14,18 +14,18 @@ namespace BlueAir.Properties {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static System.Resources.ResourceManager resourceMan;
         
         private static System.Globalization.CultureInfo resourceCulture;
         
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        public Resources() {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static System.Resources.ResourceManager ResourceManager {
+        public static System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.Equals(null, resourceMan)) {
                     System.Resources.ResourceManager temp = new System.Resources.ResourceManager("BlueAir.Properties.Resources", typeof(Resources).Assembly);
@@ -36,7 +36,7 @@ namespace BlueAir.Properties {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static System.Globalization.CultureInfo Culture {
+        public static System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -45,271 +45,271 @@ namespace BlueAir.Properties {
             }
         }
         
-        internal static string PickAFolder {
+        public static string PickAFolder {
             get {
                 return ResourceManager.GetString("PickAFolder", resourceCulture);
             }
         }
         
-        internal static string OpenAFileTitle {
+        public static string OpenAFileTitle {
             get {
                 return ResourceManager.GetString("OpenAFileTitle", resourceCulture);
             }
         }
         
-        internal static string CommandNoMobileInfo {
+        public static string CommandNoMobileInfo {
             get {
                 return ResourceManager.GetString("CommandNoMobileInfo", resourceCulture);
             }
         }
         
-        internal static string ShowHideOutput {
+        public static string ShowHideOutput {
             get {
                 return ResourceManager.GetString("ShowHideOutput", resourceCulture);
             }
         }
         
-        internal static string Downloader {
+        public static string Downloader {
             get {
                 return ResourceManager.GetString("Downloader", resourceCulture);
             }
         }
         
-        internal static string Load {
+        public static string Load {
             get {
                 return ResourceManager.GetString("Load", resourceCulture);
             }
         }
         
-        internal static string Save {
+        public static string Save {
             get {
                 return ResourceManager.GetString("Save", resourceCulture);
             }
         }
         
-        internal static string SaveAs {
+        public static string SaveAs {
             get {
                 return ResourceManager.GetString("SaveAs", resourceCulture);
             }
         }
         
-        internal static string Start {
+        public static string Start {
             get {
                 return ResourceManager.GetString("Start", resourceCulture);
             }
         }
         
-        internal static string TargetFolder {
+        public static string TargetFolder {
             get {
                 return ResourceManager.GetString("TargetFolder", resourceCulture);
             }
         }
         
-        internal static string DownloadAgent {
+        public static string DownloadAgent {
             get {
                 return ResourceManager.GetString("DownloadAgent", resourceCulture);
             }
         }
         
-        internal static string RunCommands {
+        public static string RunCommands {
             get {
                 return ResourceManager.GetString("RunCommands", resourceCulture);
             }
         }
         
-        internal static string BeforeCommand {
+        public static string BeforeCommand {
             get {
                 return ResourceManager.GetString("BeforeCommand", resourceCulture);
             }
         }
         
-        internal static string AfterCommand {
+        public static string AfterCommand {
             get {
                 return ResourceManager.GetString("AfterCommand", resourceCulture);
             }
         }
         
-        internal static string Required {
+        public static string Required {
             get {
                 return ResourceManager.GetString("Required", resourceCulture);
             }
         }
         
-        internal static string AllowFailure {
+        public static string AllowFailure {
             get {
                 return ResourceManager.GetString("AllowFailure", resourceCulture);
             }
         }
         
-        internal static string NewFolder {
+        public static string NewFolder {
             get {
                 return ResourceManager.GetString("NewFolder", resourceCulture);
             }
         }
         
-        internal static string NewFile {
+        public static string NewFile {
             get {
                 return ResourceManager.GetString("NewFile", resourceCulture);
             }
         }
         
-        internal static string RemoveSelectedDO {
+        public static string RemoveSelectedDO {
             get {
                 return ResourceManager.GetString("RemoveSelectedDO", resourceCulture);
             }
         }
         
-        internal static string Name {
+        public static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
             }
         }
         
-        internal static string URL {
+        public static string URL {
             get {
                 return ResourceManager.GetString("URL", resourceCulture);
             }
         }
         
-        internal static string MainFolder {
+        public static string MainFolder {
             get {
                 return ResourceManager.GetString("MainFolder", resourceCulture);
             }
         }
         
-        internal static string AutoRemoveFinished {
+        public static string AutoRemoveFinished {
             get {
                 return ResourceManager.GetString("AutoRemoveFinished", resourceCulture);
             }
         }
         
-        internal static string Settings {
+        public static string Settings {
             get {
                 return ResourceManager.GetString("Settings", resourceCulture);
             }
         }
         
-        internal static string ThemeSetting {
+        public static string ThemeSetting {
             get {
                 return ResourceManager.GetString("ThemeSetting", resourceCulture);
             }
         }
         
-        internal static string UseSystemTheme {
+        public static string UseSystemTheme {
             get {
                 return ResourceManager.GetString("UseSystemTheme", resourceCulture);
             }
         }
         
-        internal static string UseTheme {
+        public static string UseTheme {
             get {
                 return ResourceManager.GetString("UseTheme", resourceCulture);
             }
         }
         
-        internal static string ThemeLight {
+        public static string ThemeLight {
             get {
                 return ResourceManager.GetString("ThemeLight", resourceCulture);
             }
         }
         
-        internal static string ThemeDark {
+        public static string ThemeDark {
             get {
                 return ResourceManager.GetString("ThemeDark", resourceCulture);
             }
         }
         
-        internal static string ColorSetting {
+        public static string ColorSetting {
             get {
                 return ResourceManager.GetString("ColorSetting", resourceCulture);
             }
         }
         
-        internal static string UseDefaultColor {
+        public static string UseDefaultColor {
             get {
                 return ResourceManager.GetString("UseDefaultColor", resourceCulture);
             }
         }
         
-        internal static string UseColor {
+        public static string UseColor {
             get {
                 return ResourceManager.GetString("UseColor", resourceCulture);
             }
         }
         
-        internal static string AgentListTitle {
+        public static string AgentListTitle {
             get {
                 return ResourceManager.GetString("AgentListTitle", resourceCulture);
             }
         }
         
-        internal static string AgentRemoveSelected {
+        public static string AgentRemoveSelected {
             get {
                 return ResourceManager.GetString("AgentRemoveSelected", resourceCulture);
             }
         }
         
-        internal static string AgentInstallNew {
+        public static string AgentInstallNew {
             get {
                 return ResourceManager.GetString("AgentInstallNew", resourceCulture);
             }
         }
         
-        internal static string AgentCommandInfo {
+        public static string AgentCommandInfo {
             get {
                 return ResourceManager.GetString("AgentCommandInfo", resourceCulture);
             }
         }
         
-        internal static string VariablesTitle {
+        public static string VariablesTitle {
             get {
                 return ResourceManager.GetString("VariablesTitle", resourceCulture);
             }
         }
         
-        internal static string AboutTitle {
+        public static string AboutTitle {
             get {
                 return ResourceManager.GetString("AboutTitle", resourceCulture);
             }
         }
         
-        internal static string AboutDescription {
+        public static string AboutDescription {
             get {
                 return ResourceManager.GetString("AboutDescription", resourceCulture);
             }
         }
         
-        internal static string AboutLicense {
+        public static string AboutLicense {
             get {
                 return ResourceManager.GetString("AboutLicense", resourceCulture);
             }
         }
         
-        internal static string AboutTechnologies {
+        public static string AboutTechnologies {
             get {
                 return ResourceManager.GetString("AboutTechnologies", resourceCulture);
             }
         }
         
-        internal static string SaveAFile {
+        public static string SaveAFile {
             get {
                 return ResourceManager.GetString("SaveAFile", resourceCulture);
             }
         }
         
-        internal static string PickATargetFolder {
+        public static string PickATargetFolder {
             get {
                 return ResourceManager.GetString("PickATargetFolder", resourceCulture);
             }
         }
         
-        internal static string PickAnAgentfile {
+        public static string PickAnAgentfile {
             get {
                 return ResourceManager.GetString("PickAnAgentfile", resourceCulture);
             }
         }
         
-        internal static string AgentFileDesc {
+        public static string AgentFileDesc {
             get {
                 return ResourceManager.GetString("AgentFileDesc", resourceCulture);
             }
