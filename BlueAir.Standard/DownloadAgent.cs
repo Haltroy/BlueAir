@@ -41,6 +41,11 @@ namespace BlueAir
         public string Command { get; set; } = string.Empty;
         public string[] FilesToSearch { get; set; } = Array.Empty<string>();
 
+        public void Run(string fileName, string url, bool fileNameIsFolder, Action<float> progress,
+            Action<string> output)
+        {
+        }
+
         private void ParseXml(XmlNode node)
         {
             throw new NotImplementedException();

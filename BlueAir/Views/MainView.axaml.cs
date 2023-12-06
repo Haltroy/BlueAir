@@ -3,16 +3,21 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Layout;
 using Avalonia.Media;
 using Avalonia.Platform.Storage;
 using Avalonia.Styling;
 using Avalonia.Threading;
+using BlueAir.Properties;
+using FluentAvalonia.UI.Controls;
+using ColorChangedEventArgs = Avalonia.Controls.ColorChangedEventArgs;
 
 namespace BlueAir.Views;
 
@@ -348,28 +353,38 @@ public partial class MainView : UserControl
             if (CurrentInfo is null || string.IsNullOrWhiteSpace(TargetFolder.Text)) return;
             CurrentInfo.OnProgressChanged += CurrentInfoProgressChanged;
             CurrentInfo.OnFinishedItem += CurrentInfoOnFinishedItem;
+            CurrentInfo.OnConsoleOutput += CurrentInfoOnConsoleOutput;
             CurrentInfo.Start(TargetFolder.Text);
+            CurrentInfo.OnConsoleOutput -= CurrentInfoOnConsoleOutput;
             CurrentInfo.OnFinishedItem -= CurrentInfoOnFinishedItem;
             CurrentInfo.OnProgressChanged -= CurrentInfoProgressChanged;
             Dispatcher.UIThread.InvokeAsync(() => StartStop.IsEnabled = true);
         });
     }
 
+    private void CurrentInfoOnConsoleOutput(string output)
+    {
+        Dispatcher.UIThread.InvokeAsync(() => Logs.Text += output + Environment.NewLine);
+    }
+
     private void CurrentInfoOnFinishedItem(DownloadObject item)
     {
-        if (AutoRemoveItems.IsChecked is not true || CurrentInfo is null ||
-            item.AssociatedObject is not TreeViewItem tv_item) return;
-        if (item.Parent is null)
+        Dispatcher.UIThread.InvokeAsync(() =>
         {
-            CurrentInfo.Downloads.Remove(item);
-            MainFolder.Items.Remove(tv_item);
-        }
-        else
-        {
-            if (item.Parent.AssociatedObject is TreeViewItem folderParent)
-                folderParent.Items.Remove(tv_item);
-            item.Parent.Content.Remove(item);
-        }
+            if (AutoRemoveItems.IsChecked is not true || CurrentInfo is null ||
+                item.AssociatedObject is not TreeViewItem tv_item) return;
+            if (item.Parent is null)
+            {
+                CurrentInfo.Downloads.Remove(item);
+                MainFolder.Items.Remove(tv_item);
+            }
+            else
+            {
+                if (item.Parent.AssociatedObject is TreeViewItem folderParent)
+                    folderParent.Items.Remove(tv_item);
+                item.Parent.Content.Remove(item);
+            }
+        });
     }
 
     private void CurrentInfoProgressChanged(float percentage, DownloadObject item)
@@ -638,6 +653,42 @@ public partial class MainView : UserControl
                         DownloadAgents.Items.Add(new ComboBoxItem { Content = agent.Name, Tag = agent });
                 });
             }
+        });
+    }
+
+    private async void InputElement_OnPointerPressed(object? sender, PointerPressedEventArgs e)
+    {
+        await Task.Run(async () =>
+        {
+            if (Parent is not TopLevel topLevel) return;
+
+            if (!topLevel.StorageProvider.CanSave) return;
+
+            var lobster = BlueAir.FindSetting("lobster", false);
+
+            if (lobster.Value is true) return;
+
+            var lobsterFile = await topLevel.StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
+            {
+                Title = "BlueAir",
+                SuggestedFileName = "LOBSTER",
+                FileTypeChoices = new[] { FilePickerFileTypes.All },
+                ShowOverwritePrompt = true
+            });
+
+            lobster.Value = true;
+
+            if (lobsterFile is null) return;
+            await using var stream = await lobsterFile.OpenWriteAsync();
+            await using var writer = new StreamWriter(stream, Encoding.UTF8);
+            await writer.WriteLineAsync(Lobster.Code);
+
+
+            await Dispatcher.UIThread.InvokeAsync(() =>
+            {
+                if (Content is TabView tabView)
+                    tabView.SelectedIndex = 0;
+            });
         });
     }
 }
