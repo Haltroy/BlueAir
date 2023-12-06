@@ -18,7 +18,8 @@ namespace BlueAir
 
         public DownloadAgent(string file)
         {
-            if (!File.Exists(file)) throw new FileNotFoundException(null, file);
+            if (!System.IO.File.Exists(file)) throw new FileNotFoundException(null, file);
+            File = file;
             var doc = new XmlDocument();
             using (var stream = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
@@ -36,6 +37,7 @@ namespace BlueAir
             ParseXml(node);
         }
 
+        public string File { get; set; }
         public bool IsEnabled { get; set; } = true;
         public string Name { get; set; }
         public string Command { get; set; } = string.Empty;
