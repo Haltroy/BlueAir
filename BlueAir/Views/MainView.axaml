@@ -215,7 +215,8 @@
                     <Panel Height="10" DockPanel.Dock="Bottom" />
                     <StackPanel DockPanel.Dock="Top" Orientation="Vertical" Spacing="10">
                         <Panel Height="10" />
-                        <Image Width="128" Height="128" Source="/Assets/blueair.png" />
+                        <Image Width="128" Height="128" Source="/Assets/blueair.png"
+                               PointerPressed="InputElement_OnPointerPressed" />
                         <StackPanel Spacing="5" HorizontalAlignment="Center" Orientation="Horizontal">
                             <TextBlock FontSize="20" FontWeight="DemiBold" Text="BlueAir" />
                             <TextBlock Name="Version" />
