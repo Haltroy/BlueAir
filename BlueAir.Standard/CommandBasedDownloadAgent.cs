@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Xml;
 
@@ -45,11 +47,13 @@ namespace BlueAir
         /// <summary>
         ///     Command to execute when starting to download.
         /// </summary>
+        // ReSharper disable once MemberCanBePrivate.Global
         public string Command { get; set; } = string.Empty;
 
         /// <summary>
         ///     Files to search to check if this download agent's command can be accessed.
         /// </summary>
+        // ReSharper disable once MemberCanBePrivate.Global
         public string[] FilesToSearch { get; set; } = Array.Empty<string>();
 
         /// <summary>
@@ -59,15 +63,42 @@ namespace BlueAir
 
         public override string Name => _name;
 
-        private void ParseXml(XmlNode node)
+        private void ParseXml(XmlNode root)
         {
-            // TODO
+            foreach (XmlNode node in root.ChildNodes)
+                switch (node.Name.ToLowerInvariant())
+                {
+                    case "name":
+                        _name = node.InnerXml;
+                        break;
+                    case "command":
+                        Command = node.InnerXml;
+                        break;
+
+                    case "files":
+                        var filesToSearch = new List<string>();
+                        foreach (XmlNode fileSearchNode in node.ChildNodes) filesToSearch.Add(fileSearchNode.InnerXml);
+
+                        FilesToSearch = filesToSearch.ToArray();
+                        break;
+                }
         }
 
         public override void Run(string fileName, string url, bool fileNameIsFolder, Action<float> progress,
             Action<string> output)
         {
-            throw new NotImplementedException();
+            if (BlueAir.DisableCommands) throw new Exception("Commands are disabled.");
+            var before_info = new ProcessStartInfo(Command.Replace("$path$", foundFile).Replace("$url$", url)
+                .Replace("$file$", fileName))
+            {
+                UseShellExecute = true,
+                RedirectStandardOutput = true
+            };
+            var before_process = new Process { StartInfo = before_info };
+            before_process.ErrorDataReceived += (_, args) => output?.Invoke(args.Data);
+            before_process.OutputDataReceived += (_, args) => output?.Invoke(args.Data);
+            before_process.Start();
+            before_process.WaitForExit();
         }
 
         public override bool Exists()
