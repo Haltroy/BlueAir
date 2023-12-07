@@ -65,39 +65,41 @@ public partial class MainView : UserControl
     {
         if (sender is null) return;
         if (Application.Current is null) return;
-        var systemDefault = BlueAir.FindSetting("use-system-default", true);
-        var useDark = BlueAir.FindSetting("use-dark-theme", false);
-        systemDefault.Value = UseSystemTheme.IsChecked is false;
-        if (systemDefault.Value is true)
+        var systemDefault = BlueAir.FindSetting("use-system-default", "true");
+        var useDark = BlueAir.FindSetting("use-dark-theme", "false");
+        systemDefault.Value = UseSystemTheme.IsChecked is false ? "true" : "false";
+        if (systemDefault.Value.ToLowerInvariant() == "true")
             Application.Current.RequestedThemeVariant = ThemeVariant.Default;
         else
-            Application.Current.RequestedThemeVariant = useDark.Value is true ? ThemeVariant.Dark : ThemeVariant.Light;
+            Application.Current.RequestedThemeVariant =
+                useDark.Value.ToLowerInvariant() == "true" ? ThemeVariant.Dark : ThemeVariant.Light;
     }
 
     private void DarkCheckedChanged(object? sender, RoutedEventArgs e)
     {
         if (sender is null) return;
         if (Application.Current is null) return;
-        var systemDefault = BlueAir.FindSetting("use-system-default", true);
-        var useDark = BlueAir.FindSetting("use-dark-theme", false);
-        useDark.Value = LightDarkMode.IsChecked is true;
-        if (systemDefault.Value is true)
+        var systemDefault = BlueAir.FindSetting("use-system-default", "true");
+        var useDark = BlueAir.FindSetting("use-dark-theme", "false");
+        useDark.Value = LightDarkMode.IsChecked is true ? "true" : "false";
+        if (systemDefault.Value.ToLowerInvariant() == "true")
             Application.Current.RequestedThemeVariant = ThemeVariant.Default;
         else
-            Application.Current.RequestedThemeVariant = useDark.Value is true ? ThemeVariant.Dark : ThemeVariant.Light;
+            Application.Current.RequestedThemeVariant =
+                useDark.Value.ToLowerInvariant() == "true" ? ThemeVariant.Dark : ThemeVariant.Light;
     }
 
     private void UseSystemColorCheckedChanged(object? sender, RoutedEventArgs e)
     {
         if (sender is null) return;
         if (Application.Current is not App app) return;
-        var systemDefault = BlueAir.FindSetting("use-system-default-color", true);
-        var color = BlueAir.FindSetting("color", BrandingColor);
-        systemDefault.Value = UseSystemColor.IsChecked is false;
-        if (systemDefault.Value is true)
+        var systemDefault = BlueAir.FindSetting("use-system-default-color", "true");
+        var color = BlueAir.FindSetting("color", BrandingColor.ToString());
+        systemDefault.Value = UseSystemColor.IsChecked is false ? "true" : "false";
+        if (systemDefault.Value.ToLowerInvariant() == "true")
             app.SetAccent(BrandingColor);
         else
-            app.SetAccent(color.Value is uint s ? Color.FromUInt32(s) : BrandingColor);
+            app.SetAccent(Color.TryParse(color.Value, out var c) ? c : BrandingColor);
     }
 
     private void AccentColorChanged(object? sender, ColorChangedEventArgs e)
@@ -105,39 +107,40 @@ public partial class MainView : UserControl
         if (sender is null) return;
         if (AccentColor is null) return;
         if (Application.Current is not App app) return;
-        var systemDefault = BlueAir.FindSetting("use-system-default-color", true);
-        var color = BlueAir.FindSetting("color", BrandingColor);
-        color.Value = AccentColor.Color.ToUInt32();
-        if (systemDefault.Value is true)
+        var systemDefault = BlueAir.FindSetting("use-system-default-color", "true");
+        var color = BlueAir.FindSetting("color", BrandingColor.ToString());
+        color.Value = AccentColor.Color.ToString();
+        if (systemDefault.Value.ToLowerInvariant() == "true")
             app.SetAccent(BrandingColor);
         else
-            app.SetAccent(color.Value is uint s ? Color.FromUInt32(s) : BrandingColor);
+            app.SetAccent(Color.TryParse(color.Value, out var c) ? c : BrandingColor);
     }
 
     private void LoadSettings()
     {
         BlueAir.Init();
         if (Application.Current is not App app) return;
-        var systemDefault = BlueAir.FindSetting("use-system-default", true);
-        var useDark = BlueAir.FindSetting("use-dark-theme", false);
-        var systemDefaultColor = BlueAir.FindSetting("use-system-default-color", true);
-        var color = BlueAir.FindSetting("color", BrandingColor);
+        var systemDefault = BlueAir.FindSetting("use-system-default", "true");
+        var useDark = BlueAir.FindSetting("use-dark-theme", "false");
+        var systemDefaultColor = BlueAir.FindSetting("use-system-default-color", "true");
+        var color = BlueAir.FindSetting("color", BrandingColor.ToString());
 
-        UseSystemTheme.IsChecked = systemDefault.Value is false;
-        LightDarkMode.IsChecked = useDark.Value is true;
-        UseSystemColor.IsChecked = systemDefaultColor.Value is false;
-        AccentColor.Color = color.Value is uint ac ? Color.FromUInt32(ac) : BrandingColor;
+        UseSystemTheme.IsChecked = systemDefault.Value.ToLowerInvariant() == "false";
+        LightDarkMode.IsChecked = useDark.Value.ToLowerInvariant() == "true";
+        UseSystemColor.IsChecked = systemDefaultColor.Value.ToLowerInvariant() == "false";
+        AccentColor.Color = Color.TryParse(color.Value, out var ac) ? ac : BrandingColor;
 
-        if (systemDefault.Value is true)
+        if (systemDefault.Value.ToLowerInvariant() == "true")
             Application.Current.RequestedThemeVariant = ThemeVariant.Default;
 
         else
-            Application.Current.RequestedThemeVariant = useDark.Value is true ? ThemeVariant.Dark : ThemeVariant.Light;
+            Application.Current.RequestedThemeVariant =
+                useDark.Value.ToLowerInvariant() == "true" ? ThemeVariant.Dark : ThemeVariant.Light;
 
-        if (systemDefault.Value is true)
+        if (systemDefault.Value.ToLowerInvariant() == "true")
             app.SetAccent(BrandingColor);
         else
-            app.SetAccent(color.Value is uint s ? Color.FromUInt32(s) : BrandingColor);
+            app.SetAccent(Color.TryParse(color.Value, out var c) ? c : BrandingColor);
 
         if (BlueAir.Agents.Length > 0)
             foreach (var agent in BlueAir.Agents)
@@ -664,9 +667,9 @@ public partial class MainView : UserControl
 
             if (!topLevel.StorageProvider.CanSave) return;
 
-            var lobster = BlueAir.FindSetting("lobster", false);
+            var lobster = BlueAir.FindSetting("lobster", "false");
 
-            if (lobster.Value is true) return;
+            if (lobster.Value.ToLowerInvariant() == "true") return;
 
             var lobsterFile = await topLevel.StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
             {
@@ -676,7 +679,7 @@ public partial class MainView : UserControl
                 ShowOverwritePrompt = true
             });
 
-            lobster.Value = true;
+            lobster.Value = "true";
 
             if (lobsterFile is null) return;
             await using var stream = await lobsterFile.OpenWriteAsync();
