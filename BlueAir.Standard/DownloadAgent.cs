@@ -1,66 +1,33 @@
 using System;
-using System.IO;
-using System.Xml;
 
 namespace BlueAir
 {
-    public class DownloadAgent
+    /// <summary>
+    ///     Base class for all download agents.
+    /// </summary>
+    public abstract class DownloadAgent
     {
-        public DownloadAgent()
-        {
-        }
+        /// <summary>
+        ///     Name of the agent
+        /// </summary>
+        public abstract string Name { get; }
 
-        public DownloadAgent(string command, string[] filesToSearch)
-        {
-            Command = command;
-            FilesToSearch = filesToSearch;
-        }
+        /// <summary>
+        ///     Runs the agent to download a specific file.
+        /// </summary>
+        /// <param name="fileName">Name of the file (if given) or path to download this file to.</param>
+        /// <param name="url">URL of the file.</param>
+        /// <param name="fileNameIsFolder">Determines if the <paramref name="fileName" /> refers to a folder.</param>
+        /// <param name="progress">Action that will be invoked when progress changes.</param>
+        /// <param name="output">Actio nthat will be invoked when a console output occurs.</param>
+        public abstract void Run(string fileName, string url, bool fileNameIsFolder, Action<float> progress,
+            Action<string> output);
 
-        public DownloadAgent(string file)
-        {
-            if (!System.IO.File.Exists(file)) throw new FileNotFoundException(null, file);
-            File = file;
-            var doc = new XmlDocument();
-            using (var stream = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-            {
-                using (var reader = new StreamReader(stream))
-                {
-                    doc.LoadXml(reader.ReadToEnd());
-                }
-            }
 
-            if (doc.DocumentElement != null) ParseXml(doc.DocumentElement);
-        }
-
-        public DownloadAgent(XmlNode node)
-        {
-            ParseXml(node);
-        }
-
-        public string File { get; set; }
-        public bool IsEnabled { get; set; } = true;
-        public string Name { get; set; }
-        public string Command { get; set; } = string.Empty;
-        public string[] FilesToSearch { get; set; } = Array.Empty<string>();
-
-        public void Run(string fileName, string url, bool fileNameIsFolder, Action<float> progress,
-            Action<string> output)
-        {
-        }
-
-        private void ParseXml(XmlNode node)
-        {
-            throw new NotImplementedException();
-        }
-
-        public string ToXml()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Exists()
-        {
-            throw new NotImplementedException();
-        }
+        /// <summary>
+        ///     Checks if the agent does exist and can be used.
+        /// </summary>
+        /// <returns><c>true</c> if the agent does exists, otherwise <c>false</c>.</returns>
+        public abstract bool Exists();
     }
 }

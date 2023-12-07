@@ -13,12 +13,6 @@ namespace BlueAir
     /// </summary>
     public static class BlueAir
     {
-        #region Private Properties
-
-        private static CustomSetting[] CustomSettings { get; set; }
-
-        #endregion Private Properties
-
         #region Private Voids
 
         private static void LoadXml(XmlNode root)
@@ -81,6 +75,13 @@ namespace BlueAir
 
         #endregion Rpivate Voids
 
+        #region Private Properties
+
+        private static CustomSetting[] CustomSettings { get; set; }
+        private static DownloadAgent[] DefaultAgents => new DownloadAgent[] { new HttpDownloadAgent() };
+
+        #endregion Private Properties
+
         #region Public Voids
 
         /// <summary>
@@ -99,13 +100,13 @@ namespace BlueAir
             if (Directory.Exists(SystemAgentsPath))
             {
                 var systemAgents = Directory.GetFiles(SystemAgentsPath, "*.*", SearchOption.AllDirectories);
-                foreach (var agent_file in systemAgents) agents.Add(new DownloadAgent(agent_file));
+                foreach (var agent_file in systemAgents) agents.Add(new CommandBasedDownloadAgent(agent_file));
             }
 
             if (Directory.Exists(UserAgentsPath))
             {
                 var userAgents = Directory.GetFiles(UserAgentsPath, "*.*", SearchOption.AllDirectories);
-                foreach (var agent_file in userAgents) agents.Add(new DownloadAgent(agent_file));
+                foreach (var agent_file in userAgents) agents.Add(new CommandBasedDownloadAgent(agent_file));
             }
 
             Agents = agents.ToArray();
@@ -180,7 +181,7 @@ namespace BlueAir
             File.Copy(file, newFile);
             var agents = Agents;
             Array.Resize(ref agents, agents.Length + 1);
-            var agent = new DownloadAgent(newFile);
+            var agent = new CommandBasedDownloadAgent(newFile);
             agents[agents.Length - 1] = agent;
             Agents = agents;
             return agent;
@@ -192,8 +193,10 @@ namespace BlueAir
         /// <param name="agent">Agent to uninstall.</param>
         public static void UninstallAgent(DownloadAgent agent)
         {
-            Agents = Agents.Except(new[] { agent }).ToArray();
-            if (File.Exists(agent.File)) File.Delete(agent.File);
+            if (DefaultAgents.Contains(agent)) return;
+            if (!(agent is CommandBasedDownloadAgent c_agent)) return;
+            Agents = Agents.Except(new[] { c_agent }).ToArray();
+            if (File.Exists(c_agent.File)) File.Delete(c_agent.File);
         }
 
         #endregion Public Voids
@@ -238,7 +241,7 @@ namespace BlueAir
         /// <summary>
         ///     Array of all usable agents currently loaded.
         /// </summary>
-        public static DownloadAgent[] WorkingAgents => Agents.Where(it => it.Exists() && it.IsEnabled).ToArray();
+        public static DownloadAgent[] WorkingAgents => Agents.Where(it => it.Exists()).ToArray();
 
         /// <summary>
         ///     List of custom folders.
@@ -257,7 +260,7 @@ namespace BlueAir
         /// <returns>
         ///     <see cref="CustomSetting" />
         /// </returns>
-        public static CustomSetting FindSetting(string settingName, object defaultValue = null)
+        public static CustomSetting FindSetting(string settingName, string defaultValue = "")
         {
             if (CustomSettings is null)
             {
@@ -275,7 +278,7 @@ namespace BlueAir
             return NewSetting(settingName, defaultValue);
         }
 
-        private static CustomSetting NewSetting(string settingName, object defaultValue = null)
+        private static CustomSetting NewSetting(string settingName, string defaultValue = "")
         {
             var newSetting = new CustomSetting { Name = settingName, Value = defaultValue };
             var newCustomSettings = CustomSettings;
@@ -335,7 +338,7 @@ namespace BlueAir
     /// </summary>
     public class CustomSetting
     {
-        private object _value;
+        private string _value;
 
         /// <summary>
         ///     Name of the setting.
@@ -345,7 +348,7 @@ namespace BlueAir
         /// <summary>
         ///     Value of the setting. Setting this property auto-saves the BlueAir.
         /// </summary>
-        public object Value
+        public string Value
         {
             get => _value;
             set
