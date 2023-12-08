@@ -151,7 +151,7 @@ public partial class MainView : UserControl
         if (BlueAir.CustomFolders != null && BlueAir.CustomFolders.Length > 0)
             foreach (var env_var in BlueAir.CustomFolders)
             {
-                DockPanel dockPanel = new() { LastChildFill = true };
+                DockPanel dockPanel = new() { LastChildFill = true, Margin = new Thickness(20, 5) };
                 TextBlock varName = new()
                     { VerticalAlignment = VerticalAlignment.Center, Text = env_var.SpecialFolder + ":" };
                 DockPanel.SetDock(varName, Dock.Left);
@@ -159,12 +159,12 @@ public partial class MainView : UserControl
                 var browse = new Button { Content = "..." };
                 DockPanel.SetDock(browse, Dock.Right);
                 dockPanel.Children.Add(browse);
-                var varValue = new TextBox { Text = env_var.GetPath };
+                var varValue = new TextBox { Text = env_var.GetPath, Margin = new Thickness(5, 0) };
                 varValue.TextChanged += (_, _) => env_var.NewPath = varValue.Text;
                 dockPanel.Children.Add(varValue);
                 browse.Click += async (_, _) =>
                 {
-                    await Task.Run(async () =>
+                    await Dispatcher.UIThread.InvokeAsync(async () =>
                     {
                         if (Parent is not TopLevel topLevel) return;
                         if (!topLevel.StorageProvider.CanPickFolder) return;
@@ -204,10 +204,7 @@ public partial class MainView : UserControl
                    Assembly.GetExecutingAssembly() is { } ass
                    && ass.GetName() is { } name
                    && name.Version != null
-                       ? "" + (name.Version.Major > 0 ? name.Version.Major : "") +
-                         (name.Version.Minor > 0 ? "." + name.Version.Minor : "") +
-                         (name.Version.Build > 0 ? "." + name.Version.Build : "") +
-                         (name.Version.Revision > 0 ? "." + name.Version.Revision : "")
+                       ? name.Version.ToString()
                        : "?"
                );
     }

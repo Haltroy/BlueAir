@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} lown ଡାଉନଲୋଡ୍ ଏଜେଣ୍ଟ |</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>ମୁଖ୍ୟ</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ଫାଇଲ୍ ଏବଂ ଫୋଲ୍ଡରଗୁଡ଼ିକ |</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>ନିର୍ଦ୍ଦେଶଗୁଡ଼ିକ</value>
+</data>
 </root>

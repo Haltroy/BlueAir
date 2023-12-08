@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Daxistina Agent</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Ser</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Pel û peldankan</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Fermanan</value>
+</data>
 </root>

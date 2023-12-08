@@ -96,6 +96,7 @@ namespace BlueAir
             CustomFolders = folders.ToArray();
 
             var agents = new List<DownloadAgent>();
+            agents.AddRange(DefaultAgents);
 
             if (Directory.Exists(SystemAgentsPath))
             {
@@ -149,15 +150,19 @@ namespace BlueAir
                         $"<CustomEnv ID=\"{(int)env_var.SpecialFolder}\" Value=\"{env_var.NewPath}\" />{Environment.NewLine}";
             xml += $"</CustomEnvironments>{Environment.NewLine}";
 
-            xml += $"<Settings>{Environment.NewLine}";
+            if (CustomSettings != null)
+            {
+                xml += $"<Settings>{Environment.NewLine}";
+                foreach (var settings in CustomSettings)
+                    xml += $"<Setting Name=\"{settings.Name}\" Value=\"{settings.Value}\" />{Environment.NewLine}";
+                xml += $"</Settings>{Environment.NewLine}";
+            }
 
-            foreach (var settings in CustomSettings)
-                xml += $"<Setting Name=\"{settings.Name}\" Value=\"{settings.Value}\" />{Environment.NewLine}";
+            xml += "</root>";
 
-            xml += $"</Settings>{Environment.NewLine}</root>";
-
+            if (!Directory.Exists(UserRootPath)) Directory.CreateDirectory(UserRootPath);
             using (var stream = new FileStream(UserSettingsPath,
-                       File.Exists(UserSettingsPath) ? FileMode.Create : FileMode.Truncate, FileAccess.Write,
+                       !File.Exists(UserSettingsPath) ? FileMode.Create : FileMode.Truncate, FileAccess.Write,
                        FileShare.ReadWrite))
             {
                 using (var writer = new StreamWriter(stream, Encoding.UTF8))

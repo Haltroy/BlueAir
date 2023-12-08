@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{ايپ_ نالو} ڊائون لوڊ ايجنٽ</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>اهم</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>فائلون ۽ فولڊر</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>حڪم ڏنل</value>
+</data>
 </root>

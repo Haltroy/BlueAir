@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Wakala wa kupakua</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Kuu</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Faili na folda</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Amri</value>
+</data>
 </root>

@@ -161,4 +161,13 @@
          <value>{App_name} Agente de descarga</value>
      </data>
 
+<data name="Main" xml:space="preserve">
+    <value>Principal</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Archivos y carpetas</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Comandos</value>
+</data>
 </root>

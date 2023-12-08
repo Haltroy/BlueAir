@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Prenos agenta</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Glavno</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Datoteke in mape</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Ukazi</value>
+</data>
 </root>

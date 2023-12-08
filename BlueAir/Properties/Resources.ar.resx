@@ -158,4 +158,14 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{app_name} وكيل التنزيل</value>
 </data>
+
+<data name="Main" xml:space="preserve">
+    <value>رئيسي</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>الملفات والمجلدات</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>الأوامر</value>
+</data>
 </root>

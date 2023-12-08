@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_Name} Татаж авах агент</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Гол зүйл</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Файл, хавтсыг</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Тушаал ач</value>
+</data>
 </root>

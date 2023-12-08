@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} agent pobierania</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Główny</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Pliki i foldery</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Polecenia</value>
+</data>
 </root>

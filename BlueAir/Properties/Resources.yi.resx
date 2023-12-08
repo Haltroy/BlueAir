@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{אַפּ_נאַמע} אָפּלאָדירן אַגענט</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>גרויס</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>טעקעס און פאָלדערס</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>קאַמאַנדז</value>
+</data>
 </root>

@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Wakilin Download</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Babba</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Fayiloli da manyan fayiloli</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Umurni</value>
+</data>
 </root>

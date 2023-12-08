@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} סוכן הורדה</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>רָאשִׁי</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>קבצים ותיקיות</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>פקודות</value>
+</data>
 </root>

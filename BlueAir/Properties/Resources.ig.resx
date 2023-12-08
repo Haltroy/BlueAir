@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Nchọpụta</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Keisi</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Faịlụ na folda</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Iwu</value>
+</data>
 </root>

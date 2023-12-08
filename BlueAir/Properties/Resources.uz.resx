@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} yuklab olish bo&apos;yicha agent</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Asosiy</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Fayllar va papkalar</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Buyruqlar</value>
+</data>
 </root>

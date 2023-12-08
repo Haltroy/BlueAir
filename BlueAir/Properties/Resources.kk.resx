@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name}} Агент жүктеу</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Басты</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Файлдар мен қалталар</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Пәрмендер</value>
+</data>
 </root>

@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} deskargatu agentea</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Nagusi</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Fitxategiak eta karpetak</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Aginduak</value>
+</data>
 </root>

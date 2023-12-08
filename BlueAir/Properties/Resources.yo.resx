@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name {Oluranlọwọ</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Akọkọ</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Awọn faili ati Awọn folda</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Awọn pipaṣẹ</value>
+</data>
 </root>

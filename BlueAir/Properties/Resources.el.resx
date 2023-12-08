@@ -158,4 +158,14 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Λήψη πράκτορα</value>
 </data>
+
+<data name="Main" xml:space="preserve">
+    <value>Κύριος</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Αρχεία και φακέλους</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Εντολές</value>
+</data>
 </root>

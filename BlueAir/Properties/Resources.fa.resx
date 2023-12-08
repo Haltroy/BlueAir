@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{app_name} عامل دانلود</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>اصلی</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>پرونده ها و پوشه ها</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>دستورات</value>
+</data>
 </root>

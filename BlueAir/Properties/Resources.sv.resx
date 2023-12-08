@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} nedladdningsagent</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Huvudsaklig</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Filer och mappar</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Kommandon</value>
+</data>
 </root>

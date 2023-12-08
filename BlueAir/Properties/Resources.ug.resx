@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} چۈشۈرۈش ۋاكالەتچىسى</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Main</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ھۆججەت ۋە ھۆججەت قىسقۇچلار</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>بۇيرۇق</value>
+</data>
 </root>

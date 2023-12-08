@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>Apply ਐਪਸ_ਨੇਮ} ਡਾਉਨਲੋਡ ਏਜੰਟ</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>ਮੁੱਖ</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ਫਾਈਲਾਂ ਅਤੇ ਫੋਲਡਰ</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>ਕਮਾਂਡਾਂ</value>
+</data>
 </root>

@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{app_name}下載代理</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>主要的</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>文件和文件夾</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>命令</value>
+</data>
 </root>

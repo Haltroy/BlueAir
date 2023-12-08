@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Скачать агент</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Основной</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Файлы и папки</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Команды</value>
+</data>
 </root>

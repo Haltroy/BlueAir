@@ -155,10 +155,7 @@ public static class Program
                    Assembly.GetExecutingAssembly() is { } ass
                    && ass.GetName() is { } name
                    && name.Version != null
-                       ? "" + (name.Version.Major > 0 ? name.Version.Major : "") +
-                         (name.Version.Minor > 0 ? "." + name.Version.Minor : "") +
-                         (name.Version.Build > 0 ? "." + name.Version.Build : "") +
-                         (name.Version.Revision > 0 ? "." + name.Version.Revision : "")
+                       ? name.Version.ToString()
                        : "?"
                );
     }
