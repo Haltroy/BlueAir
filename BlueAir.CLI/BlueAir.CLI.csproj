@@ -8,6 +8,9 @@
         <RootNamespace>BlueAir.CLI</RootNamespace>
         <Version>1.0.0.0</Version>
         <FileVersion>1.0.0.0</FileVersion>
+        <DebugType>embedded</DebugType>
+        <PublishTrimmed>true</PublishTrimmed>
+        <PublishSingleFile>true</PublishSingleFile>
     </PropertyGroup>
 
     <ItemGroup>
