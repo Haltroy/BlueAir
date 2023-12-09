@@ -7,8 +7,9 @@
         <ApplicationId>com.haltroy.blueair</ApplicationId>
         <ApplicationVersion>1</ApplicationVersion>
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+        <Version>1.0.0.0</Version>
+        <FileVersion>1.0.0.0</FileVersion>
         <AndroidPackageFormat>apk</AndroidPackageFormat>
-        <AndroidEnableProfiledAot>False</AndroidEnableProfiledAot>
         <Company>haltroy</Company>
         <Product>BlueAir</Product>
         <RootNamespace>BlueAir.Android</RootNamespace>

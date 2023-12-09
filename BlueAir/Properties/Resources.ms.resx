@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} ejen muat turun</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Utama</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Fail dan folder</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Perintah</value>
+</data>
 </root>

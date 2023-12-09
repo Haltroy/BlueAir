@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{app_name} 다운로드 에이전트</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>기본</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>파일 및 폴더</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>명령</value>
+</data>
 </root>

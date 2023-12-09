@@ -28,8 +28,45 @@ jobs:
       run: dotnet build --no-restore ./BlueAir.CLI/BlueAir.CLI.csproj
     - name: Test
       run: dotnet test --no-build --verbosity normal ./BlueAir.CLI/BlueAir.CLI.csproj
-    - name: Upload Artifact
+    - name: Publish (Windows x86_64)
+      run: dotnet publish -c Release --self-contained -r win-x64 -o ./publish/cli/win-x64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (Windows ARM64)
+      run: dotnet publish -c Release --self-contained -r win-arm64 -o ./publish/cli/win-arm64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (Linux x86_64)
+      run: dotnet publish -c Release --self-contained -r linux-x64 -o ./publish/cli/linux-x64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (Linux ARM64)
+      run: dotnet publish -c Release --self-contained -r linux-arm64 -o ./publish/cli/linux-arm64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (macOS x86_64)
+      run: dotnet publish -c Release --self-contained -r osx-x64 -o ./publish/cli/osx-x64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (macOS ARM64)
+      run: dotnet publish -c Release --self-contained -r osx-arm64 -o ./publish/cli/osx-arm64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Upload Artifact (Windows x86_64)
       uses: actions/upload-artifact@v3
       with:
-          name: BlueAir CLI
-          path: ./BlueAir.CLI/bin/
+          name: BlueAir CLI (Windows x64)
+          path: ./publish/cli/win-x64/
+    - name: Upload Artifact (Windows ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (Windows ARM64)
+          path: ./publish/cli/win-arm64/
+    - name: Upload Artifact (Linux x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (Linux x64)
+          path: ./publish/cli/linux-x64/
+    - name: Upload Artifact (Linux ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (Linux ARM64)
+          path: ./publish/cli/linux-arm64/
+    - name: Upload Artifact (macOS x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (macOS x64)
+          path: ./publish/cli/osx-x64/
+    - name: Upload Artifact (macOS ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (macOS ARM64)
+          path: ./publish/cli/osx-arm64/

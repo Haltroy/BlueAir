@@ -314,5 +314,23 @@ namespace BlueAir.Properties {
                 return ResourceManager.GetString("AgentFileDesc", resourceCulture);
             }
         }
+        
+        public static string Main {
+            get {
+                return ResourceManager.GetString("Main", resourceCulture);
+            }
+        }
+        
+        public static string FilesAndFolders {
+            get {
+                return ResourceManager.GetString("FilesAndFolders", resourceCulture);
+            }
+        }
+        
+        public static string Commands {
+            get {
+                return ResourceManager.GetString("Commands", resourceCulture);
+            }
+        }
     }
 }

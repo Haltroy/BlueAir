@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Agent Agent</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Nui</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Nā faila a me nā folder</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Kauoha</value>
+</data>
 </root>

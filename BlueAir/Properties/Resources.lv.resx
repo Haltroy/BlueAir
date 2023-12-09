@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} lejupielādes aģents</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Galvenais</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Faili un mapes</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Pavēles</value>
+</data>
 </root>

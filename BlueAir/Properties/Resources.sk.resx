@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Agent na stiahnutie</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Hlavná</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Súbory a priečinky</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Príkazy</value>
+</data>
 </root>

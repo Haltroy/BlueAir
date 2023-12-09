@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} డౌన్‌లోడ్ ఏజెంట్</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>ప్రధాన</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ఫైల్స్ మరియు ఫోల్డర్లు</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>ఆదేశాలు</value>
+</data>
 </root>

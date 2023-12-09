@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} kurodha mumiririri</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Main</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Mafaera uye mafolda</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Mirairo</value>
+</data>
 </root>

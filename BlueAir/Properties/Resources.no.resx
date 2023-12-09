@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} nedlastingsagent</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Hoved</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Filer og mapper</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Kommandoer</value>
+</data>
 </root>

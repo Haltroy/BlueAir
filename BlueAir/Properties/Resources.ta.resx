@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} பதிவிறக்க முகவர்</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>முக்கிய</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>கோப்புகள் மற்றும் கோப்புறைகள்</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>கட்டளைகள்</value>
+</data>
 </root>

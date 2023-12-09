@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} soo deg deg wakiil</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Muhiimsan</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Feylasha iyo faylka</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Amrid amar</value>
+</data>
 </root>

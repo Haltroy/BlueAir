@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{APP_NAME} Агент за преземање</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Главна</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Датотеки и папки</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Команди</value>
+</data>
 </root>

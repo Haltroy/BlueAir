@@ -23,10 +23,10 @@
         <value>Bir {app_name} dosyası seçiniz...</value>
     </data>
     <data name="CommandNoMobileInfo" xml:space="preserve">
-        <value>NOT: Bu özellik mobil platformlarda ve programalrın komutları çalıştırmasına izin vermeyen platformlarda çalışmaz.</value>
+        <value>NOT: Bu özellik mobil platformlarda ve programların komutları çalıştırmasına izin vermeyen platformlarda çalışmaz.</value>
     </data>
     <data name="ShowHideOutput" xml:space="preserve">
-        <value>Çıkılı Göster/Gizle</value>
+        <value>Çıkışı Göster/Gizle</value>
     </data>
     <data name="Downloader" xml:space="preserve">
         <value>İndirici</value>
@@ -68,7 +68,7 @@
         <value>Yeni Klasör...</value>
     </data>
     <data name="NewFile" xml:space="preserve">
-        <value>yeni Dosya...</value>
+        <value>Yeni Dosya...</value>
     </data>
     <data name="RemoveSelectedDO" xml:space="preserve">
         <value>Seçileni Sil...</value>
@@ -137,7 +137,7 @@
         <value>Lisans</value>
     </data>
     <data name="AboutTechnologies" xml:space="preserve">
-        <value>KUulanılan Teknolojiler:</value>
+        <value>Kulanılan Teknolojiler:</value>
     </data>
     <data name="SaveAFile" xml:space="preserve">
         <value>Bir {app_name} dosaysını kaydet...</value>
@@ -150,5 +150,14 @@
     </data>
     <data name="AgentFileDesc" xml:space="preserve">
         <value>{App_name} İndirici</value>
+    </data>
+    <data name="Commands" xml:space="preserve">
+        <value>Komutlar</value>
+    </data>
+    <data name="FilesAndFolders" xml:space="preserve">
+        <value>Dosyalar ve Klasörler</value>
+    </data>
+    <data name="Main" xml:space="preserve">
+        <value>Genel</value>
     </data>
 </root>

@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_Name} Lataa agentti</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Pää-</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Tiedostot ja kansiot</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Komennot</value>
+</data>
 </root>

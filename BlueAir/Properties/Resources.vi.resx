@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Tác nhân tải xuống</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Chủ yếu</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Tập tin và thư mục</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Lệnh</value>
+</data>
 </root>

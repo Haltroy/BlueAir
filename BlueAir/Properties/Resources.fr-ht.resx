@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} download ajan</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Prensipal</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Dosye ak dosye</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Kòmandman</value>
+</data>
 </root>

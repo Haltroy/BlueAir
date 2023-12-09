@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{app_name} ကိုဒေါင်းလုပ်လုပ်ပါ</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>အဓိက</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ဖိုင်များနှင့်ဖိုင်တွဲများ</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>အမိန့်</value>
+</data>
 </root>

@@ -5,6 +5,8 @@
         <Nullable>disable</Nullable>
         <RootNamespace>BlueAir</RootNamespace>
         <DebugType>embedded</DebugType>
+        <Version>1.0.0.0</Version>
+        <FileVersion>1.0.0.0</FileVersion>
     </PropertyGroup>
 
 </Project>

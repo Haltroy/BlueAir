@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Download agén</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Utama</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>File sareng polder</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Paréntah</value>
+</data>
 </root>

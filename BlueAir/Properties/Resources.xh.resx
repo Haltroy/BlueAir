@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{Igama_gama} Khuphela iarhente</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Eyona nto iphambili</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Iifayile kunye neefolda</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Imiyalelo</value>
+</data>
 </root>

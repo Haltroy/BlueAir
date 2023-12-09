@@ -158,4 +158,14 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{অ্যাপ_নাম} ডাউনলোড এজেন্ট</value>
 </data>
+
+<data name="Main" xml:space="preserve">
+    <value>প্রধান</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ফাইল এবং ফোল্ডার</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>কমান্ড</value>
+</data>
 </root>

@@ -158,4 +158,14 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} elŝuta agento</value>
 </data>
+
+<data name="Main" xml:space="preserve">
+    <value>Ĉefa</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Dosieroj kaj dosierujoj</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Komandoj</value>
+</data>
 </root>

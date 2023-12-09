@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} Gníomhaire íoslódála</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Priomh</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Comhaid agus fillteáin</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Ord</value>
+</data>
 </root>

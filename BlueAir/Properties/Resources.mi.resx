@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} download kaihoko</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>Matua</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Kōnae me nga Kōpaki</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Whakahau</value>
+</data>
 </root>

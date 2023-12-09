@@ -158,4 +158,14 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} I-download Agent</value>
 </data>
+
+<data name="Main" xml:space="preserve">
+    <value>Labing mahinungdanon</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Mga Files ug Folder</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Mga sugo</value>
+</data>
 </root>

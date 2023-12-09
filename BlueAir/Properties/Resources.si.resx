@@ -158,4 +158,13 @@
 <data name="AgentFileDesc" xml:space="preserve">
     <value>{App_name} බාගත කරන්න නියෝජිත</value>
 </data>
+<data name="Main" xml:space="preserve">
+    <value>ප්රධාන</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ලිපිගොනු සහ ෆෝල්ඩර</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>විධාන</value>
+</data>
 </root>
