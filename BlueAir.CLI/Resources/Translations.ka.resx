@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>მოთხოვნილი გაუქმება.არასრული და წარუმატებელი ნივთების დაწერა წარდგენისთვის.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>აიღო {d} დღე (s) {h} საათი (s) {m} წუთი (s) {s} მეორე (s) {ms] ms {us} us {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>შეყვანის ფაილის კითხვა ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>ავტო-დაზოგვის ფაილი</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>შეყვანის ფაილი</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>გამომავალი საქაღალდე</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>დაწყება {app_name} ჩამოტვირთვა.არგუმენტები:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>ძალიან ცოტა არგუმენტი.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>ავტომატურად დაზოგავს პროგრესს გამომავალი ფაილში (თუ მოცემულია) ან შეყვანის ფაილში.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>ბეჭდავს ამ ეკრანს და გასასვლელებს.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>ეპყრობა [შეყვანის ფაილს], როგორც XML ტექსტი, ფაილის ბილიკის ნაცვლად.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>ᲞᲐᲠᲐᲛᲔᲢᲠᲔᲑᲘ:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>გამოყენება: {app_command} [პარამეტრები] [შეყვანის ფაილი] [საქაღალდე] [გამომავალი ფაილი]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>მოგვითხრობს რამდენი დრო დასჭირდა დასრულებას.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {ვერსია} მიერ Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>ბეჭდავს მეტ ინფორმაციას.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>ბეჭდვის ვერსია და გასასვლელი.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>მოგვითხრობს, რამდენი ხანი დასჭირდა დასრულებას დღეში/თვეში/წელიწადში: წუთი: მეორე: ჩარჩო 24-საათიან ფორმატში.</value></data>
+
+
+</root>
+

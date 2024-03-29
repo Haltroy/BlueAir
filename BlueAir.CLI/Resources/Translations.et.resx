@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Tühista taotletud.Mittetäielike ja ebaõnnestunud üksuste kirjutamine.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Võttis {d} päev (s) {h} tund (s) {m} minut (s) {s} sekund (s) {ms] ms {us} us {ns} ns {t} linnuke (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Sisendfaili lugemine ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Automaatse salvestamise fail</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Sisendfail</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Väljundkaust</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>START {App_Name} allalaadimine.Argumendid:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Liiga vähe argumente.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Salvestab progressi automaatselt väljundfaili (kui seda antakse) või sisendfaili.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Prindib selle ekraani ja väljub.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Kohtleb [sisendfaili] kui faili tee asemel XML -teksti.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Valikud:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Kasutus: {App_Command} [Valikud] [sisendfail] [kaust] [väljundfail]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Räägib, kui kaua lõpetas.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {versioon} autor Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Prindib lisateavet.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Prindib versiooni ja väljub.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Räägib, kui kaua kulus päeva/kuu/aasta jooksul lõpetamine: minut: teine: raam 24-tunnises vormingus.</value></data>
+
+
+</root>
+

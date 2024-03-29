@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Kanselahin ang hiniling.Pagsulat ng hindi kumpleto at nabigo na mga item upang mag -file.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Kinuha {d} day (s) {h} oras (s) {m} minuto (s) {s} pangalawa (s) {ms] ms {us} us {ns} ns {t} tik (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Pagbabasa ng input file ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>File ng auto-save</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>File ng input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Folder ng Output</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Simulan ang pag -download ng {app_name}.Mga pangangatwiran:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Masyadong konti ang pangangatwiran.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Awtomatikong nai -save ang pag -unlad sa output file (kung ibinigay) o upang mag -input ng file.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Nag -print ng screen na ito at lumabas.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Tinatrato ang [input file] bilang isang teksto ng XML sa halip na isang landas ng file.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Mga pagpipilian:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Paggamit: {app_command} [mga pagpipilian] [input file] [folder] [output file]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Sinasabi kung gaano katagal bago matapos.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {bersyon} ni Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Nag -print ng karagdagang impormasyon.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Mga prints bersyon at paglabas.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Sinasabi kung gaano katagal bago matapos sa araw/buwan/taon na oras: Minuto: Pangalawa: Frame sa 24 na oras na format.</value></data>
+
+
+</root>
+

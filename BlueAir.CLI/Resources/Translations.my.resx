@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>ပယ်ဖျက်ရန်တောင်းဆိုခဲ့သည်။မပြည့်စုံခြင်းနှင့် file သို့မအောင်မြင်သောပစ္စည်းများရေးသားခြင်း။</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{d} နေ့ (s) {H} နာရီ (s) {M} မိနစ် (s) {NS] Ms {Ms] Ms {M} NS {NS} NS {T} Tick (S)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Input ဖိုင်ကိုဖတ်ခြင်း ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Auto-Save ဖိုင်</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>ထည့်သွင်းဖိုင်ဖိုင်</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>output ဖိုင်တွဲ</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>{app_name} ကိုစတင်ရန်စတင်ပါ။အငြင်းပွားမှုများ:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>အလွန်အကျွံအငြင်းပွားမှုများ။</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>တိုးတက်မှုကို (ပေးလျှင်) သို့မဟုတ် file ကို file သို့အလိုအလျောက်သိမ်းဆည်းသည်။</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>ဒီဖန်သားပြင်နှင့်ထွက်ပေါက်ပုံနှိပ်။</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>[input file] ကိုဖိုင်လမ်းကြောင်းအစား xml စာသားအဖြစ်ဆက်ဆံသည်။</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>ရွေးချယ်စရာများ -</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>အသုံးပြုမှု - {app_command} [optionals] [input file] [folder] [folder] [output file]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>ဘယ်လောက်ကြာကြာပြီးအောင်လုပ်ခဲ့သလဲဆိုတာပြောပြပါ။</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>Haltroy အားဖြင့် {app_name} {ဗားရှင်း} ။</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>နောက်ထပ်သတင်းအချက်အလက်များထုတ်။</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>ဗားရှင်းနှင့်ထွက်ပေါက်ပုံနှိပ်။</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>ရက် / တစ်နှစ်, တစ်နာရီအကြာတွင်မည်မျှကြာအောင်ပြီးဆုံးခဲ့သနည်းဟုပြောထားသည်။</value></data>
+
+
+</root>
+

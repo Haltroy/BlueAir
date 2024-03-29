@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Dewiswch ffolder ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Agorwch ffeil {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Nodyn: Nid yw&apos;r nodwedd hon yn gweithio ar lwyfannau neu lwyfannau symudol na fyddant yn gadael i raglenni redeg gweithredadwy heb ganiatâd.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Dangos/cuddio allbwn</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Lawrlwythwr</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Llwythwch ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Arbedwch ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Arbed fel ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Dechrau</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Ffolder Targed:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Lawrlwytho Asiant:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Rhedeg gorchmynion cyn ac ar ôl lawrlwytho:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Cyn lawrlwytho:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Ar ôl lawrlwytho:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Yn ofynnol</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Yn gallu methu</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Ffolder newydd ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Ffeil newydd ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Tynnu dethol ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Enw:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Wreiddiau</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Tynnwch ffeiliau sydd wedi&apos;u gorffen yn awtomatig:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Ngosodiadau</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Thema (cliciwch i toggle):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Defnyddiwch thema&apos;r system</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Defnyddio thema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Henynned</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Dywyllaf</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Lliw acen (cliciwch i toggle):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Defnyddio lliw:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Defnyddio lliw diofyn system</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Lawrlwytho Asiantau</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Tynnu dethol ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Gosod o&apos;r ffeil ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Nodyn: Mae rhai asiantau yn seiliedig ar linell orchymyn ac ni fyddant yn gweithio ar lwyfannau symudol.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Newidynnau</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Yn ymwneud</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch lawrlwytho a phrosesu ffeiliau yn hawdd.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Trwyddedent</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Technolegau a ddefnyddir:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Cadwch ffeil {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Dewiswch ffolder targed ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Dewiswch ffeil asiant {app_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} asiant lawrlwytho</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Main</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Ffeiliau a Ffolderau</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Gorchmynion</value>
+</data>
+</root>

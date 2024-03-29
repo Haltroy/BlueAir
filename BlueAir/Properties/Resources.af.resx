@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Kies &apos;n vouer ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Maak &apos;n {app_name} -lêer oop ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>OPMERKING: Hierdie funksie werk nie op mobiele platforms of platforms wat nie toelaat dat programme uitvoerbare artikels sonder toestemmings bestuur nie.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Wys/verberg uitset</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Aflader</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Laai ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Bespaar ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Bespaar as ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Aanskakel</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Teikenmap:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Aflaai agent:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Begin opdragte voor en na &apos;n aflaai:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Voor aflaai:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Na aflaai:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Vereis</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Kan misluk</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Nuwe leêr...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Nuwe lêer ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Verwyder geselekteerde...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Naam:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Wortelmap</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Verwyder outomaties lêers wat klaar is:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Instellings</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (klik om te skakel):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Gebruik stelseltema</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Gebruik tema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Lig</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Donker</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Aksentkleur (klik om te skakel):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Gebruik kleur:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Gebruik die standaardkleur van die stelsel</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Aflaai agente</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Verwyder geselekteerde...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Installeer vanaf die lêer ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Opmerking: sommige agente is op opdraglyn gebaseer en werk nie op mobiele platforms nie.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Veranderlikes</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Rondom</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch aflaai en verwerk lêers maklik.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Lisensieer</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Tegnologieë gebruik:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Stoor &apos;n {app_name} lêer ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Kies &apos;n teikenmap ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Kies &apos;n {app_name} agentlêer ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} aflaai agent</value>
+</data>
+
+<data name="Main" xml:space="preserve">
+    <value>Vernaamste</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Lêers en gidse</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Opdragte</value>
+</data>
+</root>

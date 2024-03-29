@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Pumili ng isang folder ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Buksan ang isang {app_name} file ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Tandaan: Ang tampok na ito ay hindi gumagana sa mga mobile platform o platform na hindi hahayaan ang mga programa na magpatakbo ng mga executive nang walang mga pahintulot.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Ipakita/itago ang output</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Downloader</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Makatipid ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>I-save bilang...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Magsimula</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Target na folder:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>I -download ang ahente:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Patakbuhin ang mga utos bago at pagkatapos ng isang pag -download:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Bago i -download:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Pagkatapos mag -download:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Kailangan</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Maaaring mabigo</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Bagong folder...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Bagong file...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Alisin ang napiling ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Pangalan:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Root folder</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Awtomatikong alisin ang mga file na tapos na:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Mga setting</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (Mag -click sa Toggle):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Gumamit ng tema ng system</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Gumamit ng tema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Ilaw</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Madilim</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Kulay ng Accent (mag -click sa Toggle):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Gumamit ng kulay:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Gumamit ng kulay ng default na system</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>I -download ang mga ahente</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Alisin ang napiling ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>I -install mula sa file ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Tandaan: Ang ilang mga ahente ay batay sa linya at hindi gagana sa mga mobile platform.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Variable</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Tungkol sa</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Madali ang pag -download at mga file ng pag -download.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Lisensya</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Mga teknolohiyang ginamit:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>I -save ang isang {app_name} file ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Pumili ng isang target na folder ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Pumili ng isang {app_name} file ng ahente ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{APP_NAME} I -download ang ahente</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Pangunahing</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Mga file at folder</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Utos</value>
+</data>
+</root>

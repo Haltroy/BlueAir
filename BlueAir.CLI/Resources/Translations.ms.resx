@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Membatalkan diminta.Menulis item yang tidak lengkap dan gagal untuk memfailkan.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Mengambil {d} hari (s) {h} jam (s) {m} minit (s) {s} kedua (s) {ms] ms {us} us {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Membaca fail input ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Fail save auto</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Fail input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Folder Output</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Mula {app_name} muat turun.Hujah:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Terlalu sedikit hujah.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Secara automatik menjimatkan kemajuan ke dalam fail output (jika diberikan) atau masuk fail.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Mencetak skrin dan keluar ini.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Merawat [fail input] sebagai teks XML dan bukannya laluan fail.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Pilihan:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Penggunaan: {app_command} [options] [input file] [folder] [Fail output]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Beritahu berapa lama masa yang diperlukan untuk diselesaikan.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {versi} oleh haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Mencetak lebih banyak maklumat.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Cetak versi dan keluar.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Beritahu berapa lama masa yang diperlukan untuk selesai pada hari/bulan/tahun jam: Minute: Kedua: Bingkai dalam format 24 jam.</value></data>
+
+
+</root>
+

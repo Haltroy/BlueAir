@@ -1,0 +1,72 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET (BlueAir Desktop)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+    - name: Setup workloads
+      run: dotnet workload restore
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Test
+      run: dotnet test --no-build --verbosity normal ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Publish (Windows x86_64)
+      run: dotnet publish -c Release --self-contained -r win-x64 -o ./publish/desktop/win-x64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Publish (Windows ARM64)
+      run: dotnet publish -c Release --self-contained -r win-arm64 -o ./publish/desktop/win-arm64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Publish (Linux x86_64)
+      run: dotnet publish -c Release --self-contained -r linux-x64 -o ./publish/desktop/linux-x64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Publish (Linux ARM64)
+      run: dotnet publish -c Release --self-contained -r linux-arm64 -o ./publish/desktop/linux-arm64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Publish (macOS x86_64)
+      run: dotnet publish -c Release --self-contained -r osx-x64 -o ./publish/desktop/osx-x64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Publish (macOS ARM64)
+      run: dotnet publish -c Release --self-contained -r osx-arm64 -o ./publish/desktop/osx-arm64/ ./BlueAir.Desktop/BlueAir.Desktop.csproj
+    - name: Upload Artifact (Windows x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir Desktop (Windows x64)
+          path: ./publish/desktop/win-x64/
+    - name: Upload Artifact (Windows ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir Desktop (Windows ARM64)
+          path: ./publish/desktop/win-arm64/
+    - name: Upload Artifact (Linux x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir Desktop (Linux x64)
+          path: ./publish/desktop/linux-x64/
+    - name: Upload Artifact (Linux ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir Desktop (Linux ARM64)
+          path: ./publish/desktop/linux-arm64/
+    - name: Upload Artifact (macOS x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir Desktop (macOS x64)
+          path: ./publish/desktop/osx-x64/
+    - name: Upload Artifact (macOS ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir Desktop (macOS ARM64)
+          path: ./publish/desktop/osx-arm64/

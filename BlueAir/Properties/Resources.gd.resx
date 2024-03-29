@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Tagh pasgan ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Fosgail {App_name} faidhle ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Nota: Chan eil am feart seo ag obair air àrd-ùrlaran gluasadach no àrd-ùrlaran nach leig le prògraman ruith gun tèid ceadan a chur air dòigh.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Taisbeanadh / Cuir am falach toradh</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Downloader</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Luchdadh ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Sàbhail ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Sàbhail mar ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Tòisich</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Pasgan targaid:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Luchdaich sìos àidseant:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Àitheanan ruith ro agus às deidh luchdachadh sìos:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Ro luchdachadh sìos:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>An dèidh luchdachadh sìos:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Riatanach</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Fàilligeadh</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Pasgan ùr ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Faidhle ùr ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Thoir air falbh an taghadh ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Ainm:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Pasgan root</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Cuir air falbh faidhlichean gu fèin-ghluasadach a tha deiseil:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Roghainnean</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Cuspair (cliog gus tog):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Cleachd Cuspair Siostam</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Cleachdadh Cuspair:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Solas</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Dorcha</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Dath stràc (cliog gus toggle):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Cleachd dath:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Cleachd dath bunaiteach an t-siostaim</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Luchdaich sìos riochdairean</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Thoir air falbh an taghadh ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Stàlaich bho fhaidhle ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Nota: Bidh cuid de riochdairean a &apos;stèidheachadh loidhne stèidhichte agus gun a bhith ag obair air àrd-ùrlaran gluasadach.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Caochladairean</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Mu dheidhinn</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch Download agus Foirm Foirmeil File gu furasta.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Cead</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teicneòlasan air an cleachdadh:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Sàbhail {App_name} faidhle ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Tagh pasgan targaid ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Tagh {App_name} Faidhle Òrain ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} luchdachadh sìos àidseant</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Prìomh</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Faidhlichean agus pasganan</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Òrdughan</value>
+</data>
+</root>

@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Bertan behera utzi.Fitxategiak osatu gabeko eta huts egin duten elementuak idaztea.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{D} eguneko (k) ordu (k) ordu (k) minutu (k) minutu (k) bigarren (k) bigarren (s) {ms] ms {res} {} {ns} {ns} t} tick (k)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Irakurtzeko sarrera fitxategia ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Fitxategi automatikoa gordetzea</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Sarrera fitxategia</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Irteera karpeta</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Hasi {app_name} deskargatu.Argumentuak:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Argudio gutxiegi.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Automatikoki aurrerapenak irteerako fitxategian gordetzen ditu (emanez gero) edo fitxategia sartzeko.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Pantaila hau inprimatzen du eta irteten da.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>[Sarrerako fitxategia] XML testu gisa tratatzen du fitxategi bide baten ordez.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Aukerak:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Erabilera: {app_command} [aukerak] [sarrera fitxategia] [karpeta] [irteerako fitxategia]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Zenbat denbora behar izan zuen amaitzeko.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {bertsioa} HALTROY-k.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Informazio gehiago inprimatzen du.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Bertsioa eta irteerak inprimatzen ditu.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Egunean / hilabetean / urtean amaitzeko zenbat denbora behar izan zuen: Minutu: Bigarrena: 24 orduko formatuan.</value></data>
+
+
+</root>
+

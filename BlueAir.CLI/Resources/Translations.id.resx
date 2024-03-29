@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Batal diminta.Menulis item yang tidak lengkap dan gagal untuk diajukan.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Mengambil {d} day (s) {h} jam (s) {m} menit (s) {s} kedua (s) {ms] ms {us} us {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Membaca file input ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>File Save Otomatis</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>File input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Folder output</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Mulai {app_name} unduh.Argumen:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Terlalu sedikit argumen.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Secara otomatis menyimpan kemajuan ke dalam file output (jika diberikan) atau ke file input.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Mencetak layar ini dan keluar.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Perlakukan [file input] sebagai teks XML alih -alih jalur file.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>PILIHAN:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Penggunaan: {App_Command} [Opsi] [File Input] [Folder] [File Output]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Memberitahu berapa lama waktu yang dibutuhkan untuk menyelesaikannya.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {Versi} oleh Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Mencetak lebih banyak informasi.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Mencetak versi dan keluar.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Memberitahu berapa lama waktu yang dibutuhkan untuk menyelesaikan di hari/bulan/tahun jam: menit: Kedua: bingkai dalam format 24 jam.</value></data>
+
+
+</root>
+

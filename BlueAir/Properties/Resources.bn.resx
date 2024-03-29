@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>একটি ফোল্ডার চয়ন করুন ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>একটি {app_name} ফাইল খুলুন ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>দ্রষ্টব্য: এই বৈশিষ্ট্যটি মোবাইল প্ল্যাটফর্ম বা প্ল্যাটফর্মগুলিতে কাজ করে না যা প্রোগ্রামগুলি অনুমতি ব্যতীত এক্সিকিউটেবলগুলি চালাতে দেয় না।</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>আউটপুট দেখান/লুকান</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>ডাউনলোডার</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>বোঝা...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>সংরক্ষণ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>সংরক্ষণ করুন...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>শুরু</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>লক্ষ্য ফোল্ডার:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>ডাউনলোড এজেন্ট:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>ডাউনলোডের আগে এবং পরে কমান্ডগুলি চালান:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>ডাউনলোডের আগে:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>ডাউনলোডের পরে:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>প্রয়োজনীয়</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>ব্যর্থ হতে পারে</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>নতুন ফোল্ডার...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>নতুন নথি...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>নির্বাচিত অংশের অপসারণ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>নাম:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>ইউআরএল:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>রুট ফোল্ডার</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>স্বয়ংক্রিয়ভাবে সমাপ্ত ফাইলগুলি সরান:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>সেটিংস</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>থিম (টগল করতে ক্লিক করুন):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>সিস্টেম থিম ব্যবহার করুন</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>থিম ব্যবহার করুন:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>আলো</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>অন্ধকার</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>অ্যাকসেন্ট রঙ (টগলে ক্লিক করুন):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>রঙ ব্যবহার করুন:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>সিস্টেম ডিফল্ট রঙ ব্যবহার করুন</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>এজেন্ট ডাউনলোড করুন</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>নির্বাচিত অংশের অপসারণ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>ফাইল থেকে ইনস্টল করুন ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>দ্রষ্টব্য: কিছু এজেন্ট কমান্ড-লাইন ভিত্তিক এবং মোবাইল প্ল্যাটফর্মগুলিতে কাজ করবে না।</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>ভেরিয়েবল</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>সম্পর্কিত</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>ব্যাচ সহজেই ফাইলগুলি ডাউনলোড করুন এবং প্রক্রিয়া করুন।</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>লাইসেন্স</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>প্রযুক্তি ব্যবহৃত:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>একটি {app_name} ফাইল সংরক্ষণ করুন ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>একটি লক্ষ্য ফোল্ডার চয়ন করুন ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>একটি {app_name} এজেন্ট ফাইল চয়ন করুন ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{অ্যাপ_নাম} ডাউনলোড এজেন্ট</value>
+</data>
+
+<data name="Main" xml:space="preserve">
+    <value>প্রধান</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ফাইল এবং ফোল্ডার</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>কমান্ড</value>
+</data>
+</root>

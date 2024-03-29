@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Kies een map ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Open een {App_Name} -bestand ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Opmerking: deze functie werkt niet op mobiele platforms of platforms waarmee programma&apos;s geen uitvoerbare bestanden kunnen uitvoeren zonder machtigingen.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Toon/verbergen uitvoer</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Downloader</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Laden...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Redden...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Opslaan als...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Begin</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Doelmap:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Download agent:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Voer opdrachten uit voor en na een download:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Vóór download:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Na download:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Vereist</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Kan mislukken</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Nieuwe map ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Nieuw bestand...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Verwijder geselecteerde...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Naam:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Hoofdmap</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Verwijder automatisch bestanden die zijn voltooid:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Instellingen</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Thema (klik om te schakelen):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Gebruik systeemthema</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Gebruik thema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Licht</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Donker</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Accentkleur (klik om te schakelen):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Gebruik kleur:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Gebruik systeem standaardkleur</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Download agenten</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Verwijder geselecteerde...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Installeer vanuit het bestand ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Opmerking: sommige agenten zijn gebaseerd op de opdrachtregel en werken niet op mobiele platforms.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Variabelen</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Over</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch Download- en verwerkingsbestanden eenvoudig.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Licentie</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Gebruikte technologieën:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Sla een bestand {App_Name} op ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Kies een doelmap ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Kies een {app_name} agentbestand ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_Name} Download Agent</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Voornaamst</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Bestanden en mappen</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Opdrachten</value>
+</data>
+</root>

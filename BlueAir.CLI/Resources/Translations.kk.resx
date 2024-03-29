@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Сұраныстан бас тарту.Файлға толық емес және сәтсіз элементтерді жазу.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{D} күн (дер) {H} сағат (s) {m} минут (тар) {m} Минут (тар) {s} екінші (s) {ms] ms {ms] ms {ms} {ms} {ms} ns {t} кене (лар)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Оқиғаны оқу файлы ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Автоматты түрде сақтау файлы</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Кіріс файлы</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Шығу қалтасы</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Бастау {app_name} жүктеу.Дәлелдер:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Тым аз дәлелдер.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Автоматты түрде прогресті шығыс файлына (берілген) немесе енгізу үшін сақтайды.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Бұл экранды басып шығарады және шығады.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Файлдық жолдың орнына [енгізу файлын] XML мәтіні ретінде қарастырады.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>ОПЦИЯЛАР:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Пайдалану: {App_command} [Опциялар] [INPUT FILE] [FOLDER] [Шығу файлы]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Аяқтау қанша уақытқа созылғанын айтады.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {{нұсқасы} галтрой.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Қосымша ақпаратты басып шығарады.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Нұсқаны және шығуды басып шығарады.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Күндіз / ай / ай / айдың аяқталуы үшін қанша уақыт қажет болды: минут: минут: секунд 24 сағаттық форматта.</value></data>
+
+
+</root>
+

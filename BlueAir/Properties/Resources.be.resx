@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Выберыце тэчку ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Адкрыйце файл {App_Name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>УВАГА: Гэтая функцыя не працуе на мабільных платформах і платформах, якія не дазваляюць праграмам запускаць выкананыя файлы без дазволаў.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Паказаць/схаваць выхад</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Загрузка</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Загрузіце ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Захаваць ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Захаваць як...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Пачатак</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Мэтавая тэчка:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Спампаваць агент:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Запусціце каманды да і пасля загрузкі:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Перад загрузкай:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Пасля загрузкі:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Патрабуецца</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Можа выйсці з ладу</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Новая тэчка ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Новы файл ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Выдаліце выбраныя ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Імя:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Каранёвая тэчка</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Аўтаматычна выдаляць файлы, якія скончаны:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Налады</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Тэма (націсніце, каб пераключыць):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Выкарыстоўвайце тэму сістэмы</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Выкарыстоўвайце тэму:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Лёгкі</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Цёмны</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Колер акцэнту (націсніце, каб пераключыць):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Выкарыстоўвайце колер:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Выкарыстоўвайце колер па змаўчанні сістэмы</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Спампаваць агенты</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Выдаліце выбраныя ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Усталюйце з файла ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Заўвага: Некаторыя агенты заснаваны на камандным радку і не працуюць на мабільных платформах.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Зменныя</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Пра</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Загрузка партыі і апрацоўвае файлы лёгка.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Ліцэнзія</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Выкарыстаныя тэхналогіі:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Захавайце файл {App_Name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Выберыце мэтавую тэчку ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Выберыце файл агента {App_Name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_Name} Загрузка агента</value>
+</data>
+
+<data name="Main" xml:space="preserve">
+    <value>Галоўны</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Файлы і папкі</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Каманды</value>
+</data>
+</root>

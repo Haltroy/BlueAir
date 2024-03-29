@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Cancelar solicitado.Escrevendo itens incompletos e falhados para arquivar.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Tomou {d} dia (s) {h} hora (s) {m} minuto (s) {s} Segundo (s) {ms] ms {US} US {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Leitura de arquivo de entrada ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Arquivo de salvamento automático</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Arquivo de entrada</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Pasta de saída</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Iniciar {App_Name} Download.Argumentos:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Poucos argumentos.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Salva automaticamente o progresso no arquivo de saída (se fornecido) ou no arquivo de entrada.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Imprime esta tela e sai.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Trata o [arquivo de entrada] como um texto XML em vez de um caminho de arquivo.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Opções:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Uso: {App_Command} [Options] [Arquivo de entrada] [Pasta] [arquivo de saída]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Diz quanto tempo demorou para terminar.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {versão} por haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Imprime mais informações.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Imprime a versão e saídas.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Diz quanto tempo demorou para terminar no dia/mês/ano: minuto: segundo: quadro em formato 24 horas.</value></data>
+
+
+</root>
+

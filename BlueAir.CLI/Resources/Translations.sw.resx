@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Ghairi ombi.Kuandika vitu visivyo kamili na vilivyoshindwa kuweka faili.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Alichukua {d} siku (s) {h} saa (s) {m} dakika (s) {s} pili (s) {ms] ms {us} sisi {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Kusoma faili ya pembejeo ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Faili ya kuokoa kiotomatiki</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Faili ya Kuingiza</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Folda ya pato</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Anza {App_name} Pakua.Hoja:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Hoja chache sana.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Huokoa moja kwa moja maendeleo katika faili ya pato (ikiwa imepewa) au faili ya kuingiza.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Prints skrini hii na kutoka.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Inashughulikia [faili ya kuingiza] kama maandishi ya XML badala ya njia ya faili.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Chaguzi:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Matumizi: {app_command} [chaguzi] [faili ya kuingiza] [folda] [Faili ya pato]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Inasema ilichukua muda gani kumaliza.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {toleo} na haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Prints habari zaidi.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Prints toleo na exits.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Inasema ilichukua muda gani kumaliza katika siku/mwezi/saa saa: Dakika: Pili: Sura katika muundo wa masaa 24.</value></data>
+
+
+</root>
+

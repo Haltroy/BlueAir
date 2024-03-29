@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Tangohia he kōpaki ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Whakatūwherahia te konae {App_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>FAKATOKANGA: Kaore tenei waahanga e mahi i runga i nga papaaho pūkoro, paparanga ranei e kore e tuku i nga papatono ki te whakahaere i nga mahi kaore he whakaaetanga.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Whakaatu / Huna Putanga</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Kaitaata</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Utaina ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Tiaki ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Tiaki rite ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Tīmatanga</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Kōpaki ūnga:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Tangohia te kaihoko:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Whakahaerehia nga whakahau i mua me muri i te tango:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Tuhinga o mua</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>I muri i te tango:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Hiahiatia</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Ka taea</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Kōpaki Hou ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Kōnae Hou ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Tango i tohua ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Ingoa:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Kōpaki pakiaka</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Tangohia aunoa i nga konae kua oti:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Tautuhinga</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Kaupapa (pāwhirihia ki te Toggle):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Whakamahia te Kaupapa Pūnaha</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Te Kaupapa:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Taimāmā</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Wheuri</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Tae nui (paatohia ki te Toggle):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Whakamahia te tae:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Whakamahia te tae taunoa o te punaha</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Nga kaihoko download</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Tango i tohua ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Tāuta mai i te konae ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>FAKATOKANGA: Ko etahi o nga kaihoko ko te raina whakahau-a-ringa kaore e mahi i runga i nga papaaho pūkoro.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Taurangi</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Mō</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Tikiake i te puranga me te tukatuka i nga konae.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Raihana</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Nga hangarau e whakamahia ana:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Whakaorangia te konae {App_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Whiriwhiria he kōpaki whaainga ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Whiriwhiria he tohu {App_name} Kōnae:</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} download kaihoko</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Matua</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Kōnae me nga Kōpaki</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Whakahau</value>
+</data>
+</root>

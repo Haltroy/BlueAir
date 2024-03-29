@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Sceglite un cartulare ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Apre un {app_name} file ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Nota: Questa funzione ùn funziona micca nantu à e piattaforme mobile o piattaforme chì ùn permettenu micca chì i prugrammi per eseguisce l&apos;esecutori senza permessi.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Mostra / oculta a pruduzzione</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>DARTICATU</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Caricaghju ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Salvà ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Salvà Cumu ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Accuma</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Cartulare di destinazione:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Agente di scaricamentu:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Eseguite cumandamenti prima è dopu à un scaricamentu:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Nanzu à scaricà:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Dopu scaricatu:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Dumandatu</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Pò falla</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>New Fulder ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Nuvellu File ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Elimina hà selectivatu ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Nome:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Cartulare root</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Elimina automaticamente i fugliali chì sò finiti:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Configurazioni</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (cliccate per Toggle):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Aduprate u tema di u sistema</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Utilizate u tema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Luce</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>DARCA</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Culore accentu (Cliccate per Toggle):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>UTILIZZARE COLORE:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Aduprate u culore predefinitu di u sistema</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Scaricate l&apos;agenti</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Elimina hà selectivatu ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Installa Da File ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Nota: Alcuni agenti sò basati in ligami è ùn funzionaranu micca nantu à e piattaforme mobile.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Variabili</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Circa à</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch download è prucessi i fugliali facilmente.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Licenza</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Tecnulugia utilizati:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Salvate un File {App_Name}</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Scegli un cartulare di destinazione ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Scegli un {App_Name} Agent File ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} agente di scaricamentu</value>
+</data>
+
+<data name="Main" xml:space="preserve">
+    <value>MATIN</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>File è Folders</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Cumandamenti</value>
+</data>
+</root>
