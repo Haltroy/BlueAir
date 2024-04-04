@@ -1,0 +1,72 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET (BlueAir CLI)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+    - name: Setup workloads
+      run: dotnet workload restore
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Test
+      run: dotnet test --no-build --verbosity normal ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (Windows x86_64)
+      run: dotnet publish -c Release --self-contained -r win-x64 -o ./publish/cli/win-x64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (Windows ARM64)
+      run: dotnet publish -c Release --self-contained -r win-arm64 -o ./publish/cli/win-arm64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (Linux x86_64)
+      run: dotnet publish -c Release --self-contained -r linux-x64 -o ./publish/cli/linux-x64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (Linux ARM64)
+      run: dotnet publish -c Release --self-contained -r linux-arm64 -o ./publish/cli/linux-arm64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (macOS x86_64)
+      run: dotnet publish -c Release --self-contained -r osx-x64 -o ./publish/cli/osx-x64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Publish (macOS ARM64)
+      run: dotnet publish -c Release --self-contained -r osx-arm64 -o ./publish/cli/osx-arm64/ ./BlueAir.CLI/BlueAir.CLI.csproj
+    - name: Upload Artifact (Windows x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (Windows x64)
+          path: ./publish/cli/win-x64/
+    - name: Upload Artifact (Windows ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (Windows ARM64)
+          path: ./publish/cli/win-arm64/
+    - name: Upload Artifact (Linux x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (Linux x64)
+          path: ./publish/cli/linux-x64/
+    - name: Upload Artifact (Linux ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (Linux ARM64)
+          path: ./publish/cli/linux-arm64/
+    - name: Upload Artifact (macOS x86_64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (macOS x64)
+          path: ./publish/cli/osx-x64/
+    - name: Upload Artifact (macOS ARM64)
+      uses: actions/upload-artifact@v3
+      with:
+          name: BlueAir CLI (macOS ARM64)
+          path: ./publish/cli/osx-arm64/

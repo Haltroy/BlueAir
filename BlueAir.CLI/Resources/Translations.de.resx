@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Absagen angefordert.Schreiben unvollständiger und fehlgeschlagener Elemente zur Datei.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Nehmen Sie {d} Tag (s) {H} Stunde (s) {M} Minute (s) {s} Sekunde (s) {ms] ms {us} us {ns} ns {t} Tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Eingabedatei lesen ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Auto-Save-Datei</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Eingabedatei</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Ausgabeordner</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Start {app_name} Download.Argumente:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Zu wenig Argumente.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Speichert automatisch den Fortschritt in die Ausgabedatei (falls angegeben) oder in die Eingabedatei.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Druckt diesen Bildschirm und beendet.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Behandelt die [Eingabedatei] als XML -Text anstelle eines Dateipfads.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>OPTIONEN:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Verwendung: {app_command} [Optionen] [Eingabedatei] [Ordner] [Ausgabedatei]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Sagt, wie lange es gedauert hat, bis es fertig ist.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {Version} von Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Druckt weitere Informationen.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Druckt Version und beendet.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Sagen Sie, wie lange es gedauert hat, bis es in Tag/Monat/Jahr abgeschlossen ist: Minute: Sekunde: Rahmen im 24-Stunden-Format.</value></data>
+
+
+</root>
+

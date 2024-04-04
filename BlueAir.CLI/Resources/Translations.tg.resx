@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Бекор карда шуд.Навиштани ашёҳои нопурра ва ноком ба файл.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{D} (S) {H {H {H {m} дуввум (ҳо) {ms] ms {ms] ms {a} ns {T} ns {t} ns {t</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Хондани файли вуруд ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Файли худкор</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Файли вуруд</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Папкаи баромад</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Оғоз {App_Name} Download Download.Далелҳо:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Якчанд далелҳо.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Ба таври худкор пешрафтро ба файли беруна захира мекунад (агар додашуда дода шавад) ё файли воридшуда.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Ин экран ва баромадро чоп мекунад.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Ба ҷои роҳи файл файли вурудиро ба монанди матни XML табобат кунед.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Имконот:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Истифодабарӣ: {App_C_Command} [Catch] [Filection] [File] [Forecom] [File Devely]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Ба итмом расонидан чанд вақт лозим буд.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{Applic_name} {окер} аз ҷониби халтрӣ.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Маълумоти бештарро чоп мекунад.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Версияро чоп мекунад ва баромад.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Бигӯед, ки чанд вақт бояд соати рӯз / моҳ / солро анҷом дод: дуюм: дуюм: чаҳорчӯба дар формати 24-соат.</value></data>
+
+
+</root>
+

@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Anuluj żądany.Pisanie niekompletnych i nieudanych elementów do złożenia.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Wziął {d} day (s) {h} hour (s) {m} minute (s) {s} second (s) {ms] ms {us} us {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Odczyt plik wejściowego ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Plik automatycznego zapisania</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Plik wejściowy</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Folder wyjściowy</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Start {app_name} pobierz.Argumenty:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Zbyt mało argumentów.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Automatycznie zapisuje postęp w pliku wyjściowym (jeśli podano) lub na plik wejściowy.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Drukuje ten ekran i wychodzi.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Traktuje [plik wejściowy] jako tekst XML zamiast ścieżki pliku.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Opcje:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Użycie: {app_command} [opcje] [plik wejściowy] [folder] [plik wyjściowy]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Mówi, ile czasu zajęło zakończenie.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {wersja} autor: haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Wydrukuje więcej informacji.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Drukuje wersję i wyjścia.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Mówi, jak długo zajęło zakończenie w ciągu dnia/miesiąca/rok: Minuta: Druga: rama w 24-godzinnym formacie.</value></data>
+
+
+</root>
+

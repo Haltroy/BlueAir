@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Annuléieren gefrot.Onkomplett ze schreiwen an gescheitert Artikelen ze Datei.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Huet {d} Day (en) {h} Stonn (en) {m} Minutte (en) {s} own (s) {{{{{{{{{{{{{{{{{{{{{{{{{}} {{US}</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Liesen Input Datei ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Auto-Späichert Datei</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Input Datei</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Ausgaben Dossier</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Start {App_name} Eroflueden.Argumenter:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Ze wéineg Argumenter.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Späichert automatesch de Fortschrëtter an Ausgangsdatei (wann uginn) oder op Input Datei.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Dréckt dësen Bildschierm an EXITS.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Behandelt d'[Input Datei] als XML Text amplaz vun engem Dateiwee.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Optiounen:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Benotzung: {App_Command} [Optiounen] [Input Datei] [Dossier] [Ausgangsdatei]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Erzielt wéi laang et fäerdeg ass.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {Versioun} duerch haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Dréckt méi Informatioun.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Dréckt Versioun an EXTITE.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Erzielt wéi laang et dauert fir den Dag / Mount / Joer Stonn fäerdeg ze maachen: Minutt: Zweet: Zweet: Frame am 24. Stonne Format.</value></data>
+
+
+</root>
+

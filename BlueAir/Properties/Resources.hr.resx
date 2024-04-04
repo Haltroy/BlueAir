@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Odaberite mapu ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Otvorite datoteku {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Napomena: Ova značajka ne radi na mobilnim platformama ili platformama koje ne dopuštaju programima za pokretanje izvršnih datoteka bez dozvola.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Prikaži/sakrij izlaz</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Preuzimanje</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Opterećenje...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Uštedjeti...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Spremi kao...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Početak</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Ciljna mapa:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Preuzmite agent:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Pokrenite naredbe prije i nakon preuzimanja:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Prije preuzimanja:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Nakon preuzimanja:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Potreban</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Može propasti</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Nova mapa...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Nova datoteka ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Uklonite odabrano ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Ime:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Korijenska mapa</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Automatski ukloniti datoteke koje su završene:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Postavke</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (kliknite za prebacivanje):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Koristite temu sustava</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Koristite temu:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Svjetlo</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Tamna</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Akcentna boja (kliknite za prebacivanje):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Koristite boju:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Koristite zadanu boju sustava</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Preuzmite agente</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Uklonite odabrano ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Instalirajte iz datoteke ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Napomena: Neki agenti temelje se na liniji naredbenog retka i neće raditi na mobilnim platformama.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Varijable</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Oko</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch Lako preuzimanje i obradu datoteka.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Licenca</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Korištene tehnologije:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Spremite datoteku {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Odaberite ciljanu mapu ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Odaberite {App_name} datoteku agenta ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} preuzmi agent</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Glavni</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Datoteke i mape</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Naredbe</value>
+</data>
+</root>

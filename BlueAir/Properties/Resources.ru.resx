@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Выберите папку ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Откройте файл {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Примечание. Эта функция не работает на мобильных платформах или платформах, которые не позволяют программам запускать исполняемые файлы без разрешений.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Показать/скрыть выход</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Загрузчик</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Нагрузка...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Сохранять...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Сохранить как...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Начинать</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Целевая папка:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Скачать агент:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Запустите команды до и после загрузки:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Перед загрузкой:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>После скачивания:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Необходимый</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Может потерпеть неудачу</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Новая папка...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Новый файл...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Убрать выбранное...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Имя:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Корневая папка</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Автоматически удалять файлы, которые закончены:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Тема (нажмите, чтобы переключиться):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Используйте тему системы</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Используйте тему:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Свет</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Темный</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Цвет акцента (нажмите, чтобы переключиться):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Используйте цвет:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Используйте систему по умолчанию цвет</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Скачать агенты</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Убрать выбранное...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Установите из файла ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Примечание. Некоторые агенты основаны на командной строке и не будут работать на мобильных платформах.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Переменные</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>О</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Скачать и обрабатывать файлы загрузки и обработки.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Лицензия</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Используются технологии:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Сохранить файл {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Выберите целевую папку ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Выберите {app_name} файл агента ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Скачать агент</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Основной</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Файлы и папки</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Команды</value>
+</data>
+</root>

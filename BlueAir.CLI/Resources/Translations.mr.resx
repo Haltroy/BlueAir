@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>विनंती रद्द करा.फाइल करण्यासाठी अपूर्ण आणि अयशस्वी आयटम लिहिणे.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>घेतले {डी} दिवस (एस) {एच} तास (एस) {एम} मिनिट (एस) {एस} सेकंड (एस) {एमएस] एमएस {यूएस} यूएस {एनएस} एनएस {टी} टिक (एस)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>इनपुट फाइल वाचणे ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>स्वयं-सेव्ह फाइल</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>इनपुट फाइल</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>आउटपुट फोल्डर</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>प्रारंभ करा {अ‍ॅप_नाव} डाउनलोड करा.युक्तिवाद:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>खूप कमी युक्तिवाद.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>आउटपुट फाइलमध्ये (दिल्यास) किंवा इनपुट फाइलमध्ये स्वयंचलितपणे जतन करते.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>ही स्क्रीन प्रिंट करते आणि बाहेर पडते.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>फाइल पथऐवजी [इनपुट फाइल] एक्सएमएल मजकूर म्हणून मानते.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>पर्यायः</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>वापर: {अ‍ॅप_कॉमांड} [पर्याय] [इनपुट फाइल] [फोल्डर] [आउटपुट फाइल]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>समाप्त करण्यास किती वेळ लागला हे सांगते.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{अ‍ॅप_नाव} {आवृत्ती Hal हॅलट्रॉय द्वारा.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>अधिक माहिती मुद्रित करते.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>मुद्रण आवृत्ती आणि बाहेर पडते.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>दिवस/महिना/वर्षाचा तास पूर्ण होण्यास किती वेळ लागला हे सांगते: मिनिट: द्वितीय: 24-तासांच्या स्वरूपात फ्रेम.</value></data>
+
+
+</root>
+

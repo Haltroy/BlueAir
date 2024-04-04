@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>ਬੇਨਤੀ ਨੂੰ ਬੇਨਤੀ ਕੀਤੀ.ਫਾਈਲ ਵਿੱਚ ਅਧੂਰੇ ਅਤੇ ਅਸਫਲ ਆਈਟਮਾਂ ਲਿਖਣਾ.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{D} ਦਿਨ {ਐਚ} ਘੰਟੇ {ਐੱਚ.) {ਐੱਚ. ਐੱਸ.</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>ਇੰਪੁੱਟ ਫਾਈਲ ਨੂੰ ਪੜ੍ਹਨਾ ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>ਆਟੋ-ਸੇਵ ਫਾਈਲ</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>ਇਨਪੁਟ ਫਾਈਲ</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>ਆਉਟਪੁੱਟ ਫੋਲਡਰ</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>ਡਾ {SUPS_NEME Us ਡਾ .ਨਲੋਡ ਕਰੋ.ਦਲੀਲ:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>ਬਹੁਤ ਘੱਟ ਦਲੀਲਾਂ.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>ਆਪਣੇ ਆਪ ਹੀ ਆਉਟਪੁੱਟ ਫਾਈਲ ਵਿੱਚ ਪ੍ਰਗਤੀ ਨੂੰ ਬਚਾਉਂਦਾ ਹੈ (ਜੇ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ) ਜਾਂ ਇਨਪੁਟ ਫਾਈਲ ਨੂੰ.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>ਇਸ ਸਕ੍ਰੀਨ ਨੂੰ ਛਾਪਦਾ ਹੈ ਅਤੇ ਬਾਹਰ ਕੱ .ਦਾ ਹੈ.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>[ਇਨਪੁਟ ਫਾਈਲ] ਦਾ ਇਲਾਜ ਕਰੋ ਇੱਕ ਫਾਈਲ ਮਾਰਗ ਦੀ ਬਜਾਏ ਐਕਸਐਮਐਲ ਟੈਕਸਟ ਦੇ ਤੌਰ ਤੇ.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>ਵਿਕਲਪ:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>ਵਰਤੋਂ: {ਐਪਲੀਕੇਸ਼_ ਚੁਣੋ] [ਇਨਪੁਟ ਫਾਈਲ] [ਫੋਲਡਰ] [plowsp ਫਾਈਲ]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>ਪੂਰਾ ਕਰਨ ਵਿੱਚ ਕਿੰਨਾ ਸਮਾਂ ਲੱਗਾ.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>ਐਲਟੋਲੋਏ ਦੁਆਰਾ {ਐਪ_ਨਾਮ} {ਸੰਸਕਰਣ.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਛਾਪੋ.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>ਸੰਸਕਰਣ ਅਤੇ ਬਾਹਰ ਨਿਕਲਦਾ ਹੈ.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>ਦੱਸਦਾ ਹੈ ਕਿ ਦਿਨ / ਮਹੀਨੇ / ਸਾਲ ਦੇ ਸਮੇਂ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਿੱਚ ਕਿੰਨਾ ਸਮਾਂ ਲੱਗਾ: ਮਿੰਟ: ਦੂਜਾ: 24 ਘੰਟੇ ਦੇ ਫਾਰਮੈਟ ਵਿੱਚ ਫਰੇਮ.</value></data>
+
+
+</root>
+

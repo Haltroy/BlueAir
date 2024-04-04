@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>غوښتل شوی لغوه کړئ.په دوسیه کولو کې نامعلوم او ناکام شوي توکي لیکل.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>{d} د ورځې (s)} دوه دقیقې امریکا متحده ایالات [NS} NS {} NS {nd} NS {nd} NS {nd} NS {nd} Ns</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>د ننوتلو دوتنه / ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>د آټو خوندي کولو فایل</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>ننوتۍ دوتنه</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>وتلې فولډر</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>{اپ_ نوم} پیل کړئ.بحثونه:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>ډیر لږ بحثونه.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>په اتوماتيک ډول پرمختګ د وتنې دوتنې (که ورکړل شوی) یا د ننوتلو فایل ته وسپارئ.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>دا پرده چاپ کړئ او بهر یې کړئ.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>د [ننوت فایل] د فایل لارې پرځای د XML متن په توګه چلند کوي.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>غوراوي:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>کارول: {اپیل_مومند "[اختیارونه] [ډاونلوډ] [وتلی دوتنه]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>وايي چې څومره وخت پای ته ورسیده.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{اپیل_ نوم}</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>نور معلومات چاپ کوي.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>د چاپ نسخه او بهر.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>وايي چې په ورځ / میاشت / کلنۍ ساعت کې به څومره وخت ونیسي: دقیقې: دوهم: په 24 ساعتونو ب format ه کې چوکاټ.</value></data>
+
+
+</root>
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>ഒരു ഫോൾഡർ തിരഞ്ഞെടുക്കുക ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>ഒരു {App_name} ഫയൽ തുറക്കുക ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>കുറിപ്പ്: അനുമതികളില്ലാതെ എക്സിക്യൂട്ടബിൾസ് പ്രവർത്തിപ്പിക്കാൻ അനുവദിക്കാത്ത മൊബൈൽ പ്ലാറ്റ്ഫോമുകളിലോ പ്ലാറ്റ്ഫോമുകളിലോ ഈ സവിശേഷത പ്രവർത്തിക്കുന്നില്ല.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Out ട്ട്പുട്ട് കാണിക്കുക / മറയ്ക്കുക</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>ഡൗൺലോഡർ</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>ലോഡുചെയ്യുക ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>രക്ഷിക്കും...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>ഇതായി സംരക്ഷിക്കുക ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>തുടക്കംകുറിക്കുക</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>ടാർഗെറ്റ് ഫോൾഡർ:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>ഡൗൺലോഡുചെയ്യുക ഏജന്റ്:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>ഒരു ഡ download ൺലോഡിന് മുമ്പും ശേഷവും കമാൻഡുകൾ പ്രവർത്തിപ്പിക്കുക:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>ഡൗൺലോഡുചെയ്യുന്നതിന് മുമ്പ്:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>ഡൗൺലോഡിനുശേഷം:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>ആവശമായ</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>പരാജയപ്പെടും</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>പുതിയ ഫോൾഡർ ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>പുതിയ ഫയൽ ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>തിരഞ്ഞെടുത്തത് നീക്കംചെയ്യുക ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>പേര്:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>റൂട്ട് ഫോൾഡർ</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>പൂർത്തിയാക്കിയ ഫയലുകൾ യാന്ത്രികമായി നീക്കംചെയ്യുക:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>ക്രമീകരണങ്ങൾ</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>തീം (ടോഗിൾ ചെയ്യുന്നതിന് ക്ലിക്കുചെയ്യുക):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>സിസ്റ്റം തീം ഉപയോഗിക്കുക</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>തീം ഉപയോഗിക്കുക:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>ഭാരംകുറഞ്ഞ</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>ഇരുണ്ട</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>ആക്സന്റ് നിറം (ടോഗിൾ ചെയ്യുന്നതിന് ക്ലിക്കുചെയ്യുക):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>നിറം ഉപയോഗിക്കുക:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>സിസ്റ്റം സ്ഥിരസ്ഥിതി നിറം ഉപയോഗിക്കുക</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>ഡൗൺലോഡ് ഏജന്റുമാർ</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>തിരഞ്ഞെടുത്തത് നീക്കംചെയ്യുക ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>ഫയലിൽ നിന്ന് ഇൻസ്റ്റാൾ ചെയ്യുക ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>കുറിപ്പ്: ചില ഏജന്റുമാർ കമാൻഡ്-ലൈൻ അടിസ്ഥാനമാക്കിയുള്ളതാണ്, മാത്രമല്ല മൊബൈൽ പ്ലാറ്റ്ഫോമുകളിൽ പ്രവർത്തിക്കില്ല.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>വേരിയബിളുകൾ</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>കുറിച്ച്</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>ബാച്ച് ഡൗൺലോഡും ഫയലുകളും എളുപ്പത്തിൽ പ്രോസസ്സ് ചെയ്യുക.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>ലൈസൻസ്</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>ഉപയോഗിച്ച സാങ്കേതികവിദ്യകൾ:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>ഒരു {App_name} ഫയൽ സംരക്ഷിക്കുക ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>ഒരു ടാർഗെറ്റ് ഫോൾഡർ തിരഞ്ഞെടുക്കുക ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>A app_name} ഏജന്റ് ഫയൽ തിരഞ്ഞെടുക്കുക ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} ഡൗൺലോഡ് ഏജന്റ്</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>പധാനമായ</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>ഫയലുകളും ഫോൾഡറുകളും</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>കമാൻഡുകൾ</value>
+</data>
+</root>

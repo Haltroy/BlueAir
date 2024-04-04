@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+        <Nullable>enable</Nullable>
+        <ApplicationId>com.haltroy.blueair</ApplicationId>
+        <ApplicationVersion>1</ApplicationVersion>
+        <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+        <Version>1.0.0.0</Version>
+        <FileVersion>1.0.0.0</FileVersion>
+        <AndroidPackageFormat>apk</AndroidPackageFormat>
+        <Company>haltroy</Company>
+        <Product>BlueAir</Product>
+        <RootNamespace>BlueAir.Android</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia.Android" Version="11.0.5"/>
+        <PackageReference Include="Xamarin.AndroidX.Core.SplashScreen" Version="1.0.1.4"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BlueAir\BlueAir.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Icon.png"/>
+        <AvaloniaResource Include="Resources\drawable\blueair.png"/>
+    </ItemGroup>
+</Project>

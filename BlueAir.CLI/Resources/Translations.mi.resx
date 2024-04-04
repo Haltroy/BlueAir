@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Whakakorea te tono.Te tuhi i nga mea kaore i oti, i nga mea ranei ki te konae.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>I tangohia e [D ad} (h} (s) meneti (m} {m} {m {ms] ms {ms {ns} ns {t} ns {t {t}</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Te panui i te konae whakauru ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Kōnae Aunoa</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Kōnae Input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Kōpaki Putanga</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Tīmata {App_name} download.Nga tautohetohe:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>He iti rawa nga tautohetohe.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Ka penapena aunoa i te ahunga whakamua ki te konae putanga (mena kua tukuna) ki te konae whakauru ranei.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Tuhia tenei mata me nga putanga.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Ka aro ki te konae [whakauru] hei tuhinga XML hei utu mo te huarahi konae.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Kōwhiringa:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Te whakamahi: {App_Command} [Nga Kōwhiringa] [Wāhi Utu] [Kōpaki] [Kōwhiringa putanga]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Korero kia pehea te roa i mutu ai.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{Apt_name} {Putanga} Na Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Tuhia nga korero maha.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Tuhinga o mua me nga putanga.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Ka whakaatu i te roa o te waa ki te whakaoti i te ra / marama / tau te roa: Minute: tuarua: Tuarua: anga i roto i te whakatakotoranga 24-haora.</value></data>
+
+
+</root>
+

@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>ຍົກເລີກການຮ້ອງຂໍ.ຂຽນລາຍການທີ່ບໍ່ຄົບຖ້ວນແລະລົ້ມເຫລວໃນການຍື່ນ.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>ເອົາ {d} {h} ຊົ່ວໂມງ {m) {S) {S) {N}</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>ການອ່ານເອກະສານປ້ອນຂໍ້ມູນ ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>ເອກະສານບັນທຶກອັດຕະໂນມັດ</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>ເອກະສານປ້ອນຂໍ້ມູນ</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>ໂຟນເດີຜົນໄດ້ຮັບ</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>ເລີ່ມ {App_Name} ດາວໂຫລດ.ການໂຕ້ຖຽງ:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>ການໂຕ້ຖຽງຫນ້ອຍເກີນໄປ.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>ປະຫຍັດຄວາມຄືບຫນ້າໂດຍອັດຕະໂນມັດເຂົ້າໃນເອກະສານຜົນໄດ້ຮັບ (ຖ້າໃຫ້) ຫຼືໃສ່ເອກະສານປ້ອນຂໍ້ມູນ.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>ພິມຫນ້າຈໍນີ້ແລະອອກໄປ.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>ປະຕິບັດຕໍ່ [ເອກະສານປ້ອນຂໍ້ມູນ] ເປັນຂໍ້ຄວາມ XML ແທນທີ່ຈະເປັນເສັ້ນທາງຂອງເອກະສານ.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>ຕົວເລືອກ:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>ການນໍາໃຊ້: {acc_Command} [ທາງເລືອກ] [ເອກະສານປ້ອນຂໍ້ມູນ] [ໂຟນເດີ] [Folder] [Folder] [Folder]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>ບອກວ່າມັນໃຊ້ເວລາດົນປານໃດເພື່ອໃຫ້ສໍາເລັດ.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{app_name}}}} {ລຸ້ນ} ໂດຍ Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>ພິມຂໍ້ມູນເພີ່ມເຕີມ.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>ພິມສະບັບແລະອອກ.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>ບອກວ່າມັນໃຊ້ເວລາດົນປານໃດເພື່ອໃຫ້ສໍາເລັດໃນມື້ໃນວັນ / ເດືອນ / ປີ: ນາທີ: ວິນາທີ: ແຕ່ວິນາທີ: ໃນຮູບແບບ 24 ຊົ່ວໂມງ.</value></data>
+
+
+</root>
+

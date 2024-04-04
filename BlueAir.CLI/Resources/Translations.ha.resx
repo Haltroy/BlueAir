@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Soke nema.Rubuta wanda bai cika ba kuma ya kasa yin fayil.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Dauki {d to top (s) {h topiy (s) {m minti daya {s) na biyu</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Fayil ɗin shigar da karatun ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Fayil na Auto</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Fayil na Input</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Babban fayil</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Fara {app_name} Download.Muhawara:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>Ma kima ƙamshi.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Ta atomatik adana ci gaba zuwa fayil ɗin fitarwa (idan an bayar) ko don shigar da fayil.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Kwafi wannan allo da kuma fice.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Yana bi da fayil ɗin [shigarwar fayil ɗin] azaman rubutun XML maimakon hanyar fayil.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Zaɓuɓɓuka:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Amfani: {App_Command} [shigar fayil [Fayil] [Fayil] [Fayil]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Ya faɗi tsawon lokacin da aka ɗauki lokaci ya gama.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {sigogi} ta hanyar fatry.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Buga ƙarin bayani.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Bugu da aka buga da fitowar.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Nuna tsawon lokacin da aka fara aiwatarwa a cikin rana / wata / awa awa: Na biyu: firam: firam: firam a cikin awa 24-24 tsarin.</value></data>
+
+
+</root>
+

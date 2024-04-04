@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>Avbryt forespurt.Skrive ufullstendige og mislykkede elementer å arkivere.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>Tok {d} dag (er) {h} time (er) {m} minutt (er) {s} sekund (s) {ms] ms {us} us {ns} ns {t} tick (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>Lese inndata ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>Auto-Save File</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>Inngangsfil</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>Utgangsmappe</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>Start {app_name} Last ned.Argumenter:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>For få argumenter.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>Lagrer fremdriften automatisk i utdatafilen (hvis gitt) eller til å legge inn fil.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>Skriver ut dette skjermen og avkjørsler.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>Behandler [inndatafilen] som en XML -tekst i stedet for en filsti.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>Alternativer:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>Bruk: {app_command} [alternativer] [input fil] [mappe] [Output File]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>Forteller hvor lang tid det tok å fullføre.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {versjon} av Haltroy.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>Skriver ut mer informasjon.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>Skriver ut versjon og avkjørsler.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>Forteller hvor lang tid det tok å fullføre på dag/måned/år time: Minutt: For det andre: ramme i 24-timers format.</value></data>
+
+
+</root>
+

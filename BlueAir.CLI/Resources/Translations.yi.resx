@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>באָטל מאַכן געבעטן.שרייבן דערענדיקט און ניט אַנדערש זאכן צו טעקע.</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>גענומען {d} טאָג (s) {h} שעה (s) {עם מינוט מינוט (s} סעקונדע (s) {ms] ms ats}} יום}</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>לייענען אַרייַנשרייַב טעקע ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>אַוטאָ-שפּאָרן טעקע</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>אַרייַנשרייַב טעקע</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>רעזולטאַט טעקע</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>אָנהייב {אַפּ_נאַמע} אָפּלאָדירן.אַרגומענטן:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>צו ווייניק טענות.</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>אויטאָמאַטיש סאַוועס די פּראָגרעס אין פּראָדוקציע טעקע (אויב געגעבן) אָדער צו אַרייַנשרייַב טעקע.</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>פּרינץ דעם פאַרשטעלן און עגזיץ.</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>טריץ די [אַרייַנשרייַב טעקע] ווי אַ XML טעקסט אַנשטאָט פון אַ טעקע דרך.</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>אָפּציעס:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>באַניץ: {app_Command} [אָפּציעס] [ינפּוט טעקע] [טעקע] [OFFETIONT] [Outfiter]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>דערציילט ווי לאַנג האָט עס גענומען צו ענדיקן.</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{אַפּ_נאַמע} {ווערסיע} דורך האַלטרוי.</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>פּרינץ מער אינפֿאָרמאַציע.</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>פּרינץ ווערסיע און עגזיץ.</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>דערציילט ווי לאַנג האָט עס געדויערט צו ענדיקן טאָג / חודש / יאָר שעה: מינוט: רגע: ראַם אין 24-שעה פֿאָרמאַט.</value></data>
+
+
+</root>
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Auki babban fayil ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Bude {app_name} Fayil ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>SAURARA: Wannan fasalin bai yi aiki ba akan dandamali na wayar hannu ko dandamali waɗanda ba za su bari shirye-shirye don gudanar da aiwatarwa ba tare da izini ba.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Nuna / ɓoye fitarwa</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Saukearre</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Load ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Ajiye ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Ajiye kamar ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Fara</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Babban fayil:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Wakili:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Gudanar da umarni kafin da bayan saukar:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Kafin saukar:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Bayan saukar:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Da ake bukata</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Na iya kasawa</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Sabbin fayil ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Sabuwar fayil ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Cire zaba ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Suna:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Tushen fayil</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Ta atomatik cire fayiloli da suka ƙare:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Saitunan</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Jigo (Danna Don Karawa):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Yi amfani da taken tsarin</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Yi amfani da Jigo:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Haske</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>M</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Laxin launi (danna don kunna):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Yi amfani da launi:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Yi amfani da yanayin tsinkayen tsarin</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Download saukar da wakilai</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Cire zaba ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Sanya daga fayil ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>SAURARA: Wasu wasu wakilan layi ne bisa tsarin umarni kuma ba za su yi aiki ba akan dandamali na wayar hannu.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>M</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Kayi</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Batch Download da aiwatarwa a sauƙaƙe.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Lasin</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Kasuwanci da aka yi amfani da su:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Ajiye {app_name} Fayil ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Zaɓi babban fayil na manufa ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Upauki wani {{_nace} fayil ɗin wakili ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} Wakilin Download</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Babba</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Fayiloli da manyan fayiloli</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Umurni</value>
+</data>
+</root>

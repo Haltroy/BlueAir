@@ -1,0 +1,57 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+<data name="CancelRequested" xml:space="preserve"><value>अनुरोध रद्द करें।अधूरा और फाइल करने के लिए विफल आइटम लिखना।</value></data>
+
+<data name="DownloadTook" xml:space="preserve"><value>लिया {d} दिन (s) {h} घंटा (s) {m} मिनट (s) {s} दूसरा (s) {ms] ms {us} us {ns} ns {t} टिक (s)</value></data>
+
+<data name="ReadingInputFile" xml:space="preserve"><value>इनपुट फ़ाइल पढ़ना ...</value></data>
+
+<data name="StartAutoSaveFile" xml:space="preserve"><value>ऑटो सेव फ़ाइल</value></data>
+
+<data name="StartInputFile" xml:space="preserve"><value>इनपुट फ़ाइल</value></data>
+
+<data name="StartOutputFile" xml:space="preserve"><value>भेजी गयी चीजों का फोल्डर</value></data>
+
+<data name="StartProgress" xml:space="preserve"><value>प्रारंभ {app_name} डाउनलोड करें।तर्क:</value></data>
+
+<data name="TooFewArguments" xml:space="preserve"><value>बहुत कम तर्क।</value></data>
+
+<data name="UsageAutoSave" xml:space="preserve"><value>स्वचालित रूप से आउटपुट फ़ाइल (यदि दिया गया) या इनपुट फ़ाइल में प्रगति को सहेजता है।</value></data>
+
+<data name="UsageHelp" xml:space="preserve"><value>इस स्क्रीन को प्रिंट करता है और बाहर निकलता है।</value></data>
+
+<data name="UsageInputXML" xml:space="preserve"><value>फ़ाइल पथ के बजाय [इनपुट फ़ाइल] को XML पाठ के रूप में मानता है।</value></data>
+
+<data name="UsageOptionsTitle" xml:space="preserve"><value>विकल्प:</value></data>
+
+<data name="UsageText" xml:space="preserve"><value>उपयोग: {app_command} [विकल्प] [इनपुट फ़ाइल] [फ़ोल्डर] [आउटपुट फ़ाइल]</value></data>
+
+<data name="UsageTimer" xml:space="preserve"><value>बताता है कि इसे खत्म करने में कितना समय लगा।</value></data>
+
+<data name="VersionInfo" xml:space="preserve"><value>{App_name} {संस्करण} Haltroy द्वारा।</value></data>
+
+<data name="UsageVerbose" xml:space="preserve"><value>अधिक जानकारी प्रिंट करता है।</value></data>
+
+<data name="UsageVersion" xml:space="preserve"><value>प्रिंट संस्करण और बाहर निकलता है।</value></data>
+
+<data name="UsageXTimer" xml:space="preserve"><value>बताता है कि दिन/महीने/वर्ष घंटे में समाप्त होने में कितना समय लगा: मिनट: दूसरा: 24-घंटे के प्रारूप में फ्रेम।</value></data>
+
+
+</root>
+

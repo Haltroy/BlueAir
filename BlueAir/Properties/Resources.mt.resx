@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+<data name="PickAFolder" xml:space="preserve">
+    <value>Agħżel folder ...</value>
+</data>
+<data name="OpenAFileTitle" xml:space="preserve">
+    <value>Iftaħ fajl {app_name} ...</value>
+</data>
+<data name="CommandNoMobileInfo" xml:space="preserve">
+    <value>Nota: Din il-karatteristika ma taħdimx fuq pjattaformi mobbli jew pjattaformi li ma jħallux programmi biex imexxu eżekutibbli mingħajr permessi.</value>
+</data>
+<data name="ShowHideOutput" xml:space="preserve">
+    <value>Uri / Aħbi l-Output</value>
+</data>
+<data name="Downloader" xml:space="preserve">
+    <value>Downloader</value>
+</data>
+<data name="Load" xml:space="preserve">
+    <value>Tagħbija ...</value>
+</data>
+<data name="Save" xml:space="preserve">
+    <value>Ħlief ...</value>
+</data>
+<data name="SaveAs" xml:space="preserve">
+    <value>Issejvja bħala ...</value>
+</data>
+<data name="Start" xml:space="preserve">
+    <value>Ibda</value>
+</data>
+<data name="TargetFolder" xml:space="preserve">
+    <value>Folder tal-Mira:</value>
+</data>
+<data name="DownloadAgent" xml:space="preserve">
+    <value>Aġent tat-tniżżil:</value>
+</data>
+<data name="RunCommands" xml:space="preserve">
+    <value>Ħaddem il-kmandi qabel u wara tniżżil:</value>
+</data>
+<data name="BeforeCommand" xml:space="preserve">
+    <value>Qabel tniżżel:</value>
+</data>
+<data name="AfterCommand" xml:space="preserve">
+    <value>Wara tniżżil:</value>
+</data>
+<data name="Required" xml:space="preserve">
+    <value>Meħtieġ</value>
+</data>
+<data name="AllowFailure" xml:space="preserve">
+    <value>Jista &apos;jonqos</value>
+</data>
+<data name="NewFolder" xml:space="preserve">
+    <value>Folder Ġdid ...</value>
+</data>
+<data name="NewFile" xml:space="preserve">
+    <value>Fajl ġdid ...</value>
+</data>
+<data name="RemoveSelectedDO" xml:space="preserve">
+    <value>Neħħi magħżul ...</value>
+</data>
+<data name="Name" xml:space="preserve">
+    <value>Isem:</value>
+</data>
+<data name="URL" xml:space="preserve">
+    <value>URL:</value>
+</data>
+<data name="MainFolder" xml:space="preserve">
+    <value>Folder tal-għeruq</value>
+</data>
+<data name="AutoRemoveFinished" xml:space="preserve">
+    <value>Neħħi awtomatikament fajls li huma lesti:</value>
+</data>
+<data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+</data>
+<data name="ThemeSetting" xml:space="preserve">
+    <value>Tema (ikklikkja biex toggle):</value>
+</data>
+<data name="UseSystemTheme" xml:space="preserve">
+    <value>Uża t-tema tas-sistema</value>
+</data>
+<data name="UseTheme" xml:space="preserve">
+    <value>Uża Tema:</value>
+</data>
+<data name="ThemeLight" xml:space="preserve">
+    <value>Dawl</value>
+</data>
+<data name="ThemeDark" xml:space="preserve">
+    <value>Dlam</value>
+</data>
+<data name="ColorSetting" xml:space="preserve">
+    <value>Kulur tal-aċċent (ikklikkja biex toggle):</value>
+</data>
+<data name="UseDefaultColor" xml:space="preserve">
+    <value>Uża l-kulur:</value>
+</data>
+<data name="UseColor" xml:space="preserve">
+    <value>Uża l-kulur awtomatiku tas-sistema</value>
+</data>
+<data name="AgentListTitle" xml:space="preserve">
+    <value>Niżżel l-aġenti</value>
+</data>
+<data name="AgentRemoveSelected" xml:space="preserve">
+    <value>Neħħi magħżul ...</value>
+</data>
+<data name="AgentInstallNew" xml:space="preserve">
+    <value>Installa mill-fajl ...</value>
+</data>
+<data name="AgentCommandInfo" xml:space="preserve">
+    <value>Nota: Xi aġenti huma bbażati fuq il-kmand u mhux se jaħdmu fuq pjattaformi mobbli.</value>
+</data>
+<data name="VariablesTitle" xml:space="preserve">
+    <value>Varjabbli</value>
+</data>
+<data name="AboutTitle" xml:space="preserve">
+    <value>Madwar</value>
+</data>
+<data name="AboutDescription" xml:space="preserve">
+    <value>Lott Niżżel u Proċess ta &apos;Fajls faċilment.</value>
+</data>
+<data name="AboutLicense" xml:space="preserve">
+    <value>Liċenzja</value>
+</data>
+<data name="AboutTechnologies" xml:space="preserve">
+    <value>Teknoloġiji Użati:</value>
+</data>
+<data name="SaveAFile" xml:space="preserve">
+    <value>Issejvja fajl {app_name} ...</value>
+</data>
+<data name="PickATargetFolder" xml:space="preserve">
+    <value>Agħżel folder fil-mira ...</value>
+</data>
+<data name="PickAnAgentfile" xml:space="preserve">
+    <value>Agħżel fajl aġent {app_name} ...</value>
+</data>
+<data name="AgentFileDesc" xml:space="preserve">
+    <value>{App_name} aġent ta &apos;tniżżil</value>
+</data>
+<data name="Main" xml:space="preserve">
+    <value>Prinċipali</value>
+</data>
+<data name="FilesAndFolders" xml:space="preserve">
+    <value>Fajls u folders</value>
+</data>
+<data name="Commands" xml:space="preserve">
+    <value>Kmandi</value>
+</data>
+</root>

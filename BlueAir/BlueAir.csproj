@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <DebugType>embedded</DebugType>
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+        <RootNamespace>BlueAir</RootNamespace>
+        <Version>1.0.0.0</Version>
+        <FileVersion>1.0.0.0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\**"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.0.5"/>
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.5"/>
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.5"/>
+        <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.5"/>
+        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+        <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.5"/>
+        <PackageReference Include="FluentAvaloniaUI" Version="2.0.4"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BlueAir.Standard\BlueAir.Standard.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Update="Properties\Resources.resx">
+            <Generator>PublicResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Properties\Lobster.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Lobster.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Properties\Resources.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Properties\Lobster.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Lobster.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
+</Project>
